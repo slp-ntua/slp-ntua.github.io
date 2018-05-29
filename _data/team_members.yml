@@ -1,0 +1,31 @@
+- name: Alexandros Potamianos
+  photo: rock.jpg
+  info: Associate Professor, Division of Signals, Control and Robotics
+  email: potam@central.ntua.gr
+  number_educ: 4
+  education1: M.Sc., Business Administration, New York University, U.S.A., 2003
+  education2: Ph.D., Harvard University, U.S.A., 1995
+  education3: M.Sc., Harvard University, U.S.A., 1991
+  education4: Diploma, Electrical and Computer Engineering, National Technical University of Athens, Greece, 1990
+
+- name: Nikolaos Ellinas
+  photo: rock.jpg 
+  info: PhD Student, started Sep 2016
+  email: nellinas@central.ntua.gr
+  number_educ: 1
+  education1: Hogwarts
+
+- name: Christos Baziotis
+  photo: rock.jpg 
+  info: PhD Student, started May 2017
+  email: cbaziotis@mail.ntua.gr
+  number_educ: 1
+  education1: To sxoleio tou dromou kai ths zwhs
+
+- name: Giorgos Paraskevopoulos
+  photo: rock.jpg 
+  info: PhD Student, started May 2017
+  email: geopar@central.ntua.gr
+  number_educ: 1
+  education1: Diploma, Electrical and Computer Engineering, National Technical University of Athens, Greece, 2016
+
