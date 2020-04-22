@@ -27,9 +27,8 @@ State briefly the field of research you are interested in, your motivation and a
 If you are an NTUA student interested in a Diploma thesis contact Alexandros Potamianos by [email](mailto:potam@central.ntua.gr) 
 or setup a meeting with one of the PhD students
 
-- [Nikos](mailto:nellinas@central.ntua.gr)
-- [Christos](mailto:cbaziotis@mail.ntua.gr)  
 - [Giorgos](mailto:geopar@central.ntua.gr)  
+- [Efthymis](mailto:efthygeo@mail.ntua.gr)  
 
 
 #### Undergraduate research projects
