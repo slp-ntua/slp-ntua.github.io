@@ -1,0 +1,74 @@
+/* ==========================================================================
+   HTML5 Boilerplate styles - h5bp.com (generated via initializr.com)
+   ========================================================================== */
+
+html, button, input, select, textarea { color: #222; }
+body { font-size: 1em; line-height: 1.4; }
+
+::-moz-selection { background: #b3d4fc; text-shadow: none; }
+::selection { background: #b3d4fc; text-shadow: none; }
+.chromeframe { margin: 0.2em 0; background: #ccc; color: #000; padding: 0.2em 0;}
+hr { display: block; height: 1px; border: 0; border-top: 1px solid #ccc; margin: 1em 0; padding: 0; }
+img { vertical-align: middle; }
+a{ text-decoration: none; }
+body { font: 16px/26px Helvetica, Helvetica Neue, Arial;  -webkit-font-smoothing: antialiased; font-smooth: always; text-shadow: 1px 1px 1px rgba(0,0,0,0.004);}
+.wrapper { width: 980px;
+	margin-top: 30px;
+	margin-bottom: 200px;
+}
+.wrapperInner { width: 92%; margin: 0 4%; }
+
+
+#main{
+	float: right;
+	width: 65%;
+}
+#menu{
+	float: left;
+	padding-right: 40px;
+	position: fixed;
+	top: 70px;
+	border-right: 1px solid #ccc;
+	font-size: 90%;
+	height: 80%;
+}
+#menu li{
+	padding-top: .2em;
+	padding-bottom: .2em;
+}
+h1, h2, h3, h4, h5{
+	border-top: 1px solid #ccc;
+	padding-top: 40px;
+	margin-top: 40px;
+}
+pre{
+	color: #ed92aa;
+	font-size: 120%;
+	white-space: normal;
+}
+pre span{
+	font-weight: bold;
+	color: #ed0f53;
+}
+h6{
+	color: #ed92aa;
+	font-size: 100%;
+	white-space: normal;
+}
+h6{
+	font-weight: bold;
+	display: inline;
+}
+a{
+	color: #2f92d1;
+}
+a:hover{
+	text-decoration: underline;
+}
+/* ==========================================================================
+   Helper classes
+   ========================================================================== */
+
+.clearfix:before, .clearfix:after { content: " "; display: table; }
+.clearfix:after { clear: both; }
+.clearfix { *zoom: 1; }

@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
+        <meta content="black" name="apple-mobile-web-app-status-bar-style">
+        
+        <title>Alexandros Potamianos</title>
+        <meta name="description" content="">
+
+         <link rel="stylesheet" type="text/css" href="css/normalize.min.css">
+         <link rel="stylesheet" type="text/css" href="css/main.css">
+         <link rel="stylesheet" type="text/css" href="js/fancybox/jquery.fancybox.css?v=2.1.4" media="screen" />
+         <script src="js/vendor/modernizr-2.6.2-respond-1.1.0.min.js"></script>
+    </head>
+    <body>
+    
+    <!--[if lt IE 7]>
+        <p class="chromeframe">You are using an outdated browser. <a href="http://browsehappy.com/">Upgrade your browser today</a> or <a href="http://www.google.com/chromeframe/?redirect=true">install Google Chrome Frame</a> to better experience this site.</p>
+    <![endif]-->
+    
+    
+		<!-- Start Main Navigation -->
+        <div class="header-container" id="masthead">
+            <header class="wrapper clearfix">
+            	<a href="index.html" class="logo"><img src="img/logo@2x.png" alt="Logo" /></a>
+                <nav>
+           			<ul class="nav" id="nav">
+                    	<li><a class="active" href="index.html">Home</a></li>
+                        <li><a href="news.html">News</a></li>
+                        <li><a href="research.html">Research</a></li>
+                        <li><a href="projects.html">Projects</a></li>
+                        <li><a href="publications_by_year.html">Publications</a></li>
+                        <li><a href="personal.html">Personal</a></li>
+                        <li class="last"><a href="contact.html">Contact</a></li>
+                    </ul>                	
+                </nav>
+            </header>
+            
+            
+            <!-- Start Masthead -->
+            <div class="wrapper clearfix">
+            	<div class="cta two-third">
+            		<p> "A blasphemous sect suggests that the search should cease, and that all men
+should juggle letters and symbols until these canonical books are constructed by an improbable gift of chance... 
+Others take refuge in the latrines with some metal discs in a forbidden dice cup and feebly mimic the divine disorder..." </p>
+            		<h5>— Luis Borges, The Library of Babel</h5>
+            	</div>   	   
+            </div>
+        </div>
+        
+        
+
+
+		 <!-- Start Main Body -->
+        <div class="main-container">
+            <div class="main wrapper clearfix">
+            	
+            	            	
+            	<!-- Start Main Content -->
+                <div class="main-content full">
+                	<div class="clearfix">
+                		
+                		<!-- Columns Thirds --> 
+                        <div class="clearfix">
+                        <div class="third">	
+                        	<h2>About me</h2>
+<p>
+I was born in Athens, Greece.
+I received the ECE Dipl. from the
+<a href="http://www.ntua.gr">National Technical Univ. of Athens</a> in 1990.
+I then spend 12 years in the east coast studying and doing research. 
+I received the M.Sc. and Ph.D. degrees 
+from <a href="http://www.harvard.edu">Harvard University</a>,
+Cambridge, MA in 1991 and 1995, respectively.
+My thesis work focused on analyzing and modeling non-linear 
+interaction between source and vocal tract during speech production. The work relied
+heavily on the AM-FM speech model proposed by my advisor
+Petros Maragos with colleagues Jim Kaiser and 
+Tom Quatieri. 
+</p>
+
+I then went on to work for Bell Labs and AT&T Labs-Research.
+My research work there focused on robust speech recognition
+in collaboration with my mentor Rick Rose, on children
+speech analysis, recognition and interaction with my long-time
+collaborator and friend Shri Narayanan, and on spoken
+dialogue interaction with the DARPA Communicator team at Bell Labs
+most notably Eric Fosler-Lussier, Jeff Kuo and Egbert Ammicht. 
+While at Bell Labs I embarked on a part-time M.B.A. at
+<a href="http://www.stern.nyu.edu">
+Stern School of Business</a>, <a href="http://www.nyu.edu">NYU</a> that I received in 2002.
+</p>
+
+<p>
+Switching to academia, I then spend 10 fruitful and enjoyable years at the Technical Univ. of Crete
+among world-class colleagues including Vas Digalakis. My work there focused on 
+robust speech recognition, multimedia processing, child-computer interaction, spoken dialogue systems 
+and more recently lexical semantics.
+I am now back to my old stomping grounds at NTUA.
+</p>
+
+
+                        </div>
+                        
+                        <div class="third">
+                        	<h2>Where I Work</h2>
+<p>
+<ul>
+<!--
+<li>
+From 1991 to June 1993 he was a research assistant at the <a href="http://www.hrl.harvard.edu">
+Robotics Lab</a>, <a href="http://www.harvard.edu">Harvard University</a>.
+</li>
+<li>
+From 1993 to 1995 he was a research
+assistant at the  <a href="http://csip.ece.gatech.edu">Digital Signal Processing Lab</a>
+at <a href="http://www.gatech.edu">Georgia Tech</a>.
+</li>
+-->
+<li>
+From 1995 to 1999 I was a Senior Technical Staff Member at the
+Speech and Image Processing Lab,
+<a href="http://www.research.att.com">AT&T Shannon Labs</a>, Florham Park, NJ.
+</li>
+<li>
+From 1999 to 2002 I was a Technical Staff Member and Technical Supervisor
+at the Multimedia Communications Lab at
+<a href="http://www.bell-labs.com">Bell Labs</a>,
+<a href="http://www.lucent.com">Lucent Technologies</a>, Murray Hill, NJ.
+</li>
+<li>
+From 1999 to 2001 I was an adjunct Assistant Professor at the
+<a href="http://www.ee.columbia.edu">Department of Electrical Engineering</a> of
+<a href="http://www.columbia.edu">Columbia University</a>, New York, NY.
+</li>
+<li>
+From 2003 to 2013 I was an adjunct Associate Professor at the
+<a href="http://www.ece.tuc.gr/index_en.htm">Department of Electronic and Computer Engineering</a> of
+<a href="http://www.tuc.gr/english/index.html">Technical University of Crete</a>, Chania, Greece.
+</li>
+<li>
+For the 2013-14 academic year I was a visiting Associate Professor at the
+<a href="http://ee.usc.edu/">Department of Electrical Engineering</a> of
+<a href="http://www.usc.edu/">University of Southern California</a>, Los Angeles, CA
+affiliated with the <a href="http://sail.usc.edu/">SAIL Lab</a> and <a href="http://www.isi.edu/">ISI</a>.
+</li>
+<li>
+In the summer of 2013, I joined the
+<a href="http://www.ece.ntua.gr/en">School of Electronical and Computer Engineering</a> at the
+<a href="http://www.ntua.gr/index_en.html">National Technical University of Athens</a>, Athens, Greece
+as an associate professor.
+</li>
+<li>
+I am also affiliated with the 
+<a href="http://www.athena-innovation.gr/en.html">Athena Research and Innovation Center</a>
+in Athens
+and the
+<a href="http://www.tsi.gr/?lang=en">Telecommunication System Institute</a> in Chania, Crete.
+</li>
+</ul>
+</p>
+
+                        </div>
+                        
+                        <div class="third last">
+                        	<h2>What I do</h2>
+<p>
+My current research interests include
+speech processing, analysis, synthesis and recognition,
+dialog and multi-modal systems, lexical semantics, 
+natural language understanding, artificial intelligence
+behavioral informatics, affective analysis, modelling and recognition,
+machine learning and representation learning, 
+cognitive semantics,
+nonlinear signal processing,
+and multimodal child-computer interaction.
+I am especially interested on how cognitive semantic reprsentations can
+motivate us to create computational models that are robust, accurate and 
+rapid learners of multimodal information. 
+</p>
+
+<p>
+I have authored or co-authored over 140 <a href="publications.htm">papers</a>
+in professional journals and conferences (<a href="http://scholar.google.com/citations?user=pBQViyUAAAAJ&hl=en">citations: 3788, h-index: 31, google scholar - Feb 2014</a>).
+I was a co-author of the paper
+<a href="publications.html#1">"Creating conversational interfaces for children"</a>
+that received a 2005 IEEE Signal Processing Society Best Paper Award,
+and the co-editor of the book "<a href="http://www.amazon.com/Multimodal-Processing-Interaction-Multimedia-Applications/dp
+/0387763155/ref=sr_1_4?ie=UTF8&s=books&qid=1210759074&sr=8-4">Multimodal Processing and Interaction: Audio, Video, Text</a>"
+, Springer, 2008.
+A list of my patents can be <a href="publications.htm#3">found here</a>.
+I have been a member of the <a href="http://ieee.org">IEEE Signal Processing Society</a>
+since 1992 and a fellow since 2016. I am 
+currently serving my third term  at the <a href="http://www.signalprocessingsociety.org/technical-committees/list/sl-tc/
+">IEEE Speech and Language Technical Committee</a>
+and my first term at the
+<a href="http://www.signalprocessingsociety.org/technical-committees/list/mmsp-tc/">IEEE Multimedia Signal Processing Committee</a>.
+</p>
+
+                        	<p><a href="contact.html" class="more">Contact me</a></p>
+                        </div>
+                        </div>
+                        
+                                                                       
+					<!-- Finish Main Content -->
+                	</div>    
+                </div>
+				
+				
+				
+
+        	</div> <!-- #main -->
+        </div> <!-- #main-container -->
+
+
+		<!-- Start Footer -->
+		<footer>
+			<div class="main wrapper clearfix">
+				<div class="foot right">
+                                     <a href="http://gr.linkedin.com/in/apotam" class="social-link"><img src="img/icon-linkedin@2x.png" alt="Facebook" /></a>
+                                        <a href="https://www.facebook.com/apotam" class="social-link"><img src="img/icon-facebook@2x.png" alt="Facebook" /></a>
+                                        <a href="https://twitter.com/apotam" class="social-link"><img src="img/icon-twitter@2x.png" alt="Facebook" /></a>
+                                </div>
+
+                                <div class="foot left">
+                                        <a href="index.html" class="logo-foot"><img src="img/logo-foot@2x.png" alt="logo" /></a
+>
+                                        © Copyright Alexandros Potamianos 2013-2014
+
+				</div>	
+			</div>
+		</footer>
+ 
+
+		
+		<!-- Start Scripts -->
+        <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+        <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.8.3.min.js"><\/script>')</script>
+		<script type="text/javascript" src="js/tinynav.min.js"></script>
+		<script type="text/javascript" src="js/fitvids.min.js"></script>
+		<script type="text/javascript" src="js/jquery.widowFix-1.3.2.min.js"></script> 
+		<script type="text/javascript" src="js/fancybox/jquery.fancybox.js?v=2.1.4"></script>
+		<script type="text/javascript" src="js/backstretch.js"></script>
+		<script type="text/javascript" src="js/main.js"></script>
+		
+		
+		
+		<!-- Start Google Analytics -->
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-50584345-1', 'tuc.gr');
+  ga('send', 'pageview');
+
+</script>
+
+
+        
+     </body>
+</html>

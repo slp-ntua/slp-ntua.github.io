@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title>Selfy Documentation</title>
+        <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
+        <link rel="stylesheet" href="css.css">
+    </head>
+    <body>
+ 
+ <div class="wrapper">
+ 	<div class="wrapperInner clearfix">
+ <ol id="menu">
+ 	<li><a href="#logo">Changing Logo's</a></li>
+ 	<li><a href="#menus">Changing Menu Links</a></li>
+ 	<li><a href="#css">Changing CSS</a></li>
+ 	<li><a href="#slides">Changing Slides</a></li>
+ 	<li><a href="#styles">Master Styles</a></li>
+ 	<li><a href="#analytics">Google Analytics</a></li>
+ 	<li><a href="#resource">More Resources</a></li>
+ </ol>	
+
+
+
+<div id="main"> 	   
+<h1>Thanks for buying Selfy</h1>
+<p>No more boring V-Cards, Selfy is the perfect theme for self promotion. A little piece of the internet all about you, customise and self express with Selfy. Selfy is not only a responsive theme meaning it is optimised for multiple device sizes, Selfy is also retina ready, meaning no more blurry images on your HiDPI and retina displays. Remember Retina or HiDPI requires images twice the size of normal images.</p>
+
+
+
+<h1 id="how">How to use Selfy?</h1>
+<p>Selfy was built for non-web designer and developers, and in a few moments you can customise Selfy to suite your own needs.</p> 
+<p>For the experienced, Selfy can also be extended beyond the existing web pages with the use of the Style html file. <a href="#styles">See Master Styles</a></p>
+<p><h6>Important Note:</h6> Remember this theme is HiDPI, so all your images need to be delivered in Hi Res to avoid looking blurry on HiDPI and Retina displays</p>
+
+
+
+<h3 id="logo">Changing Logo's</h3>
+<p>Selfy pulls it's logo's and all other images from the "img" folder. Simply replace the logo files with your own, it's easiest to just overwrite the existing logo files with your own logo. Remember to include HiDPI versions.</p>
+ <p>Because Selfy is Retina ready, and Retina Images are downscaled for non-HiDPI or Retina screens, you may have to update the size of the allocated area for your logo to avoid distortion or cropping. To do this open the main.css file and look for <pre>
+ /* ===================================================<br/>
+    LOGOS<br/>
+    ================================================ */ </pre> Here you can see max width properties. Match the height and width to suite the size of your logo when halved or divided by 2. So for example, you will see that the provided logo is actually 262px wide, however we half the size in our CSS to 131px wide to accomodate for Standard and Retina Screens simultaneously.</p>
+    <p>Remember to also update the second smaller Logo in the footer area.</p>
+ 
+
+
+
+<h3 id="menus">Changing Menu Links</h3>
+<p>Selfy has two menu areas, the main is in the header area and the other is in the footer area.  In the Header area, to update the menu links, look in the HTML files for:</p>
+<pre> <- Start Masthead -> </pre>
+<pre>&lt;li&gt; &lt;a href="about.html">About &lt;/a&gt;&lt;/li&gt;</pre>
+<p>And replace the "href="#" with your own URL (link) and update the anchor (text link) with your desired wording. To remove a menu item simply look in your HTML file for; and delete the undesired menu item (line of HTML) </p>
+<p><h6>Important Note:</h6> As menu links are unique to each HTML file you will have to update this across all HTML files used in your website.</p>
+
+
+
+<h3>Changing Footer Menu Links</h3>
+<p>A number of links to social networks can be put into the footer of Selfy. To update these simply update the image path (you can refer to the styles.html file for the full list) and replace the href="#" hashtag to your own link. To remove links as needed, simple delete the whole line of HTML not being used. </p>
+
+
+
+<h3 id="css">Changing CSS</h3>
+<p>Whilst Selfy is pretty kick ass already you may want to get advanced and change the colours of backgrounds, links, text etc. You can do all of this by editing the main.css file. The main.css file is well commented to highlight to most common changeable aspects like link colours etc. Almost all color aspects have been conveniently placed at the top of the main.css file to make Selfy easy to customise.</p>
+
+
+
+<h3 id="slides">Changing Masthead Slides</h3>
+<p>As this theme is built for HiDPI and retina displays in mind, the simplest way to deal with the image in the masthead is to insert the HiDPI versions into the slideshow and let the theme resize them for you. </p>
+<p>The simplest way to insert your own masthead image is to open the supplied masthead@2x.jpg file from the img folder (note this is a HiDPI version) and paste your own headshot over this template. </p>
+<p><h6>Important Note:</h6> Apple devices have a maximum image size that they will display, any bigger and your iphone or ipad just won't display the image. Stick to the size of the masthead@2x.jpg template. Also for best results follow the template guide.</p>
+
+
+<h1 id="styles">The Selfy Styles Page</h1>
+<p>Included with the Selfy theme is a styles.html file that covers all the major layout and styling options for columns, form elements, quotes, images, tables and other html features.</p>
+<p>The Styles HTML file is well structured to allow you to copy and paste elements you want to use in your standard web pages. The Style page is intended to be used as a master reference file for layout and style options. Ideally you should not edit the Styles file, instead once copied and pasted, perform edits on the website pages you intend to make live. </p>
+ 
+<p><h6>Important Note:</h6> Kinda a no brainer but don't include the styles.html file as one of your web pages. </p>
+
+
+
+
+<h3 id="analytics">Google Analytics</h3>
+<p>At the very bottom of the HTML you will find a Google Analytics code snippet to use. Simply replace the UA ID number with your own to set up Google Analytics and start receiving stats and figures about your webpage, or delete this whole section and copy and paste in the code snippet Google provides.</p>
+<p>Also DO NOT FORGET to update the title and description of your web page. You can find these at the very top of the HTML file, just look for</p>
+<pre>&lt;title>Selfy&lt;/title><br/> &lt;meta name="description" content=""></pre> and update them to you own apps name and a description between the content="" for search engines.
+
+
+<h3 id="resource">Retina Resource</h3>
+<p>For detailed information about designing for HiDPI or Retina websites, I suggest taking a look at: <a href="http://retinafy.me" target="_blank"> retinafy.me</a></p>
+
+
+<h3>Image Optimization Resource</h3>
+<p>For optimizing image even further from Photoshop, I suggest taking a look at the Mac resource: <a href="http://imageoptim.com" target="_blank"> Image Optim</a></p>
+
+
+<h3>Icon Resource</h3>
+<p>The icons used in the theme are from the Uicons Icon set and additional ones can be purchased here: <a href="http://uicons.co" target="_blank"> Uicons Here</a></p>
+
+</div>
+</div>
+</div>
+    </body>
+</html>

@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+
+    <style type="text/css">
+#box {
+width: 400px;
+margin: 0 auto;
+overflow: auto;
+border: 1px solid #0f0;
+padding: 2px;
+text-align: justify;
+background: transparent;
+}
+</style>
+
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
+        <meta content="black" name="apple-mobile-web-app-status-bar-style">
+        
+        <title>Alexandros Potamianos</title>
+        <meta name="description" content="">
+
+         <link rel="stylesheet" type="text/css" href="css/normalize.min.css">
+         <link rel="stylesheet" type="text/css" href="css/main.css">
+         <link rel="stylesheet" type="text/css" href="js/fancybox/jquery.fancybox.css?v=2.1.4" media="screen" />
+         <script src="js/vendor/modernizr-2.6.2-respond-1.1.0.min.js"></script>
+    </head>
+    <body>
+    
+    <!--[if lt IE 7]>
+        <p class="chromeframe">You are using an outdated browser. <a href="http://browsehappy.com/">Upgrade your browser today</a> or <a href="http://www.google.com/chromeframe/?redirect=true">install Google Chrome Frame</a> to better experience this site.</p>
+    <![endif]-->
+    
+    
+		<!-- Start Main Navigation -->
+        <div class="header-container">
+            <header class="wrapper clearfix">
+            	<a href="index.html" class="logo"><img src="img/logo@2x.png" alt="Logo" /></a>
+                <nav>
+           			<ul class="nav" id="nav">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="news.html">News</a></li>
+                        <li><a class="active" href="research.html">Research</a></li>
+                        <li><a href="projects.html">Projects</a></li>
+                        <li><a href="publications_by_year.html">Publications</a></li>
+                        <li><a href="personal.html">Personal</a></li>
+                        <li class="last"><a href="contact.html">Contact</a></li>
+                    </ul>                	
+                </nav>
+            </header>
+        </div>
+        
+
+
+        
+
+
+		 <!-- Start Main Body -->
+        <div class="main-container">
+            <div class="main wrapper clearfix">
+            	<!-- Start Main Content -->
+                <div class="main-content">
+                	<div class="clearfix">
+                		
+                		
+                		
+                		<!-- ///////////////////////////////////
+                			Headings
+                		//////////////////////////////////// -->  
+<!--
+                        <h1>Heading One</h1>
+                        
+                        <p class="lead">Leading Text and pullout text style Donec id elit non mi porta gravida at eget metus. Nullam quis risus eget urna mollis ornare vel eu leo.</p>
+                        
+                        <p>Donec id elit non mi pSed posuere consectetur est at <a href="#">This is a link</a>. Nullam id dolor id nibh ultricies vehicula ut id elit. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, <span class="highlight">Highlight span</span> ut fermentum massa justo sit amet risus.</p>
+-->
+
+<p style="border-style:solid; border-color:#990033;">
+Read my position paper on "<a href="preprints/conf/2014_ICMI_SSP_WORKSHOP_cognitive_multimodal_processing.pdf">Cognitive multimodal processing: from signal to behavior</a>" (invited paper at the Workshop on Roadmapping the Future of Multimodal Interaction  Research).
+</p>
+
+<h3 id = "1"> Representation Models, Cognition and Learning</h3>
+
+
+For too many decades the emphasis in our community has been on task-specific decoding performance 
+rather than creating models that have good generalization power and, especially, good induction properties, 
+i.e., can learn from one-to-five examples just like humans do.
+My vision is creating cognitively-motivated representations (aka models) that 
+radically depart from the unified metric space fallacy (aka the real-world bias)
+and respect macroscopic cognitive principles such as low-dimensionality, 
+hierarchy, abstraction, two-tier architecture (system 1 vs system 2) etc.
+Instead of following the popular path in representation modeling of
+adding these constraints as training tricks in deep neural nets or regularization
+terms in autoencoder training, we propose instead <em> a top-down hierarchical manifold
+representation </em> that explicitly (by design) respects cognitive principles. 
+In our recent work, we show that by <em> creating and reasoning using an ensemble of
+sparse, low-dimensional subspaces we achieve human-like performance not only
+for decoding but also for induction </em> (learning) lexical semantics.  The framework
+is currently being applied to a variety of other classification/learning tasks. 
+
+
+
+<h3 id = "2"> Network-based DSMs and Conceptual Spaces</h3>
+
+We work on language-agnostic, fully unsupervised algorithms for the construction of  
+distributed semantic models (DSMs) using web-harvested corpora.
+Unlike traditional DSMs were the emphasis is on creating a unified metric semantic space,
+we take a cognitively-motivated approach of constructing <em> a union of semantic neighborhoods</em> 
+that are defined using co-occurrence or contextual similarity features. On top of these
+neighborhoods semantic similarity metrics can be defined achieving <a href="publications_by_area.html#1">state-of-the-art results</a>. 
+I am working with collaborators to extend these network-based models to full-blown <em> multimodal 
+conceptual models </em> that include other modalities, such as images, audio snippets, emotions etc.
+In addition to the multimodal dimension we are also working on building <em> compositional and
+mapping algorithms </em> to seamlessly extend network DSMs from the lexical/concept to the phrase/sentence level.
+Applications include:
+
+<ul>
+<li>
+Historically our work on DSMs started from experiments on <u>automatic grammar induction</u> (part of the 
+<a href="projects.html#6">DARPA Communicator project</a>)
+and now does full circle back to this important application. In 
+the <a href="projects.html#3">PortDial</a> and 
+<a href="projects.html#1">SpeDial projects</a> we investigate (among others)
+how the proposed network DSM technologies can help improve grammar induction and 
+paraphrasing performance.
+</li>
+<li> <u>Putting semantics back into NLP</u>: Once a strong semantic model is constructed it is possible
+to use it for a variety of NLP applications, e.g., language modeling, machine translation, paraphrasing. 
+We proposed to use network-based DSMs for morphological analysis and stemming that is semantics-aware,
+e.g., <em> select  stemming rules that minimize semantic distortion while minimizing the total number of
+wordforms </em> (see [Zervanou et al., LREC 2014]).
+</li>
+<li>
+<u>Lexical acquisition in autistic spectrum and typically developing children</u>: In the  
+<a href="projects.html#2">BabyAffect project</a> we investigate and model lexical
+acquisition using concept networks and show how by augmenting these networks with 
+affect and other "multimodal" cues results in improved learning rate.
+</li>
+</ul>
+
+
+<h3 id = "3"> Semantic-Affective Models and Beyond </h3>
+
+The basic idea behind semantic-affective models is emotion is  a mapping from a 
+(lexical) semantic space to an affective space. Our semantic model
+is a union of semantic neighborhoods (see above) and the semantic-affective 
+map is a weighted linear combination of the affective scores of each 
+semantic neighborhood. The model is readily extendable to other type
+of labels that are related to semantics, e.g., politeness markers, sentiment, cognitive state,
+and has been shown to be <a href="publications_by_area.html#6">very successful in recent SemEval evaluation campaigns</a>. 
+Recent emphasis of our work is on adaptation of the semantic-affective models to new
+domains or labels, as well as cognitively-motivated compositional models
+that integrate information over time.
+
+<h3 id = "4"> Multimodal Dialogue Interaction and Communication </h3> 
+
+The crowning achievement of human communication is our unique ability to share intentionality, create and execute on joint plans.  Recently the experimental analysis of the emergence of a shared communication code in human children and primates has provided significant new insights. 
+Human interaction via gestures and speech can be represented as a three-step process: sharing attention, establishing common ground and forming shared goals [Tomasello 2008]. Two prerequisites for successful human-human communication via joint intentionality are: 1) our ability to form a successful model of the cognitive state of people around us, i.e., decoding not only overt but also covert communication signals also referred to as recursive mind-reading and 2) establishing and building trust a truly human trait.
+I am interested in applying such basic communication principles in  
+human-machine and human-robot communication especially as it pertains to negotiating 
+semantics and intent, i.e., establishing common ground and forming joint goals. 
+
+<h3 id = "5"> Attention, Saliency and Affect in Multimedia </h3> 
+
+Saliency- and attention-based modeling have played a significant role in image and video processing 
+in the past decade. However, saliency and attention is less researched  in audio, speech and natural language 
+processing. Recently, there have been important findings from neurocognition and cognitive 
+science unraveling the mechanisms for audio/speech saliency and attention, e.g., spectro-temporal attentional 
+maps, the role of low-level features such as periodicity and spectral change.  
+I am interested in investigating the role of bottom-up attentional mechanism in speech, audio and music perception
+with application to background-foreground audio classification, audio scene analysis and speech recognition.
+For an example on the fused audio, visual and text saliency 
+<a href="publications_by_area.html#7">for event detection and movie summarization see here</a>.
+
+<h3 id = "6"> Speech Analysis and Robust Speech Recognition </h3> 
+
+Although research in speech analysis and feature extraction has become less glamorous
+due to the recent success of deep neural nets, the signal processing aspects of speech
+processing remain fundamentally important and have consistently provide over the years
+good intuition and performance improvements in robust speech recognition and various speech
+processing tasks. I am especially interested in analyzing and modeling the fine-structure of speech: 
+micro-modulations that occur in amplitude and frequency within a pitch-period and are due to
+1) non-linear interaction between the source and the vocal tract, 2) transitional phenomena
+at phonemic boundaries and 3) deviations from modal voicing due to lack of fine motor control. 
+These phenomena are especially important as they often indicate the cognitive and affective state of the speaker
+making the features very successful, e.g., for emotion recognition tasks. For relevant
+<a href="publications_by_area.html#4"> publications on the AM-FM model, speech analysis and robust recognition see here</a>.
+
+
+                        
+                        
+                                                                                               
+					<!-- Finish Main Content -->
+                	</div>    
+                </div>
+				
+				
+				
+				
+				 <!-- Start Main Sidebar -->
+				<aside class="right-aside">
+				    	<h3>Research Areas</h3>
+				    	
+				    	<ul>
+<li> <a href="research.html#1"> Representation Models, Cognition and Learning</a></li>
+<li> <a href="research.html#2"> Network-based DSMs and Conceptual Spaces</a></li>
+<li> <a href="research.html#3"> Semantic-Affective Models and Beyond </a></li>
+<li> <a href="research.html#4"> Multimodal Dialogue Interaction and Communication </a></li> 
+<li> <a href="research.html#5"> Attention, Saliency and Affect in Multimedia </a></li> 
+<li> <a href="research.html#6"> Speech Analysis and Robust Speech Recognition </a></li> 
+
+				    	</ul>
+				    	
+				    			
+				</aside>
+				 <!-- Finish Sidebar -->
+				
+
+        	</div> <!-- #main -->
+        </div> <!-- #main-container -->
+
+
+
+
+		<!-- Start Footer -->
+		<footer>
+			<div class="main wrapper clearfix">
+				<div class="foot right">
+                                     <a href="http://gr.linkedin.com/in/apotam" class="social-link"><img src="img/icon-linkedin@2x.png" alt="Facebook" /></a>
+                                        <a href="https://www.facebook.com/apotam" class="social-link"><img src="img/icon-facebook@2x.png" alt="Facebook" /></a>
+                                        <a href="https://twitter.com/apotam" class="social-link"><img src="img/icon-twitter@2x.png" alt="Facebook" /></a>
+                                </div>
+
+                                <div class="foot left">
+                                        <a href="index.html" class="logo-foot"><img src="img/logo-foot@2x.png" alt="logo" /></a
+>
+                                        © Copyright Alexandros Potamianos 2013-2019
+
+				</div>	
+			</div>
+		</footer>
+ 
+
+		
+		<!-- Start Scripts -->
+        <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+        <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.8.3.min.js"><\/script>')</script>
+		<script type="text/javascript" src="js/tinynav.min.js"></script>
+		<script type="text/javascript" src="js/fitvids.min.js"></script>
+		<script type="text/javascript" src="js/jquery.widowFix-1.3.2.min.js"></script> 
+		<script type="text/javascript" src="js/fancybox/jquery.fancybox.js?v=2.1.4"></script>
+		<script type="text/javascript" src="js/main.js"></script>
+		
+		
+		
+		<!-- Start Google Analytics -->
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-50584345-1', 'tuc.gr');
+  ga('send', 'pageview');
+
+</script>
+
+        
+    </body>
+</html>
