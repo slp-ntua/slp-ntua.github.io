@@ -13,14 +13,14 @@
   info: PhD Student, started Sep 2016
   email: nellinas@central.ntua.gr
   number_educ: 1
-  education1: Hogwarts
+  education1:
 
 - name: Christos Baziotis
   photo: rock.jpg 
   info: PhD Student, started May 2017
   email: cbaziotis@mail.ntua.gr
   number_educ: 1
-  education1: To sxoleio tou dromou kai ths zwhs
+  education1:
 
 - name: Giorgos Paraskevopoulos
   photo: rock.jpg 
