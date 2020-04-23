@@ -76,55 +76,55 @@ permalink: /team/
 ## Students
 <table align="center" style="width:100%">
 <tr><th>Current</th>
-    <th>Alumni</th> 
-  </tr>
-  <tr>
-    <td>Efthymios Tzinis</td>
-    <td>Filippos Kokkinos, 2017</td>
-  </tr>
-  <tr>
-    <td>Pinelopi Papalampidi</td>
-    <td>Giannis Karamanolakis, 2017</td>
-  </tr>
-  <tr>
-    <td>Nikolaos Athanasiou</td>
-    <td>Aggelina Hatziagapi, 2017</td>
-  </tr>
-  <tr>
-    <td>Eleftheria Briakou</td>
-    <td></td>
-  </tr>
-  <tr>
-    <td>Georgios Pantazopoulos</td>
-    <td></td>
-  </tr>
-  <tr>
-    <td>Nikolaos Pantelaios</td>
-    <td></td>
-  </tr>
-  <tr>
-    <td>Malvina Nikandrou</td>
-    <td></td>
-  </tr>
-  <tr>
-    <td>Alexandra Chronopoulou</td>
-    <td></td>
-  </tr>
-  <tr>
-    <td>Katerina Margatina</td>
-    <td></td>
+    <th>Alumni</th> 
   </tr>
   <tr>
     <td>Konstantinos Klapsas</td>
-    <td></td>
+    <td>Filippos Kokkinos</td>
+  </tr>
+  <tr>
+    <td>Lena Fotaki</td>
+    <td>Giannis Karamanolakis</td>
+  </tr>
+  <tr>
+    <td>Danai Ksezonaki</td>
+    <td>Aggelina Chatziagapi</td>
+  </tr>
+  <tr>
+    <td>Konstantinos Karouzos</td>
+    <td>Pinelopi Papalampidi </td>
+  </tr>
+  <tr>
+    <td>Giannis Daras</td>
+    <td>Efthymios Tzinis</td>
+  </tr>
+  <tr>
+    <td>Georgios Chochlakis</td>
+    <td>Eleftheria Briakou</td>
+  </tr>
+  <tr>
+    <td>Nikolas Loukas</td>
+    <td>Nikolaos Athanasiou</td>
+  </tr>
+  <tr>
+    <td>Nikitas Theodoropoulos</td>
+    <td>Malvina Nikandrou</td>
+  </tr>
+  <tr>
+    <td>Eliza Milioni</td>
+    <td>Alexandra Chronopoulou</td>
+  </tr>
+  <tr>
+    <td>Dimitrios Sotiriou</td>
+    <td>Katerina Margatina</td>
   </tr>
   <tr>
     <td>Christina Kypraiou</td>
-    <td></td>
+    <td>Georgios Pantazopoulos</td>
   </tr>
   <tr>
-    <td>Theodoros Tavoulareas</td>
     <td></td>
+    <td>Nikolaos Pantelaios</td>
   </tr>
 
 </table>
