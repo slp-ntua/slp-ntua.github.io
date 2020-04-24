@@ -3,10 +3,14 @@
 # organize by area and reverse year 
 #
 
-@areas = ("Lexical Semantics and Speech Understanding", "Robust Speech Recognition", "Multimodal Dialogue Systems", "AM-FM Speech Model and Energy Operators", "Children Speech Analysis, ASR and HCI", "Emotion Recognition", "Multimedia Processing","Other"); 
+@areas = ("Deep Learning","Lexical Semantics and Speech Understanding", "Robust Speech Recognition", "Multimodal Dialogue Systems", "AM-FM Speech Model and Energy Operators", "Children Speech Analysis, ASR and HCI", "Emotion Recognition and Behavioral Tracking", "Multimedia Processing","Other"); 
 #### other parafac, synthesis ???
 
+@order = ("GAN","Neural","hierarchical","conditioning","Seq","learning","Structural","NTUA","emotion","Emotion"); 
+
 #### unique mapping from papers to categories for now :-(
+$keywords{"GAN"} = -1;
+$keywords{"Neural"} = -1; $keywords{"hierarchical"} = -1; $keywords{"conditioning"} = -1; $keywords{"Seq"} = -1; $keywords{"learning"} = -1; $keywords{"Structural"} = -1; $keywords{"NTUA"} = 5; $keywords{"oliver"} = 5;
 $keywords{"valence"} = 5; $keywords{"Valence"} = 5;
 $keywords{"similarity"} = 0; $keywords{"Similarity"} = 0;
 $keywords{"understanding"} = 0; $keywords{"Understanding"} = 0;
@@ -15,9 +19,11 @@ $keywords{"harvest"} = 0; $keywords{"Harvest"} = 0;
 $keywords{"semantic"} = 0; $keywords{"Semantic"} = 0;
 $keywords{"meaning"} = 0; $keywords{"Meaning"} = 0;
 $keywords{"policy"} = 0; $keywords{"Policy"} = 0;
+$keywords{"behavior"} = 5;
 $keywords{"ASR "} = 1;
 $keywords{"HMM"} = 1;
 $keywords{"stream"} = 1; $keywords{"Stream"} = 1;
+$keywords{"emotion"} = 5; $keywords{"Emotion"} = 5;
 $keywords{"recognition"} = 1; $keywords{"Recognition"} = 1;
 $keywords{"robust"} = 1; $keywords{"Robust"} = 1;
 $keywords{"dialogue"} = 2; $keywords{"Dialogue"} = 2;
@@ -35,7 +41,6 @@ $keywords{"school"} = 4;
 $keywords{"child"} = 4; $keywords{"Child"} = 4;
 $keywords{"Developmental"} = 4; 
 $keywords{"affect"} = 5; $keywords{"Affect"} = 5;
-$keywords{"emotion"} = 5; $keywords{"Emotion"} = 5;
 $keywords{"movie"} = 6; $keywords{"Movie"} = 6;
 $keywords{"salien"} = 6; $keywords{"Salien"} = 6;
 $keywords{"Gros"} = 6;
@@ -89,15 +94,15 @@ foreach $pubid (keys %publ){
   if ($year < $mny) { $mny = $year;}
   if ($year > $mxy) { $mxy = $year;}
   #print $year,"\n";
-  foreach (keys %keywords){
-    if ($publ{$pubid} =~ /$_/){
+  foreach ((@order,keys %keywords)){
+    if (($publ{$pubid} =~ /$_/) & (!defined($theme{$pubid}))){
       $theme{$pubid} = $keywords{$_};
       print F "(",$theme{$pubid},",$year) ..";
     }
   }
   print F "\n";
   unless (defined $theme{$pubid}){
-    $theme{$pubid} = $#areas; # i.e., Other
+    $theme{$pubid} = 7; # i.e., Other ... hardcoded ...
     print F "Warning no theme found in $publ{$pubid}\n";
   }
   #print  $publ{$pubid},"\n";
@@ -110,7 +115,7 @@ for ($j = 0; $j <= $#areas; $j++){ # by area
  print '<h2 id = "',$j+1,'"> ', $areas[$j],' </h2>',"\n", '<ul>',"\n";
  for ($i = $mxy; $i >=$mny; $i--){ # by reverse year
   foreach (keys %publ){
-    if (($year{$_} eq $i) && ($theme{$_} eq $j)){
+    if (($year{$_} eq $i) && ($theme{$_} eq $j-1)){
       print $publ{$_},"\n";
     }
   }
