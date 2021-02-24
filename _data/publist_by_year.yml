@@ -1,0 +1,670 @@
+'2019':
+- "T.\_Giannakopoulos, S.\_Dimopoulos, G.\_Pantazopoulos, A.\_Chatziagapi,   D.\_\
+  Sgouropoulos, A.\_Katsamanis, A.\_Potamianos, and S.\_Narayanan, \" Using   oliver\
+  \ API for emotion-aware movie content characterization ,\" in Proc. International\
+  \ Conference on Content-Based Multimedia Indexing (CBMI) ,   Dublin, Ireland, pp.\_\
+  1-4, Sept. 2019."
+- "A.\_Chatziagapi, G.\_Paraskevopoulos, D.\_Sgouropoulos, G.\_Pantazopoulos,   M.\_\
+  Nikandrou, T.\_Giannakopoulos, A.\_Katsamanis, A.\_Potamianos, and   S.\_Narayanan,\
+  \ \" Data augmentation using GANs for speech emotion   recognition ,\" in Proc.\
+  \ Interspeech , Graz, Austria, pp.\_171-175,   Sept. 2019."
+- "E.\_Georgiou, C.\_Papaioannou, and A.\_Potamianos, \" Deep hierarchical fusion\
+  \ with   application in sentiment analysis ,\" in Proc. Interspeech , Graz,   Austria,\
+  \ pp.\_1646-1650, Sept. 2019."
+- "G.\_Paraskevopoulos, E.\_Tzinis, N.\_Ellinas, T.\_Giannakopoulos, and   A.\_Potamianos,\
+  \ \" Unsupervised low-rank representations for speech emotion   recognition ,\"\
+  \ in Proc. Interspeech , Graz, Austria, pp.\_939-943,   Sept. 2019."
+- "K.\_Margatina, C.\_Baziotis, and A.\_Potamianos, \" Attention-based conditioning\
+  \   methods for external knowledge integration ,\" in Proc. of the 57th   Annual\
+  \ Meeting of the Association for Computational Linguistics , Florence, Italy, pp.\_\
+  3944-3951, July 2019."
+- "C.\_Baziotis, I.\_Androutsopoulos, I.\_Konstas, and A.\_Potamianos, \" Seq^3: \
+  \  Differentiable sequence-to-sequence-to-sequence autoencoder for unsupervised\
+  \   abstractive sentence compression ,\" in Proc. Conf. of the North American  \
+  \ Chapter of the Association for Computational Linguistics: Human Language   Technologies,\
+  \ Vol.\_1 (Long and Short Papers) , Minneapolis, MN,   pp.\_673-681, June 2019."
+- "E.\_Briakou, N.\_Athanasiou, and A.\_Potamianos, \" Cross-topic distributional\
+  \   semantic representations via unsupervised mappings ,\" in Proc. Conf. of   the\
+  \ North American Chapter of the Association for Computational Linguistics:   Human\
+  \ Language Technologies, Vol.\_1 (Long and Short Papers) , (Minneapolis,   MN),\
+  \ pp.\_1052-1061, June 2019."
+- "A.\_Chronopoulou, C.\_Baziotis, and A.\_Potamianos, \" An embarrassingly simple\
+  \   approach for transfer learning from pretrained language models ,\" in Proc.\
+  \ Conf. of the North American Chapter of the Association for   Computational Linguistics:\
+  \ Human Language Technologies, Vol.\_1 (Long and   Short Papers) , Minneapolis,\
+  \ MN, pp.\_2089-2095, June 2019."
+'2018':
+- "G.\_Paraskevopoulos, E.\_Tzinis, E.-V. Vlatakis-Gkaragkounis, and A.\_Potamianos,\
+  \   \" Pattern search MDS ,\" arXiv preprint arXiv:1806.00416 , Mar. 2018."
+- "A.\_Fergadis, C.\_Baziotis, D.\_Pappas, H.\_Papageorgiou, and A.\_Potamianos, \
+  \  \" Hierarchical bi-directional attention-based RNNs for supporting document \
+  \  classification on protein-protein interactions affected by genetic   mutations\
+  \ ,\" Database , vol.\_2018-1, pp.\_1-10, Jan. 2018."
+- "E.\_Iosif, I.\_Klasinas, G.\_Athanasopoulou, E.\_Palogiannidi, S.\_Georgiladakis,\
+  \   K.\_Louka, and A.\_Potamianos, \" Speech understanding for spoken dialogue \
+  \  systems: From corpus harvesting to grammar rule induction ,\" Computer   Speech\
+  \ and Language , vol.\_47, pp.\_272-297, Jan. 2018."
+- "E.\_Tzinis, G.\_Paraskevopoulos, C.\_Baziotis, and A.\_Potamianos, \" Integrating\
+  \   recurrence dynamics for speech emotion recognition ,\" in Proc.   Interspeech\
+  \ , Hyderabad, India, pp.\_927-931, Sept. 2018."
+- "N.\_Athanasiou, E.\_Iosif, and A.\_Potamianos, \" Neural activation semantic  \
+  \ models: Computational lexical semantic models of localized neural   activations\
+  \ ,\" in Proc. Intl. Conf. on Computational Linguistics ,   Santa Fe, New Mexico,\
+  \ pp.\_2867-2878, Aug. 2018."
+- "A.\_Chronopoulou, A.\_Margatina, C.\_Baziotis, and A.\_Potamianos, \" NTUA-SLP\
+  \ at   IEST 2018: Ensemble of neural transfer methods for implicit emotion   classification\
+  \ ,\" in Proc. Workshop on Computational Approaches to   Subjectivity, Sentiment\
+  \ and Social Media Analysis , Brussels, Belgium, July   2018."
+- "C.\_Baziotis, N.\_Athanasiou, A.\_Chronopoulou, A.\_Kolovou, G.\_Paraskevopoulos,\
+  \   N.\_Ellinas, S.\_Narayanan, and A.\_Potamianos, \" NTUA-SLP at SemEval-2018\
+  \   Task 1: Predicting affective content in tweets with deep attentive rnns and\
+  \   transfer learning ,\" in Proc. Intl. Workshop on Semantic Evaluation ,   New\
+  \ Orleans, Louisiana, pp.\_245-\u2013255, June 2018."
+- "C.\_Baziotis, N.\_Athanasiou, G.\_Paraskevopoulos, N.\_Ellinas, A.\_Kolovou, and\
+  \   A.\_Potamianos, \" NTUA-SLP at SemEval-2018 Task 2: Predicting emojis   using\
+  \ RNNs with context-aware attention ,\" in Proc. Intl. Workshop on   Semantic Evaluation\
+  \ , New Orleans, Louisiana, pp.\_438-444, June 2018."
+- "C.\_Baziotis, N.\_Athanasiou, P.\_Papalampidi, A.\_Kolovou, G.\_Paraskevopoulos,\
+  \   N.\_Ellinas, and A.\_Potamianos, \" NTUA-SLP at SemEval-2018 Task 3:   Tracking\
+  \ ironic tweets using ensembles of word and character level attentive   RNNs ,\"\
+  \ in Proc. Intl. Workshop on Semantic Evaluation , (New Orleans,   Louisiana), pp.\_\
+  613-621, June 2018."
+- "F.\_Christopoulou, E.\_Briakou, E.\_Iosif, and A.\_Potamianos, \" Mixture of  \
+  \ topic-based distributional semantic and affective models ,\" in Proc.   IEEE Intl.\
+  \ Conf. on Semantic Computing , Laguna Hills, CA, pp.\_203-210,   Jan. 2018."
+'2017':
+- "A.\_Zlatintsi, P.\_Koutras, G.\_Evangelopoulos, N.\_Malandrakis, N.\_Efthymiou,\
+  \   K.\_Pastra, A.\_Potamianos, and P.\_Maragos, \" COGNIMUSE: a multimodal video\
+  \   database annotated with saliency, events, semantics and emotion with   application\
+  \ to summarization ,\" EURASIP Journal on Image and Video   Processing , vol.\_\
+  2017, p.\_54, Jan. 2017."
+- "A.\_Kolovou, E.\_Iosif, and A.\_Potamianos, \" Lexical and affective models in\
+  \   early acquisition of semantics ,\" in Proc. Workshop on Child Computer   Interaction\
+  \ , Glasgow, Scotland, Nov. 2017."
+- "A.\_Fergadis, C.\_Baziotis, D.\_Pappas, H.\_Papageorgiou, and A.\_Potamianos, \
+  \  \" Hierarchical bidirectional attention-based RNN in BioCreative VI   precision\
+  \ medicine track, document triage task ,\" in Proc. BioCreative   Challenge Evaluation\
+  \ Workshop , Bethesda, Maryland, Oct. 2017."
+- "E.\_Tzinis and A.\_Potamianos, \" Segment-based speech emotion recognition using\
+  \   recurrent neural networks ,\" in Proc. of Intl. Conf. on Affective   Computing\
+  \ and Intelligent Interaction , San Antonio, Texas, pp.\_190-195,   Oct. 2017."
+- "A.\_Kolovou, F.\_Kokkinos, A.\_Fergadis, P.\_Papalampidi, E.\_Iosif, N.\_Malandrakis,\
+  \   E.\_Palogiannidi, H.\_Papageorgiou, S.\_Narayanan, and A.\_Potamianos, \" Tweester\
+  \   at SemEval-2017 Task 4: Fusion of semantic-affective and pairwise   classification\
+  \ models for sentiment analysis in twitter ,\" in Proc.   Intl. Workshop on Semantic\
+  \ Evaluation , Vancouver, Canada, pp.\_675-682,   Aug. 2017."
+- "P.\_Papalampidi, E.\_Iosif, and A.\_Potamianos, \" Dialogue act semantic   representation\
+  \ and classification using recurrent neural networks ,\" in Proc. Workshop on the\
+  \ Semantics and Pragmatics of Dialogue , (Saabrucken,   Germany), pp.\_77-86, Aug.\
+  \ 2017."
+- "A.\_Chorianopoulou, E.\_Tzinis, E.\_Iosif, A.\_Papoulidi, C.\_Papailiou, and  \
+  \ A.\_Potamianos, \" Engagement detection for children with autism spectrum   disorder\
+  \ ,\" in Proc. Internat. Conf. on Acoust., Speech, and Signal   Process. , New Orleans,\
+  \ LA, pp.\_5055-5059, Mar. 2017."
+'2016':
+- "G.\_Karamanolakis, E.\_Iosif, A.\_Zlatintsi, A.\_Pikrakis, and A.\_Potamianos,\
+  \   \" Audio-based distributional semantic models for music auto-tagging and   similarity\
+  \ measurement ,\" arXiv preprint arXiv:1612.08391 , Dec. 2016. F.\_Kokkinos and\
+  \ A.\_Potamianos, \" Structural attention neural networks for   improved sentiment\
+  \ analysis ,\" arXiv preprint arXiv:1701.01811 , Dec.   2016. A.\_Chorianopoulou,\
+  \ P.\_Koutsakis, and A.\_Potamianos, \" Speech emotion   recognition using affective\
+  \ saliency ,\" in Proc. Interspeech , (San   Francisco, CA), Sept. 2016. S.\_Georgiladakis,\
+  \ G.\_Athanasopoulou, R.\_Meena, J.\_Lopes, A.\_Chorianopoulou,   E.\_Palogiannidi,\
+  \ E.\_Iosif, G.\_Skantze, and A.\_Potamianos, \" Root cause   analysis of miscommunication\
+  \ hotspots in spoken dialogue systems ,\" in Proc. Interspeech , San Francisco,\
+  \ CA, Sept. 2016. G.\_Karamanolakis, E.\_Iosif, A.\_Zlatintsi, A.\_Pikrakis, and\
+  \ A.\_Potamianos,   \" Audio-based distributional representations of meaning using\
+  \ a fusion of   feature encodings ,\" in Proc. Interspeech , San Francisco, CA,\
+  \ Sept.   2016. E.\_Palogiannidi, E.\_Iosif, P.\_Koutsakis, and A.\_Potamianos,\
+  \ \" A   semantic-affective compositional approach for the affective labelling of\
+  \   adjective-noun and noun-noun pairs ,\" in Proc. of the 7th Workshop on   Computational\
+  \ Approaches to Subjectivity, Sentiment and Social Media Analysis   (WASSA) , San\
+  \ Diego, CA, June 2016. E.\_Palogiannidi, A.\_Kolovou, F.\_Christopoulou, F.\_Kokkinos,\
+  \ E.\_Iosif,   N.\_Malandrakis, H.\_Papageorgiou, S.\_Narayanan, and A.\_Potamianos,\
+  \ \" Tweester   at semeval-2016 task 4: Sentiment analysis in twitter using   semantic-affective\
+  \ model adaptation ,\" in Proc. Intl. Workshop on   Semantic Evaluation , San Diego,\
+  \ CA, June 2016. E.\_Iosif, S.\_Georgiladakis, and A.\_Potamianos, \" Cognitively\
+  \ motivated   distributional representations of meaning ,\" in Proc. Intl. Conf.\
+  \ on   Language Resources and Evaluation , Portoroz, Slovenia, May 2016. E.\_Iosif\
+  \ and A.\_Potamianos, \" Crossmodal network-based distributional semantic   models\
+  \ ,\" in Proc. Intl. Conf. on Language Resources and Evaluation ,   Portoroz, Slovenia,\
+  \ May 2016. J.\_Lopes, A.\_Chorianopoulou, E.\_Palogiannidi, H.\_Moniz, A.\_Abad,\
+  \ K.\_Louka,   E.\_Iosif, and A.\_Potamianos, \" The Spedial datasets: datasets\
+  \ for spoken   dialogue system analytics ,\" in Proc. Intl. Conf. on Language Resources\
+  \   and Evaluation , Portoroz, Slovenia, May 2016. E.\_Palogiannidi, P.\_Koutsakis,\
+  \ E.\_Iosif, and A.\_Potamianos, \" Affective lexicon   creation for the Greek language\
+  \ ,\" in Proc. Intl. Conf. on Language   Resources and Evaluation , Portoroz, Slovenia,\
+  \ May 2016."
+- "F.\_Kokkinos and A.\_Potamianos, \" Structural attention neural networks for  \
+  \ improved sentiment analysis ,\" arXiv preprint arXiv:1701.01811 , Dec.   2016."
+- "A.\_Chorianopoulou, P.\_Koutsakis, and A.\_Potamianos, \" Speech emotion   recognition\
+  \ using affective saliency ,\" in Proc. Interspeech , (San   Francisco, CA), Sept.\
+  \ 2016."
+- "S.\_Georgiladakis, G.\_Athanasopoulou, R.\_Meena, J.\_Lopes, A.\_Chorianopoulou,\
+  \   E.\_Palogiannidi, E.\_Iosif, G.\_Skantze, and A.\_Potamianos, \" Root cause\
+  \   analysis of miscommunication hotspots in spoken dialogue systems ,\" in Proc.\
+  \ Interspeech , San Francisco, CA, Sept. 2016."
+- "G.\_Karamanolakis, E.\_Iosif, A.\_Zlatintsi, A.\_Pikrakis, and A.\_Potamianos,\
+  \   \" Audio-based distributional representations of meaning using a fusion of \
+  \  feature encodings ,\" in Proc. Interspeech , San Francisco, CA, Sept.   2016."
+- "E.\_Palogiannidi, E.\_Iosif, P.\_Koutsakis, and A.\_Potamianos, \" A   semantic-affective\
+  \ compositional approach for the affective labelling of   adjective-noun and noun-noun\
+  \ pairs ,\" in Proc. of the 7th Workshop on   Computational Approaches to Subjectivity,\
+  \ Sentiment and Social Media Analysis   (WASSA) , San Diego, CA, June 2016."
+- "E.\_Palogiannidi, A.\_Kolovou, F.\_Christopoulou, F.\_Kokkinos, E.\_Iosif,   N.\_\
+  Malandrakis, H.\_Papageorgiou, S.\_Narayanan, and A.\_Potamianos, \" Tweester  \
+  \ at semeval-2016 task 4: Sentiment analysis in twitter using   semantic-affective\
+  \ model adaptation ,\" in Proc. Intl. Workshop on   Semantic Evaluation , San Diego,\
+  \ CA, June 2016."
+- "E.\_Iosif, S.\_Georgiladakis, and A.\_Potamianos, \" Cognitively motivated   distributional\
+  \ representations of meaning ,\" in Proc. Intl. Conf. on   Language Resources and\
+  \ Evaluation , Portoroz, Slovenia, May 2016."
+- "E.\_Iosif and A.\_Potamianos, \" Crossmodal network-based distributional semantic\
+  \   models ,\" in Proc. Intl. Conf. on Language Resources and Evaluation ,   Portoroz,\
+  \ Slovenia, May 2016."
+- "J.\_Lopes, A.\_Chorianopoulou, E.\_Palogiannidi, H.\_Moniz, A.\_Abad, K.\_Louka,\
+  \   E.\_Iosif, and A.\_Potamianos, \" The Spedial datasets: datasets for spoken\
+  \   dialogue system analytics ,\" in Proc. Intl. Conf. on Language Resources   and\
+  \ Evaluation , Portoroz, Slovenia, May 2016."
+- "E.\_Palogiannidi, P.\_Koutsakis, E.\_Iosif, and A.\_Potamianos, \" Affective lexicon\
+  \   creation for the Greek language ,\" in Proc. Intl. Conf. on Language   Resources\
+  \ and Evaluation , Portoroz, Slovenia, May 2016."
+'2015':
+- "A.\_Vinciarelli, A.\_Esposito, E.\_Andre, F.\_Bonin, M.\_Chetouani, J.\_Cohn, \
+  \  M.\_Cristani, F.\_Fuhrmann, E.\_Gilmartin, Z.\_Hammal, D.\_Heylen, R.\_Kaiser,\
+  \   M.\_Koutsombogera, A.\_Potamianos, S.\_Renals, G.\_Riccardi, and A.\_Salah,\
+  \ \" Open   challenges in modelling, analysis and synthesis of human behaviour in\
+  \   human-human and human-machine interactions ,\" Cognitive Computation ,   vol.\_\
+  7, pp.\_397-413, Apr. 2015."
+- "P.\_Koutras, A.\_Zlatintsi, E.Iosif, A.\_Katsamanis, P.\_Maragos, and   A.\_Potamianos,\
+  \ \" Predicting audio-visual salient events based on visual, audio and text modalities\
+  \ for movie summarization ,\" in Proc. Internat.Conf. on Image Processing , Quebec\
+  \ City, Canada, Sept. 2015."
+- "E.\_Palogiannidi, E.\_Iosif, P.\_Koutsakis, and A.\_Potamianos, \" Valence, arousal\
+  \ and dominance estimation for english, german, greek, portuguese and spanish lexica\
+  \ using semantic models ,\" in Proc. Interspeech , (Dresden, Germany), Sept. 2015."
+- "S.\_Georgiladakis, E.\_Iosif, and A.\_Potamianos, \" Fusion of compositional  \
+  \ network-based and lexical function distributional semantic models ,\" in Proc.\
+  \ Workshop on Cognitive Modeling and Computational Linguistics (CMCL) ,   Denver,\
+  \ Colorado, pp.\_39-47, June 2015."
+- "A.\_Zlatintsi, E.Iosif, P.\_Maragos, and A.\_Potamianos, \" Audio salient event\
+  \   detection and summarization using audio and text modalities ,\" in Proc.   European\
+  \ Signal Process. Conf. , Nice, France, May 2015."
+- "A.\_Zlatintsi, P.\_Koutras, N.\_Efthymiou, P.\_Maragos, A.\_Potamianos, and   K.\_\
+  Pastra, \" Quality evaluation of computational models for movie summarization ,\"\
+  \ in Proc. Intl. Workshop on Quality of Multimedia Experience (QoMEX) , (Costa Navarino,\
+  \ Messinia, Greece), May 2015."
+- "E.\_Iosif and A.\_Potamianos, \" Feeling is understanding: From affective to semantic\
+  \ spaces ,\" in Proc. Intl Conference for Computational Semantics (IWCS) , London,\
+  \ UK, pp.\_162-173, Apr. 2015."
+'2014':
+- "S.\_Lee, A.\_Potamianos, and S.\_Narayanan, \" Developmental acoustic study of\
+  \ American English diphthongs ,'' Journal of the Acoustical Society of   America\
+  \ , vol.\_136, pp.\_1880-1894, Oct. 2014."
+- "G.\_Athanasopoulou, I.\_Klasinas, S.\_Georgiladakis, E.\_Iosif, and A.\_Potamianos,\
+  \   \" Using lexical, syntactic and semantic features for non-terminal grammar \
+  \  rule induction in spoken dialogue systems ,\" in Proc. IEEE/ACM Workshop   on\
+  \ Spoken Language Technology , Lake Tahoe, Nevada, Dec. 2014."
+- "R.\_Gupta, T.\_Guha, N.\_Malandrakis, M.\_V. Segbroeck, B.\_Xiao, M.\_P. Black,\
+  \   A.\_Potamianos, and S.\_S. Narayanan, \" Multimodal prediction of affective\
+  \   dimensions and depression in human-computer interactions ,\" in Proc.   Intl.\
+  \ Audio Visual Emotion Challenge and Workshop , Orlando, Florida, Nov.   2014."
+- "A.\_Potamianos, \" Cognitive multimodal processing: from signal to behavior ,\"\
+  \ in Proc. Workshop on Roadmapping the Future of Multimodal Interaction   Research\
+  \ , Istanbul, Turkey, Nov. 2014."
+- "D.\_Bone, C.-C. Lee, A.\_Potamianos, and S.\_Narayanan, \" An investigation of\
+  \   vocal arousal dynamics in child-psychologist interactions using synchrony  \
+  \ measures and a conversation-based model ,\" in Proc. Interspeech ,   (Singapore),\
+  \ Sept. 2014."
+- "S.\_Georgiladakis, C.\_Unger, E.\_Iosif, S.\_Walter, P.\_Cimiano, E.\_Petrakis,\
+  \ and   A.\_Potamianos, \" Fusion of knowledge-based and data-driven approaches\
+  \ to   grammar induction ,\" in Proc. Interspeech , (Singapore), Sept. 2014."
+- "M.\_V. Segbroeck, R.\_Travadi, C.\_Vaz, J.\_Kim, M.\_Black, A.\_Potamianos, and\
+  \   S.\_Narayanan, \" Classification of cognitive load from speech using an   i-vector\
+  \ framework ,\" in Proc. Interspeech , (Singapore), Sept. 2014."
+- "P.\_G. Shivakumar, A.\_Potamianos, S.\_Lee, and S.\_Narayanan, \" Improving speech\
+  \   recognition for children using acoustic adaptation and pronunciation   modeling\
+  \ ,\" in Proc. Workshop on Child, Computer and Interaction ,   (Singapore), Sept.\
+  \ 2014."
+- "G.\_Athanasopoulou, E.\_Iosif, and A.\_Potamianos, \" Low-dimensional manifold\
+  \   distributional semantic models ,\" in Proc. Intl. Conf. on Computational   Linguistics\
+  \ , Dublin, Ireland, Aug. 2014."
+- "A.\_Chorianopoulou, G.\_Athanasopoulou, E.\_Iosif, I.\_Klasinas, and A.\_Potamianos,\
+  \   \" tucsage: Grammar rule induction for spoken dialogue systems via   probabilistic\
+  \ candidate selection ,\" in Proc. Intl. Workshop on Semantic   Evaluation , Dublin,\
+  \ Ireland, pp.\_668-672, Aug. 2014."
+- "I.\_Klasinas, E.\_Iosif, K.\_Louka, and A.\_Potamianos, \" Semeval-2014 task 2:\
+  \   Grammar induction for spoken dialogue systems ,\" in Proc. Intl. Workshop  \
+  \ on Semantic Evaluation , Dublin, Ireland, pp.\_9-16, Aug. 2014."
+- "N.\_Malandrakis, M.\_Falcone, C.\_Vaz, J.\_J. Bisogni, A.\_Potamianos, and   S.\_\
+  Narayanan, \" Sail: Sentiment analysis using semantic similarity and   contrast\
+  \ features ,\" in Proc. Intl. Workshop on Semantic Evaluation ,   Dublin, Ireland,\
+  \ Aug. 2014."
+- "N.\_Malandrakis, A.\_Potamianos, K.\_J. Hsu, K.\_N. Babeva, M.\_C. Feng, G.\_C.\
+  \   Davison, and S.\_Narayanan, \" Affective language model adaptation via corpus\
+  \   selection ,\" in Proc. Internat. Conf. on Acoust., Speech, and Signal   Process.\
+  \ , Florence, Italy, May 2014."
+- "E.\_Palogiannidi, I.\_Klasinas, A.\_Potamianos, and E.\_Iosif, \" Spoken dialogue\
+  \   grammar induction from crowdsourced data ,\" in Proc. Internat. Conf. on   Acoust.,\
+  \ Speech, and Signal Process. , Florence, Italy, May 2014."
+- "K.\_Zervanou, E.\_Iosif, and A.\_Potamianos, \" Word semantic similarity for  \
+  \ morphologically rich languages ,\" in Proc. Intl. Conf. on Language   Resources\
+  \ and Evaluation , Reykjavik, Iceland, pp.\_1642-1648, May 2014."
+'2013':
+- "G.\_Evangelopoulos, A.\_Zlatintsi, A.\_Potamianos, P.\_Maragos, K.\_Rapantzikos,\
+  \   G.\_Skoumas, and Y.\_Avrithis, \" Multimodal saliency and fusion for movie summarization\
+  \ based on aural, visual, and textual attention ,\" IEEE   Transactions on Multimedia\
+  \ , vol.\_15, pp.\_1553-1568, Nov. 2013."
+- "N.\_Malandrakis, A.\_Potamianos, E.\_Iosif, and S.\_S. Narayanan, \" Distributional\
+  \   semantic models for affective text analysis ,\" IEEE Transactions on   Audio,\
+  \ Speech and Language Processing , vol.\_21, pp.\_2379-2392, Nov. 2013."
+- "T.\_Moschopoulos, E.\_Iosif, L.\_Demetropoulou, A.\_Potamianos, and S.\_Narayanan,\
+  \   \" Toward the automatic extraction of policy networks using web links and  \
+  \ documents ,\" IEEE Transactions on Knowledge and Data Engineering ,   vol.\_25,\
+  \ pp.\_2404-2417, Oct. 2013."
+- "E.\_Iosif and A.\_Potamianos, \" Similarity computation using semantic networks\
+  \   created from web-harvested data ,\" Natural Language Engineering ,   vol.\_\
+  FirstView, pp.\_1-31, July 2013."
+- "I.\_Klasinas, A.\_Potamianos, E.\_Iosif, S.\_Georgiladakis, and G.\_Mameli, \"\
+  \ Web   data harvesting for speech understanding grammar induction ,\" in Proc.\
+  \   Interspeech , Lyon, France, Aug. 2013."
+- "V.\_Kouloumenta, M.\_Perakakis, and A.\_Potamianos, \" Affective evaluation of\
+  \   multimodal dialogue games for preschoolers using physiological signals ,\" in\
+  \ Proc. Interspeech , Lyon, France, Aug. 2013."
+- "N.\_Malandrakis, S.\_Sundaram, and A.\_Potamianos, \" Affective classification\
+  \ of   generic audio clips using regression models ,\" in Proc. Interspeech ,  \
+  \ Lyon, France, Aug. 2013."
+- "A.\_Tsiartas, T.\_Chaspari, A.\_Katsamanis, P.\_Ghosh, M.\_Li, M.\_V. Segbroeck,\
+  \   A.\_Potamianos, and S.\_Narayanan, \" Multi-band long-term signal variability\
+  \   features for robust voice activity detection ,\" in Proc. Interspeech ,   Lyon,\
+  \ France, Aug. 2013."
+- "N.\_Malandrakis, I.\_Elias, V.\_Prokopi, A.\_Potamianos, and S.\_S. Narayanan,\
+  \   \" Deeppurple: Lexical, string and affective feature fusion for sentence-level\
+  \   semantic similarity estimation ,\" in Proc. 2nd Joint Conference on   Lexical\
+  \ and Computational Semantics (*SEM), Volume 1: Proceedings of the Main   Conference\
+  \ and the Shared Task: Semantic Textual Similarity , pp.\_103-108,   Association\
+  \ for Computational Linguistics, June 2013."
+- "N.\_Malandrakis, A.\_Kazemzadeh, A.\_Potamianos, and S.\_S. Narayanan, \" Sail:\
+  \ A   hybrid approach to sentiment analysis ,\" in Proc. 2nd Joint Conference  \
+  \ on Lexical and Computational Semantics (*SEM), Volume 2: Proceedings of the  \
+  \ Seventh International Workshop on Semantic Evaluation (SemEval 2013) ,   pp.\_\
+  438-442, Association for Computational Linguistics, June 2013."
+- "G.\_Evgeneiadis, V.\_Kouloumenta, and A.\_Potamianos, \" Analyzing exploration\
+  \ and   exploitation patterns in multimodal dialogue games for preschoolers ,\"\
+  \ in Proc. Games for Learning Workshop - Foundations of Digital Games   Conference\
+  \ , Chania, Greece, May 2013."
+- "N.\_Malandrakis, A.\_Potamianos, and S.\_Narayanan, \" Continuous models of affect\
+  \   from text using n-grams ,\" in Proc. Internat. Conf. on Acoust., Speech,   and\
+  \ Signal Process. , Vancouver, Canada, May 2013."
+- "P.\_Tsiakoulis, A.\_Potamianos, and D.\_Dimitriadis, \" Instantaneous frequency\
+  \ and   bandwidth estimation using filterbank arrays ,\" in Proc. Internat. Conf.\
+  \   on Acoust., Speech, and Signal Process. , Vancouver, Canada, May 2013."
+- "E.\_Iosif, A.\_Potamianos, M.\_Giannoudaki, and K.\_Zervanou, \" Semantic similarity\
+  \   computation for abstract and concrete nouns using network-based   distributional\
+  \ semantic models ,\" in Proc. 10th International Conference   on Computational\
+  \ Semantics (IWCS) , Potsdam, Germany, pp.\_328-334, Mar.   2013."
+- "M.\_Perakakis and A.\_Potamianos, \" An affective evaluation tool using brain \
+  \  signals ,\" in Proc. Intl. Conf. on Intelligent User Interfaces   (companion\
+  \ volume) , Santa Monica, CA, pp.\_105-106, ACM, Mar. 2013."
+'2012':
+- "M.\_Perakakis and A.\_Potamianos, \" Affective evaluation of a mobile multimodal\
+  \   dialogue system using brain signals ,\" in Proc. IEEE/ACM Workshop on   Spoken\
+  \ Language Technology , Miami, Florida, Dec. 2012."
+- "A.\_Zlatintsi, P.\_Maragos, A.\_Potamianos, and G.\_Evangelopoulos, \" A   saliency-based\
+  \ approach to audio event detection and summarization ,\" in Proc. European Signal\
+  \ Process. Conf. , Aug. 2012."
+- "N.\_Malandrakis, E.\_Iosif, and A.\_Potamianos, \" Deeppurple: Estimating sentence\
+  \   semantic similarity using n-gram regression models and web snippets ,\" in *SEM\
+  \ 2012: The 1st Joint Conference on Lexical and Computational   Semantics , Montreal,\
+  \ Canada, June 2012."
+- "G.\_Riccardi, P.\_Cimiano, A.\_Potamianos, and C.\_Unger, \" Up from limited dialog\
+  \   systems! ,\" in Proc. NAACL-HLT Workshop on future directions and needs   in\
+  \ the SDS community (position paper) , Montreal, Canada, June 2012."
+'2011':
+- "D.\_Dimitriadis, P.\_Maragos, and A.\_Potamianos, \" On the Effects of Filterbank\
+  \ Design and Energy Computation on Robust Speech Recognition ,\" IEEE Transactions\
+  \ on Audio, Speech and Language Processing ,  vol. 19, no. 6, pp. 1504-1516, Aug.\
+  \ 2011."
+- "S.\_Yildirim, S.\_Narayanan, and A.\_Potamianos, \" Detecting Emotional State of\
+  \ a Child in a Conversational Computer Game ,\" Computer, Speech and Language ,\
+  \  vol. 25, no. 1, pp. 29-44, Jan. 2011."
+- "N.\_Malandrakis, A.\_Potamianos, E.\_Iosif and S.\_Narayanan, \" EmotiWord: Affective\
+  \ Lexicon Creation with Application to Interaction and Multimedia Data ,\"in Proc.\
+  \ MUSCLE International Workshop on Computational Intelligence for Multimedia Understanding\
+  \ ,  Pisa, Italy, Dec. 2011."
+- "N.\_Malandrakis, A.\_Potamianos, E.\_Iosif and S.\_Narayanan, \" Kernel models\
+  \ for affective lexicon creation ,\"in Proc. Interspeech , Florence, Italy, Aug.\
+  \ 2011."
+- "N.\_Malandrakis, A.\_Potamianos, G.\_Evangelopoulos and A.\_Zlatintsi, \" A supervised\
+  \ approach to movie emotion tracking ,\"in Proc. Intl. Conf. on Acoustics, Speech\
+  \ and Signal Processing (ICASSP), Prague, Czech Republic, Apr. 2011."
+'2010':
+- "P.\_Tsiakoulis, A.\_Potamianos, and D.\_Dimitriadis, \" Spectral Moment Features\
+  \ Augmented by Low Order Cepstral Coefficients for Robust ASR ,\" IEEE Signal Processing\
+  \ Letters , vol. 17, no. 6, pp. 551-554, June 2010."
+- "P.\_Tsiakoulis, and A.\_Potamianos, \" On the Effect of Fundamental Frequency on\
+  \ Amplitude and Frequency Modulation Patterns in Speech Resonances ,\"in Proc. Interspeech\
+  \ , Makuhari, Japan, Sept. 2010."
+- "M.\_Poesio, M.\_Baroni, O.\_Lanz, A.\_Lenci, A.\_Potamianos, H.\_Schutze, S.\_\
+  Schulte im Walde, and L.\_Surian, \" BabyExp: Constructing a huge multimodal resource\
+  \ to acquire commonsense knowledge like children do ,\"in Proc. LREC , Malta, May.\
+  \ 2010."
+'2009':
+- "E.\_Iosif, and A.\_Potamianos,  \" Unsupervised Semantic Similarity Computation\
+  \ Between Terms Using Web Documents ,'' IEEE Transactions on Knowledge and Data\
+  \ Engineering , vol. 22, no. 11 , pp. 1637-1647, Nov. 2010."
+- "D.\_Nion, K.\_Mokios, N.\_Sidiropoulos, A.\_Potamianos,  \" Batch and Adaptive\
+  \ PARAFAC-Based Blind Separation of Convolutive Speech Mixtures ,\" IEEE Transactions\
+  \ on Audio, Speech   and Language Processing ,  vol. 18, no. 6, pp. 1193 - 1207,\
+  \ Aug. 2010."
+- "E.\_Sanchez-Soto, A.\_Potamianos, and K.\_Daoudi, \" Unsupervised stream weight\
+  \ computation in classification and recognition tasks ,'' IEEE Transactions on Audio,\
+  \ Speech   and Language Processing ,  vol. 17, no. 3, pp. 436-445, Mar. 2009."
+- "S.\_Dimopoulos, C.H.\_Lee, E.\_Fosler-Lussier, and A.\_Potamianos, \" Transition\
+  \ features for CRF-based recognition and boundary detection ,\"   in Proc. Automatic\
+  \ Speech Recogn. and Underst. Workshop (ASRU),  Merano, Italy, Dec. 2009."
+- "P.\_Tsiakoulis, A.\_Potamianos, and D.\_Dimitriadis, \" Short-time instantaneous\
+  \ frequency and bandwidth features for speech recognition ,\"   in Proc. Automatic\
+  \ Speech Recogn. and Underst. Workshop (ASRU),  Merano, Italy, Dec. 2009."
+- "T.\_Kannetis, and A.\_Potamianos, \" Towards Adapting Fantasy, Curiosity and Challenge\
+  \ in Multimodal Dialogue   Systems for Preschoolers ,\"in Proc. Int'l Conf. on Multimodal\
+  \ Interfaces (ICMI), Boston, MA, Nov. 2009."
+- "T.\_Kannetis, A.\_Potamianos, and G.N.\_Yannakakis, \" Fantasy, Curiosity and Challenge\
+  \ as Adaptation Indicators in Multimodal Dialog  Systems for Preschoolers ,\"  in\
+  \ Proc. Workshop of Child, Computer and Interaction (WOCCI), Boston, MA, Nov. 2009."
+- "M.\_Gerosa, D.\_Giuliani, S.\_Narayanan, and A.\_Potamianos, \" A Review of ASR\
+  \ Technologies for Children's Speech ,\"  in Proc. Workshop of Child, Computer and\
+  \ Interaction (WOCCI), Boston, MA, Nov. 2009."
+- "P.\_Tsiakoulis, and A.\_Potamianos, \" Statistical Analysis of Amplitude Modulation\
+  \ in Speech Signals using an AM-FM Model ,\"  in Proc. Intl. Conf. on Acoustics,\
+  \ Speech and Signal Processing (ICASSP), Taipei, Taiwan, Apr. 2009."
+- G. Evangelopoulos, A. Zlatintsi, G. Skoumas, K. Rapantzikos, A. Potamianos, P. Maragos,
+  and Y. Avrithis, " Video Event Detection and Summarization Using Audio, Visual and
+  Text Saliency ,"  in Proc. Intl. Conf. on Acoustics, Speech and Signal Processing
+  (ICASSP), Taipei, Taiwan, Apr. 2009.
+- S. Dimopoulos, A. Potamianos, E. Fosler-Lussier, and C.-H. Lee, " Multiple Time
+  Resolution Analysis of Speech Signals Using MCE Training with Application to Speech
+  Recognition ,"in Proc. Intl. Conf. on Acoustics, Speech and Signal Processing (ICASSP),
+  Taipei, Taiwan, Apr. 2009.
+'2008':
+- "P.\_Maragos, A.\_Potamianos and P.\_Gros (eds), Multimodal Processing and Interaction:\
+  \ Audio, Video, Text , Springer-Verlag, 2008."
+- "A.\_Potamianos and M.\_Perakakis,  \"Human-Computer Interfaces to Multimedia Content:\
+  \ A Review,''  in Multimodal Processing and Interaction: Audio, Video, Text , Springer-Verlag,\
+  \ 2008."
+- "A.\_Potamianos and M.\_Perakakis,  \"Design Principles for Multimodal Spoken Dialogue\
+  \ Systems,''  in Multimodal Processing and Interaction: Audio, Video, Text , Springer-Verlag,\
+  \ 2008."
+- "G.\_Evangelopoulos, K.\_Rapatzikos, P.\_Maragos,  Y.\_Avrithis, A.\_Potamianos,\
+  \  \"Audiovisual Attention Modeling and Salient Event Detection\",  in Multimodal\
+  \ Processing and Interaction: Audio, Video, Text , Springer-Verlag, 2008."
+- "D.\_Dimitriadis, A.\_Potamianos, and P.\_Maragos,  \" A Comparison of the Squared\
+  \ Energy and Teager-Kaiser Operators for Short-Time Energy Estimation in Noise ,''\
+  \ IEEE Transactions on Signal Processing , vol. 57, no. 7, pp. 2569-2581, July 2009."
+- "M.\_Perakakis and A.\_Potamianos, \" A study in efficiency and modality usage in\
+  \ multimodal form filling systems ,'' IEEE Transactions on Audio, Speech   and Language\
+  \ Processing ,  Vol.\_16, pp.\_1194 - 1206, Aug. 2008."
+- "V.\_Farantouri, A.\_Potamianos, and S.\_Narayanan, \" Linguistic Analysis of Spontaneous\
+  \ Children Speech \",  in Proc. Workshop of Child, Computer and Interaction (WOCCI),\
+  \ Chania, Greece, Oct. 2008."
+- "M.\_Perakakis and A.\_Potamianos, \" Multimodal System Evaluation using Modality\
+  \ Efficiency and Synergy Metrics \",  in Proc. Int'l Conf. on Multimodal Interfaces\
+  \ (ICMI), Chania, Greece, Oct. 2008."
+- "G.\_Evangelopoulos, K.\_Rapantzikos, A.\_Potamianos, P.\_Maragos, A.\_Zlatintsi\
+  \ and Y.\_Avrithis, \" Movie Summarization Based On Audio-Visual Saliency Detection\
+  \ \",  in Proc. Intl Conference on Image Processing (ICIP),  San Diego, California,\
+  \ Oct. 2008."
+- "A.\_Tegos, V.\_Karkaletsis, and A.\_Potamianos, \" Learning of Semantic Relations\
+  \ Between Ontology Concepts Using Statistical Techniques \",  in Proc. HLIE Workshop\
+  \ , Antwerp, Belgium, Sept. 2008."
+- "M.\_Maragakis and A.\_Potamianos, \" Region-Based Vocal Tract Length Normalization\
+  \ for ASR \",  in Proc. Interspeech , Brisbane, Australia, Sept. 2008."
+- "K.\_Mokios, A.\_Potamianos, and N.\_ Sidiropoulos, \" On the Effectiveness of PARAFAC-Based\
+  \ Estimation in Blind Speech Separation \",  in Proc. Intl. Conf. on Acoustics,\
+  \ Speech and Signal Processing (ICASSP), Las Vegas, Nevada, Apr. 2008."
+'2007':
+- "E.\_Ammicht, E.\_Fosler-Lussier, and A.\_Potamianos, \" Information seeking spoken\
+  \ dialogue systems - Part I: Semantics and pragmatics ,'' IEEE   Transactions on\
+  \ Multimedia , vol. 9, no.3, Apr. 2007. Vol.\_9, pp.\_532 - 549, April 2007."
+- "A.\_Potamianos, E.\_Fosler-Lussier, E.\_Ammicht, and M.\_Perakakis, \" Information\
+  \ seeking spoken dialogue systems - Part II: Multimodal dialogue ,'' IEEE Transactions\
+  \ on Multimedia ,  Vol.\_9, pp.\_550 - 566, April 2007."
+- "E.\_Iosif and A.\_Potamianos, \" Unsupervised semantic similarity computation using\
+  \ web search engines ,'' in Proc. Intern. Conf. on Web Intelligence ,   Silicon\
+  \ Valley, USA, Nov. 2007."
+- "E.\_Sanchez-Soto, K.\_Daoudi, and A.\_Potamianos, \" Unsupervised stream weight\
+  \ computation in a segmentation task: Application to audio-visual speech   recognition\
+  \ ,'' in Proc. Intern. Conf. on Signal Proc. and   Communications , Dubai, UAE,\
+  \ Nov. 2007."
+- "M.\_Perakakis and A.\_Potamianos, \" The effect of input mode on inactivity and\
+  \ interaction times of multimodal systems ,'' in Internat. Conf. on   Multimodal\
+  \ Interfaces , Nagoya, Japan, Nov. 2007."
+- "A.\_Potamianos and S.\_Narayanan, \" A review of the acoustic and linguistic  \
+  \ properties of children's speech ,'' in Proc. Intern. Workshop on   Multimedia\
+  \ Signal Processing , Chania, Greece, Oct. 2007."
+- "S.\_Siltanen et al, \" Multimodal user interface for augmented assembly ,'' in\
+  \ Proc. Intern. Workshop on Multimedia Signal Processing , Chania,   Greece, Oct.\
+  \ 2007."
+- "E.\_Iosif and A.\_Potamianos, \" A soft-clustering algorithm for automatic induction\
+  \ of semantic classes ,'' in Proc. Interspeech , Antwerp,   Belgium, Aug. 2007."
+- "D.\_Dimitriadis, J.\_Segura, L.\_Garcia, A.\_Potamianos, P.\_Maragos, and   V.\_\
+  Pitsikalis, \" Advanced front-end for robust speech recognition in   extremely adverse\
+  \ environments ,'' in Proc. Interspeech , Antwerp, Belgium, Aug. 2007."
+- "A.\_Katsamanis, P.\_Tsiakoulis, P.\_Maragos, and A.\_Potamianos, \" Investigations\
+  \ in articulatory synthesis ,'' in Proc. Intenat. Conf. on Phonetics ,   Saarbrucken,\
+  \ Germany, Aug. 2007."
+- "E.\_Sanchez-Soto, A.\_Potamianos, and K.\_Daoudi, \" Unsupervised stream weight\
+  \ computation using anti-models ,'' in Proc. Internat. Conf. on Acoust.,   Speech,\
+  \ and Signal Process. , Hawaii, USA, Apr. 2007."
+'2006':
+- "E.\_Iosif, A.\_Tegos, A.\_Pangos, E.\_Fosler-Lussier, and A.\_Potamianos, \" Unsupervised\
+  \ combination of metrics for semantic class induction ,'' in IEEE/ACM Workshop on\
+  \ Spoken Language Technology , Aruba, Dec. 2006."
+- "M.\_Perakakis, M.\_Toutoudakis, and A.\_Potamianos, \" Blending speech and visual\
+  \ input in multimodal dialogue systems ,'' in IEEE/ACM Workshop on Spoken   Language\
+  \ Technology , Aruba, Dec. 2006."
+- "A.\_Potamianos et al, \" Towards speaker and enviromental robustness in ASR: the\
+  \ HIWIRE project ,'' in ITRW Workshop on Speech Recognition and   Intrinsic Variation\
+  \ , Toulouse, France, May 2006."
+- "A.\_Potamianos, E.\_Sanchez-Soto, and K.\_Daoudi, \" Stream weight computation\
+  \ for multi-stream classifiers ,'' in Proc. Internat. Conf. on Acoust., Speech,\
+  \   and Signal Process. , Toulouse, France, May 2006."
+- "K.\_Mokios, N.\_Sidiropoulos, and A.\_Potamianos, \" Blind speech separation algorithm\
+  \ using PARAFAC and integer least squares ,'' in Proc.   Internat. Conf. on Acoust.,\
+  \ Speech, and Signal Process. , Toulouse, France,   May 2006."
+'2005':
+- "D.\_Dimitriadis, P.\_Maragos, and A.\_Potamianos, \" Robust AM-FM features for\
+  \ speech recognition ,'' IEEE Signal Processing Letters , vol.\_12,   pp.\_621-624,\
+  \ Sept. 2005."
+- "A.\_Potamianos, S.\_Narayanan, and G.\_Riccardi, \" Adaptive categorical understanding\
+  \ for spoken dialogue systems ,'' IEEE Transactions on Speech   and Audio Processing\
+  \ ,   Vol.\_13, pp.\_321 - 329, May 2005."
+- "P.\_Karageorgakis, A.\_Potamianos, and I.\_Klasinas, \" Towards incorporating language\
+  \ morphology into statistical machine translation systems ,'' in Proc. Automatic\
+  \ Speech Recogn. and Underst. Workshop , Cancun, Mexico, Dec.   2005."
+- "A.\_Pangos, E.\_Iosif, A.\_Potamianos, and E.\_Fosler-Lussier, Combining statistical\
+  \ similarity measures for automatic induction of semantic   classes ,'' in Proc.\
+  \ Automatic Speech Recogn. and Underst. Workshop ,  Cancun, Mexico, Dec. 2005."
+- "D.\_Dimitriadis, P.\_Maragos, and A.\_Potamianos, \" Auditory Teager energy cepstrum\
+  \ coefficients for robust speech recognition ,'' in Proc. European   Conf. on Speech\
+  \ Communication and Technology , Lisbon, Portugal, Sept.   2005."
+- "S.\_Yildirim, C.\_Lee, S.\_Lee, A.\_Potamianos, and S.\_Narayanan, \" Detecting\
+  \ politeness and frustration state of a child in a conversational computer game\
+  \ ,'' in Proc. European Conf. on Speech Communication and Technology ,  Lisbon,\
+  \ Portugal, Sept. 2005."
+'2004':
+- "A.\_Pargellis, E.\_Fosler-Lussier, C.-H. Lee, A.\_Potamianos, and A.\_Tsai,   \"\
+  Auto-induced semantic classes,'' Speech Communication , vol.\_43,   pp.\_183-203,\
+  \ Aug. 2004."
+- V. Weerackody, W. Reichl and A. Potamianos, "Soft feature decoding in a distributed
+  automatic speech recognition system for use over wireless channels," U.S. Patent
+  No. 6,760,699, awarded to Lucent Technologies, 2004.
+'2003':
+- "A.\_Potamianos and S.\_Narayanan, \" Robust recognition of children's speech ,''\
+  \ IEEE Transactions on Speech and Audio Processing , vol.\_11,   pp.\_603-616, Nov.\
+  \ 2003."
+- "A.\_Potamianos, E.\_Ammicht, and E.\_Fosler-Lussier, \" Modality tracking in the\
+  \ multimodal Bell Labs Communicator ,'' in Proc. Automatic Speech   Recogn. and\
+  \ Underst. Workshop , St. Thomas, U.S. Virgin Islands, Dec. 2003."
+'2002':
+- "V.\_Weerackody, W.\_Reichl, and A.\_Potamianos, \" An error-protected speech recognition\
+  \ system for wireless communications ,'' IEEE Transactions on   Wireless Communications\
+  \ , vol.\_1, pp.\_282-291, Apr. 2002."
+- "S.\_Narayanan and A.\_Potamianos, \" Creating conversational interfaces for children\
+  \ ,'' IEEE Transactions on Speech and Audio Processing , vol.\_10,   pp.\_65-78,\
+  \ Feb. 2002. [ IEEE Signal Processing Society Best Paper Award 2005 ]"
+- "D.\_Dimitriadis, V.\_Pitsikalis, P.\_Maragos, and A.\_Potamianos, \" Modulation\
+  \ and chaotic features for speech recognition ,'' invited paper to the Journal \
+  \  of Control and Intelligent Systems, Special Issue on Nonlinear Speech   Processing\
+  \ , vol.\_30, pp.\_19-26, Jan. 2002."
+- "A.\_Potamianos, \"Novel features for robust speech recognition,'' in invited presentation\
+  \ to the Conf. of the Acoustical Society of America ,   Cancun, Mexico, Dec. 2002."
+- "R.\_Argiles-Solsona, E.\_Fosler-Lussier, J.\_Kuo, A.\_Potamianos, and I.\_Zitouni,\
+  \ \" Adaptive language models for spoken dialogue systems ,'' in Proc.   Internat.\
+  \ Conf. on Acoust., Speech, and Signal Process. , Orlando, Florida,   May 2002."
+- "D.\_Dimitriadis, P.\_Maragos, and A.\_Potamianos, \" Modulation features for speech\
+  \   recognition ,'' in Proc. Internat. Conf. on Acoust., Speech, and Signal   Process.\
+  \ , Orlando, Florida, May 2002."
+- "S.\_Lee, E.\_Ammicht, E.\_Fosler-Lussier, J.\_Kuo, and A.\_Potamianos, \" Spoken\
+  \ dialogue evaluation for the Bell Labs Communicator system ,'' in Proc. Human Language\
+  \ Technology Conf. , San Diego, California, Mar. 2002."
+- "M.\_Tsangaris and A.\_Potamianos, \" AGORA: A GUI approach to multimodal user interfaces\
+  \ ,'' in Proc. Human Language Technology Conf. , San Diego,   California, Mar. 2002."
+'2001':
+- "A.\_Potamianos and P.\_Maragos, \" Time-frequency distributions for automatic speech\
+  \ recognition ,'' IEEE Transactions on Speech and Audio Processing ,   vol.\_9,\
+  \ pp.\_196-200, Mar. 2001."
+- "M.\_Walker et al, \" DARPA Communicator: Cross-system results for the 2001   evaluation\
+  \ ,'' in Internat. Conf. Speech Language Processing ,   Colorado, Sept. 2002."
+- "E.\_Ammicht, A.\_Potamianos, and E.\_Fosler-Lussier, \" Ambiguity representation\
+  \ and resolution in spoken dialogue systems ,'' in Proc. European Conf. on   Speech\
+  \ Communication and Technology , Aalborg, Denmark, Oct. 2001."
+- "M.\_Galley, E.\_Fosler-Lussier, and A.\_Potamianos, \" Hybrid natural language\
+  \ generation for spoken dialogue systems ,'' in Proc. European Conf. on   Speech\
+  \ Communication and Technology , Aalborg, Denmark, Oct. 2001."
+- "A.\_Pargellis, E.\_Fosler-Lussier, A.\_Potamianos, and C.-H. Lee, \" Metrics for\
+  \ measuring domain-independence of semantic classes ,'' in Proc. European   Conf.\
+  \ on Speech Communication and Technology , Aalborg, Denmark, Oct. 2001."
+- "A.\_Potamianos and V.\_Weerackody, \" Soft-feature decoding for speech recognition\
+  \   over wireless channels ,'' in Proc. Internat. Conf. on Acoust., Speech,   and\
+  \ Signal Process. , Salt Lake City, Utah, May 2001."
+'2000':
+- "M.\_Walker et al, \"DARPA Communicator evaluation: Progress from 2000 to   2001,''\
+  \ in Internat. Conf. Speech Language Processing , Colorado,   Sept. 2002."
+- "M.\_Walker et al, \"DARPA Communicator dialog travel planning systems: the   June\
+  \ 2000 evaluation,'' in Proc. European Conf. on Speech   Communication and Technology\
+  \ , Aalborg, Denmark, Oct. 2001."
+- "A.\_Pargellis and A.\_Potamianos, \" Cross-domain classification using generalized\
+  \   domain acts ,'' in Internat. Conf. Speech Language Processing , Beijing,   China,\
+  \ Oct. 2000."
+- "A.\_Potamianos, E.\_Ammicht, and H.-K. Kuo, \" Dialogue management in the Bell\
+  \ Labs communicator system ,'' in Internat. Conf. Speech Language   Processing ,\
+  \ Beijing, China, Oct. 2000."
+- "A.\_Potamianos and H.-K. Kuo, \" Speech understanding using finite state transducers\
+  \ ,'' in Internat. Conf. Speech Language Processing , Beijing,   China, Oct. 2000."
+- "W.\_Reichl, V.\_Weerackody, and A.\_Potamianos, \"A codec for speech recognition\
+  \   in a wireless system,'' in Proc. EUROCOMM , Munich, Germany, May 2000."
+- I. Zeljkovic, S. Narayanan, and A. Potamianos, "Unsupervised HMM adaptation based
+  on speech-silence discrimination," U.S. Patent No 6076057, awarded to AT&T, 2000.
+'1999':
+- "A.\_Potamianos and P.\_Maragos, \" Speech analysis and synthesis using an AM-FM\
+  \ modulation model ,'' Speech Communication , vol.\_28,   pp.\_195-209, July 1999."
+- "S.\_Lee, A.\_Potamianos, and S.\_Narayanan, \" Acoustics of children's speech:\
+  \ Developmental changes of temporal and spectral parameters ,'' Journal of   the\
+  \ Acoustical Society of America , pp.\_1455-1468, Mar. 1999. [ Selected Research\
+  \ Article by JASA ]"
+- "P.Maragos and A.\_Potamianos, \" Fractal dimensions of speech sounds: Computation\
+  \   and application to automatic speech recognition ,'' Journal of the   Acoustical\
+  \ Society of America , pp.\_1925-1932, Mar. 1999."
+- "A.\_Potamianos and P.\_Maragos, \"Time-frequency distributions for automatic speech\
+  \ recognition ,'' in Proc. Workshop on Automatic Speech Recognition   and Understanding\
+  \ , Keystone, Colorado, Dec. 1999."
+- "S.\_Narayanan, A.\_Potamianos, and H.\_Wang, \"Multimodal systems for children:\
+  \   Building a prototype,'' in Proc. European Conf. on Speech Communication   and\
+  \ Technology , Budapest, Hungary, Sept. 1999."
+- "G.\_Potamianos and A.\_Potamianos, \"Speaker adaptation for audio-visual speech\
+  \   recognition,'' in Proc. European Conf. on Speech Communication and   Technology\
+  \ , Budapest, Hungary, Sept. 1999."
+- "A.\_Potamianos, G.\_Riccardi, and S.\_Narayanan, \"Categorical understanding using\
+  \   statistical n-gram models,'' in Proc. European Conf. on Speech   Communication\
+  \ and Technology , Budapest, Hungary, Sept. 1999."
+- "A.\_Potamianos et al, \" Design principles and tools for multimodal dialog   systems\
+  \ ,'' in Proc. ESCA Workshop Interact. Dialog. Multi-Modal Syst. ,   Kloster Irsee,\
+  \ Germany, June 1999."
+- A. Potamianos and R. C. Rose, "Combining Frequency Warping And Spectral Shaping
+  In HMM Based Speech Recognition," U.S. Patent No 5930753, awarded to AT&T, 1999.
+'1998':
+- "G.\_Riccardi, A.\_Potamianos, and S.\_Narayanan, \" Language model adaptation for\
+  \ spoken dialog systems ,'' in Internat. Conf. Speech Language Processing ,   Australia,\
+  \ Oct. 1998."
+- "S.\_Okawa, E.\_Brocchieri, and A.\_Potamianos, \" Multi-band speech recognition\
+  \ in noisy environments ,'' in Proc. Internat. Conf. on Acoust., Speech, and   Signal\
+  \ Process. , Seattle, Washington, May 1998."
+- "A.\_Potamianos and S.\_Narayanan, \" Spoken dialog systems for children ,'' in\
+  \ Proc. Internat. Conf. on Acoust., Speech, and Signal Process. ,   Seattle,Washington,\
+  \ pp.\_197-201, May 1998."
+'1997':
+- "S.\_Lee, A.\_Potamianos, and S.\_Narayanan, \"Analysis of children's speech:  \
+  \ Duration, pitch and formants,'' in Proc. European Conf. on Speech   Communication\
+  \ and Technology , Rhodes, Greece, pp.\_473-476, Sept. 1997."
+- "P.\_Maragos and A.\_Potamianos, \"On using fractal features of speech sounds in\
+  \   automatic speech recognition,'' in Proc. European Conf. on Speech   Communication\
+  \ and Technology , Rhodes, Greece, pp.\_2531-2534, Sept. 1997."
+- "A.\_Potamianos and P.\_Maragos, \"Speech analysis and synthesis using an   AM-FM\
+  \ modulation model,'' in Proc. European Conf. on Speech   Communication and Technology\
+  \ , Rhodes, Greece, pp.\_1355-1358, Sept. 1997."
+- "A.\_Potamianos, S.\_Narayanan, and S.\_Lee, \"Automatic speech recognition for\
+  \   children,'' in Proc. European Conf. on Speech Communication and   Technology\
+  \ , Rhodes, Greece, pp.\_2371-2374, Sept. 1997."
+- "I.\_Zeljkovic, S.\_Narayanan, and A.\_Potamianos, \"Unsupervised HMM   adaptation\
+  \ based on speech-silence discrimination,'' in Proc. European   Conf. on Speech\
+  \ Communication and Technology , Rhodes, Greece,   pp.\_2055-2058, Sept. 1997."
+- "A.\_Potamianos and R.\_C. Rose, \" On combining frequency warping and spectral\
+  \   shaping in HMM-based speech recognition ,'' in Proc. Internat. Conf. on   Acoust.,\
+  \ Speech, and Signal Process. , Munich, Germany, Apr. 1997."
+- "R.\_C. Rose and A.\_Potamianos, \"Improving robustness in HMM based speech   recognition\
+  \ through simultaneous frequency warping and spectral shaping,'' in ESCA-NATO Workshop\
+  \ on Robust Speech Recognition , Pont-a-Mousson,   France, Apr. 1997."
+'1996':
+- "A.\_Potamianos and P.\_Maragos, \" Speech formant frequency and bandwidth tracking\
+  \ using multiband energy demodulation ,'' Journal of the Acoustical Society   of\
+  \ America , vol.\_99, pp.\_3795-3806, June 1996."
+- A. Potamianos, Speech Processing Applications Using an AM-FM Modulation Model ,  Harvard
+  University, 1996
+'1995':
+- "P.\_Maragos and A.\_Potamianos, \" Higher-order differential energy operators ,''\
+  \ IEEE Signal Processing Letters , vol.\_2, Aug. 1995."
+- "A.\_Potamianos and R.\_C. Rose, \"A feature-space transformation for telephone\
+  \   based speech recognition,'' in Proc. European Conf. on Speech   Communication\
+  \ and Technology , Madrid, Spain, Sept. 1995."
+- "P.\_Maragos, A.\_Potamianos, and B.\_Santhanam, \" Instantaneous energy operators:\
+  \   Applications to speech processing and communications ,'' in IEEE Workshop  \
+  \ on Nonlinear Signal and Image Processing , Thessaloniki, Greece, June 1995."
+- "A.\_Potamianos and P.\_Maragos, \" Speech formant frequency and bandwidth tracking\
+  \   using multiband energy demodulation ,'' in Proc. Internat. Conf. on   Acoust.,\
+  \ Speech, and Signal Process. , Detroit, MI, May 1995."
+- A. Potamianos and R. C. Rose, "A Time-Varying Feature Space Preprocessing Procedure
+  for Telephone Based Speech Recognition," U.S. Patent No 5765124, awarded to Lucent
+  Technologies, 1995.
+'1994':
+- "H.\_M. Hanson, P.\_Maragos, and A.\_Potamianos, \"A system for finding speech formants\
+  \ and modulations via energy separation ,'' IEEE Transactions on   Speech and Audio\
+  \ Processing , vol.\_2, pp.\_436-443, July 1994."
+- "A.\_Potamianos and P.\_Maragos, \" A comparison of the energy operator and the\
+  \ Hilbert transform approach to signal and speech demodulation ,'' Signal Processing\
+  \ , vol.\_37, pp.\_95-120, May 1994."
+- "A.\_Potamianos and P.\_Maragos, \" Applications of speech processing using an \
+  \  AM-FM modulation model and energy operators ,'' in Proc. European   Signal Process.\
+  \ Conf. , Edinburgh, Scotland, pp.\_III: 1669-1672, Sept.   1994."
+- "P.\_Maragos, T.\_F. Quatieri, J.\_F. Kaiser, and A.\_Potamianos, \"Demodulation\
+  \ of   AM-FM resonances in speech using energy separation,'' in presentation to\
+  \ the Conf. of the Acoustical Society of America , Boston,   MA, June 1994."
+'1993':
+- "H.\_M. Hanson, P.\_Maragos, and A.\_Potamianos, \"Finding speech formants and \
+  \  modulations via energy separation: With application to a vocoder,'' in Proc.\
+  \ Internat. Conf. on Acoust., Speech, and Signal Process. , Minneapolis,   MN, Apr.\
+  \ 1993."
+'1991':
+- "J.\_Diamesis and A.\_Potamianos, \"Tridiagonal state-space realization of a class\
+  \   of 2-D transfer functions,'' in Proc. of the 25th Conf. on Information   Sciences\
+  \ and Systems , Baltimore, MD, pp.\_249-253, Mar. 1991."
