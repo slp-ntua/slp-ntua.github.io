@@ -9,6 +9,9 @@
 @order = ("GAN","Neural","hierarchical","conditioning","Seq","learning","Structural","NTUA","emotion","Emotion"); 
 
 #### unique mapping from papers to categories for now :-(
+$keywords{"depression"} = 5;
+$keywords{"augmentation"} = -1;
+$keywords{"UDALM"} = -1;
 $keywords{"GAN"} = -1;
 $keywords{"Neural"} = -1; $keywords{"hierarchical"} = -1; $keywords{"conditioning"} = -1; $keywords{"Seq"} = -1; $keywords{"learning"} = -1; $keywords{"Structural"} = -1; $keywords{"NTUA"} = 5; $keywords{"oliver"} = 5;
 $keywords{"valence"} = 5; $keywords{"Valence"} = 5;
