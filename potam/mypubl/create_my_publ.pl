@@ -4,11 +4,11 @@
 # create a chronological list of all pubs, all journal pubs, all conf pubs etc
 #
 
-$fl = "../../jour/bibl.bib";
+$fl = "../biblio/bibl.bib";
 
-$jour = 1;
+$jour = 0;
 $conf = 1;
-$pat  = 1;
+$pat  = 0;
 
 @mon = ("jan","feb","mar","apr","may","jun","jul","aug","sep","oct","nov","dec");
 for ($i=0; $i<=$#mon; $i++){

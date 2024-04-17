@@ -39,6 +39,7 @@
 @string {ASSP = "IEEE Transactions on  Acoustics, Speech and Signal Processing"}
 @string {SAP = "IEEE Transactions on Speech and Audio Processing"}
 @string {ASLP = "IEEE Transactions on Audio, Speech and Language Processing"}
+@string {TASL = "IEEE/ACM Transactions on Audio, Speech and Language Processing"}
 @string {MULTI = "IEEE Transactions on Multimedia"}
 @string {COM = "IEEE Transactions on Communications"}
 @string {SPL = "IEEE Signal Processing Letters"}
@@ -59,7 +60,7 @@
 	       Communication and Technology"}
 @string {MMSP= "Proc. Intern. Workshop on Multimedia Signal Processing"}
 @string {INTERSPEECH = "Proc. Interspeech"}
-@string {ISMIR = "Proc. ISMIR"}
+@string {ISMIR = "Proc. Internat. Soc. for Music Information Retrieval (ISMIR)"}
 @string {ASRU = "Proc. Automatic Speech Recogn. and Underst. Workshop"}
 @string {NAACLHLT= "Proc. NAACL-HLT"}
 @string {NAACL= "Proc. of the Annual Conf. of the North American Chapter of the Assoc. for Computational Linguistics"}
@@ -2049,13 +2050,13 @@ year=2004}
   month=dec,
   year=2019}
 
-@inproceedings{GePaGi20,
+@inproceedings{GePaGi24,
   title={Deep hierarchical fusion for machine intelligence applications},
   author={Georgiou, Efthymis and Paraskevopoulos, Georgios and Gibson, James and Potamianos, Alexandros and Narayanan, Shrikanth},
-  booktitle={US Patent App. 16/852,872},
+  booktitle = {U.S. Patent No. 11,862,145 awarded to Behavioral Signal Technologies, Inc.},
   sss = "PATENT POTAM",
-  month=oct,
-  year=2020}
+  month=jan,
+  year=2024}
 
 @inproceedings{PaChGi20,
   title={Speech data augmentation},
@@ -2538,8 +2539,7 @@ chapter=12
 author =       {Chu-Carroll, Jennifer},
 title =        {{MIMIC}: An Adaptive Mixed Initiative Spoken Dialogue System 
 for Information Queries},
-booktitle =    "Proceedings of the 6th ACL Conference on Applied Natural
-Language Processing",
+booktitle =    "Proceedings of the 6th ACL Conference on Applied Natural Language Processing",
 address = "Seattle, Washington",
 month = may,
 year =  2000}
@@ -3488,7 +3488,7 @@ sss = "POTAM",
 file="2013_TKDE_polinet_draft.pdf",
 pages = {2404-2417},
 doi = {http://doi.ieeecomputersociety.org/10.1109/TKDE.2012.159},
-publisher = {IEEE Computer Society},
+oldpublisher = {IEEE Computer Society},
 address = {Los Alamitos, CA, USA},
 month = oct,
 year = 2013
@@ -3602,7 +3602,7 @@ booktitle = {Proc. 2nd Joint Conference on Lexical and Computational Semantics (
 sss = "POTAM",
 file="2013_SEMEVAL_semantic_similarity.pdf",
 pages = {103--108},
-publisher = {Association for Computational Linguistics},
+oldpublisher = {Association for Computational Linguistics},
 location = {Atlanta, GA},
 url = {www.aclweb.org/anthology/S13-1014},
 month = jun,
@@ -3616,7 +3616,7 @@ booktitle = {Proc. 2nd Joint Conference on Lexical and Computational Semantics (
 sss = "POTAM",
 file="2013_SEMEVAL_twitter.pdf",
 pages = {438--442},
-publisher = {Association for Computational Linguistics},
+oldpublisher = {Association for Computational Linguistics},
 url = {www.aclweb.org/anthology/S13-2072},
 month = jun,
 year = 2013
@@ -3849,7 +3849,7 @@ title={Open Challenges in Modelling, Analysis and Synthesis of Human Behaviour i
 journal="Cognitive Computation",
 file = "2015_behavioral_roadmap_journal.pdf",
 sss = "POTAM",
-publisher="Springer US",
+oldpublisher="Springer US",
 pages={397--413},
 volume=7,
 number=4,
@@ -4040,24 +4040,29 @@ year=2015
 }
 
 
-@article{KaPo16,
+@inproceedings{KaPo16,
   author={Karamanolakis, Giannis and Iosif, Elias and Zlatintsi, Athanasia and Pikrakis, Aggelos and Potamianos, Alexandros},
   title={Audio-based Distributional Semantic Models for Music Auto-tagging and Similarity Measurement},
   sss = "POTAM",
   file="2016_ARXIV_autotagging.pdf",
-  journal={arXiv preprint arXiv:1612.08391},
-  month = dec,
-  year=2016
+  booktitle = "Proc of Multi-Learn Workshop at EUSIPCO",
+  ignorejournal={arXiv preprint arXiv:1612.08391},
+  address = {Kos, Greece},
+  month = aug,
+  year=2017
 }
 
-@article{KoPo16,
+@inproceedings{KoPo16,
   author={Kokkinos, Filippos and Potamianos, Alexandros},
   title={Structural Attention Neural Networks for improved sentiment analysis},
   sss = "POTAM",
   file="2016_ARXIV_structural_attention.pdf",
-  journal={arXiv preprint arXiv:1701.01811},
-  month = dec,
-  year=2016
+  booktitle = "Proc. of EACL",
+  ingorejournal={arXiv preprint arXiv:1701.01811},
+  pages = {586--594},
+  address = {Valencia, Spain},
+  month = apr,
+  year=2017
 }
 
 %%%%%%%%%%%%%%%%%%%%% 2017 %%%%%%%%%%%%%%%%%%
@@ -4150,7 +4155,7 @@ year=2015
   volume={2017},
   number={1},
   pages={54},
-  publisher={Nature Publishing Group},
+  oldpublisher={Nature Publishing Group},
   month = jan,
   year=2017
 }
@@ -4259,7 +4264,7 @@ year=2015
       file = "2018_spedial_grammar_induction.pdf",
       volume={47},
       pages={272--297},
-      publisher={Academic Press},
+      oldpublisher={Academic Press},
       month = jan,
       year=2018
 }
@@ -4272,7 +4277,7 @@ year=2015
       file = "2018_document_classification_fergadis_database.pdf", 
       journal={Database},
       volume={2018-1},
-      publisher={Oxford University Press},
+      oldpublisher={Oxford University Press},
       pages = "1--10",
       month = jan, 
       year=2018
@@ -4410,11 +4415,14 @@ year=2015
   author={Xezonaki, Danai and Paraskevopoulos, Georgios and Potamianos, Alexandros},
   booktitle=INTERSPEECH,
   sss = "POTAM",
+  oldfile = "2006.08336.pdf"
+  file = "2020_interspeech_depression.pdf",
   pages={4556--4560},
   address={Shanghai, China},
   month=sep,
   year=2020
 }
+
 
 %%%%%%%%%%%%%%%%%%%%% 2021 %%%%%%%%%%%%%%%%%%
 
@@ -4427,7 +4435,8 @@ year=2015
       author={Georgios Chochlakis and Efthymios Georgiou and Alexandros Potamianos},
       booktitle={arXiv preprint 2102.04379},
       sss = "POTAM",
-      file = "2102.04379.pdf",
+      oldfile = "2102.04379.pdf",
+      file = "2021_arxiv_zero_shot_chochlakis.pdf",
       month=jan, 
       year=2021
 }
@@ -4437,7 +4446,8 @@ year=2015
   author={Karouzos, Constantinos and Paraskevopoulos, Georgios and Potamianos, Alexandros},
   booktitle = NAACL,
   sss = "POTAM",
-  file = "2104.07078.pdf",
+  oldfile = "2104.07078.pdf",
+  file = "2021_naacl_udalm.pdf",
   pages={2579--2590},
   month=jun, 
   year=2021
@@ -4448,7 +4458,8 @@ year=2015
   author={Georgiou, Efthymios and Paraskevopoulos, Georgios and Potamianos, Alexandros},
   booktitle = INTERSPEECH,
   sss = "POTAM",
-  file = "georgiou21_interspeech.pdf",
+  oldfile = "georgiou21_interspeech.pdf",
+  file = "2021_interspeech_georgiou.pdf",
   pages = {2876--2880},
   address = {Brno, Czech Republic},
   month = sep,
@@ -4459,11 +4470,13 @@ year=2015
   title={EmpBot: A T5-based Empathetic Chatbot focusing on Sentiments},
   author={Zaranis, Emmanouil and Paraskevopoulos, Georgios and Katsamanis, Athanasios and Potamianos, Alexandros},
   sss = "POTAM",
-  file = "2111.00310.pdf",
+  oldfile = "2111.00310.pdf",
+  file = "2021_arxiv_empathetic_chatbot.pdf",
   booktitle={arXiv preprint arXiv:2111.00310},
   month = oct, 
   year=2021
 }
+
 
 
 %%%%%%%%%%%%%%%%%%%%% 2022 %%%%%%%%%%%%%%%%%%
@@ -4476,7 +4489,8 @@ year=2015
   author={Paraskevopoulos, Georgios and Georgiou, Efthymios and Potamianos, Alexandros},
   title={MMLatch: Bottom-up Top-down Fusion for Multimodal Sentiment Analysis},
   sss = "POTAM",
-  file = "2201.09828.pdf",
+  file = "2022_interspeech_mmlatch.pdf",
+  oldfile = "2201.09828.pdf",
   booktitle = ICASSP,
   address = {Singapore},
   month = may,
@@ -4492,7 +4506,8 @@ year=2015
   primaryclass = {cs},
   urldate = {2024-04-11},
   archiveprefix = {arxiv},
-  file = "Antoniou et al. - 2022 - Alternating Objectives Generates Stronger PGD-Base.pdf",
+  file = "2022_attack_antoniou.pdf", 
+  oldfile = "Antoniou et al. - 2022 - Alternating Objectives Generates Stronger PGD-Base.pdf",
   month = dec,
   year = 2022
 }
@@ -4503,7 +4518,8 @@ year=2015
   sss = "POTAM",
   booktitle=ISMIR,
   address = {Bengaluru, India},
-  file = "Papaioannou et al. - 2022 - A Dataset for Greek Traditional and Folk Music Ly.pdf",
+  file = "2022_ismir_lyra.pdf",
+  oldfile = "Papaioannou et al. - 2022 - A Dataset for Greek Traditional and Folk Music Ly.pdf",
   month = dec, 
   year=2022
 }
@@ -4517,7 +4533,8 @@ year=2015
   primaryclass = {cs},
   pages = {1116--1120},
   doi = {10.21437/Interspeech.2022-10858},
-  file = "Sartzetaki et al. - 2022 - Extending Compositional Attention Networks for Soc.pdf",
+  file = "2022_interspeech_sartzetaki.pdf",
+  oldfile = "Sartzetaki et al. - 2022 - Extending Compositional Attention Networks for Soc.pdf",
   address = {Incheon, Korea},
   month = sep,
   year = 2022
@@ -4531,30 +4548,190 @@ year=2015
   primaryclass = {cs},
   pages = {2733--2737},
   doi = "10.21437/Interspeech.2022-10852",
-  file = "Kapelonis et al. - 2022 - A Multi-Task BERT Model for Schema-Guided Dialogue.pdf",
+  file = "2022_interspeech_kapelonis.pdf",
+  oldfile = "Kapelonis et al. - 2022 - A Multi-Task BERT Model for Schema-Guided Dialogue.pdf",
   address = {Incheon, Korea},
   month = sep,
   year = 2022
 }
 
-
-
 %%%%%%%%%%%%%%%%%%%%% 2023 %%%%%%%%%%%%%%%%%%
 
-%%%%%%%%%%%%%%%%%%%%%
-%%%% Conferences
-%%%%%%%%%%%%%%%%%%%%%
 
 %%%%%%%%%%%%%%%%%%%%%
 %%%% Journal  
 %%%%%%%%%%%%%%%%%%%%%
 
+@article{GeAvPo23,
+  author = {Georgiou, Efthymios and Avrithis, Yannis and Potamianos, Alexandros},
+  title = {{{PowMix}}: {{A Versatile Regularizer}} for {{Multimodal Sentiment Analysis}}},
+  oldnumber = {arXiv:2312.12334},
+  sss = "POTAM",
+  journal = TASL, 
+  oldfile = "/Users/potam/Zotero/storage/TDSG6EH7/Georgiou et al. - 2023 - PowMix A Versatile Regularizer for Multimodal Sen.pdf",
+  file = "2023_TASL_powmix.pdf",
+  month = dec,
+  year = 2023
+}
+
+
+@article{PaKoPo23,
+  author = {Paraskevopoulos, Georgios and Kouzelis, Theodoros and Rouvalis, Georgios and Katsamanis, Athanasios and Katsouros, Vassilis and Potamianos, Alexandros},
+  title = {Sample-{{Efficient Unsupervised Domain Adaptation}} of {{Speech Recognition Systems}}: {{A Case Study}} for {{Modern Greek}}},
+  journal = TASL,
+  sss = "POTAM",
+  volume = {32},
+  pages = {286--299},
+  issn = {2329-9290},
+  doi = {10.1109/TASLP.2023.3328280},
+  urldate = {2024-04-13},
+  oldfile = "/Users/potam/Zotero/storage/K2AQCL5Q/Paraskevopoulos et al. - 2023 - Sample-Efficient Unsupervised Domain Adaptation of.pdf",
+  file = "2023_TASL_domain_adaptation.pdf",
+  month = oct,
+  year = 2023
+}
+
+
+
+%%%%%%%%%%%%%%%%%%%%%
+%%%% Conferences
+%%%%%%%%%%%%%%%%%%%%%
+
+@inproceedings{ChPaPo23,
+  author = {Chlapanis, Odysseas S. and Paraskevopoulos, Georgios and Potamianos, Alexandros},
+  title = {Adapted {{Multimodal BERT}} with {{Layer-wise Fusion}} for {{Sentiment Analysis}}},
+  booktitle = ICASSP,
+  sss = "POTAM",
+  oldnumber = {arXiv:2212.00678},
+  oldfile = "/Users/potam/Zotero/storage/LMJVM2MS/Chlapanis et al. - 2022 - Adapted Multimodal BERT with Layer-wise Fusion for.pdf",
+  file = "2023_ICASSP_chlapanis.pdf",
+  address = {Singapore},
+  month = apr,
+  year = 2023
+}
+
+
+@inproceedings{GeKrPa23,
+  title = {Regotron: {{Regularizing}} the {{Tacotron2}} Architecture via Monotonic Alignment Loss},
+  shorttitle = {Regotron},
+  author = {Georgiou, Efthymios and Kritsis, Kosmas and Paraskevopoulos, Georgios and Katsamanis, Athanasios and Katsouros, Vassilis and Potamianos, Alexandros},
+  oldnumber = {arXiv:2204.13437},
+  sss = "POTAM",
+  booktitle = SLT,
+  oldfile = "/Users/potam/Zotero/storage/8EEPQBVE/Georgiou et al. - 2022 - Regotron Regularizing the Tacotron2 architecture .pdf"
+  file = "2023_slt_regotron.pdf",
+  address = {Doha, Qatar},
+  pages = {977--983},
+  month = jul,
+  year = 2023
+}
+
+@inproceedings{GePo23,
+  author = {Georgiou, Efthymios and Potamianos, Alexandros},
+  title = {{{SeqAug}}: {{Sequential Feature Resampling}} as a Modality Agnostic Augmentation Method},
+  booktitle = {arXiv preprint arXiv:2305.01954},
+  eprint = {2305.01954},
+  sss = "POTAM",
+  urldate = {2024-04-11},
+  archiveprefix = {arxiv},
+  oldfile = "/Users/potam/Zotero/storage/DIJ8K8ST/Georgiou and Potamianos - 2023 - SeqAug Sequential Feature Resampling as a modalit.pdf",
+  file = "2023_arxiv_seqaug.pdf",
+  month = may,
+  year = 2023
+} 
+
+
+@inproceedings{JoZhBi23, 
+  author = {Jo, Yohan and Zhao, Xinyan and Biswas, Arijit and Basiou, Nikoletta and Auvray, Vincent and Malandrakis, Nikolaos and Metallinou, Angeliki and Potamianos, Alexandros},
+  title = {Multi-{{User MultiWOZ}}: {{Task-Oriented Dialogues}} among {{Multiple Users}}},
+  booktitle = {Findings of the {{Association}} for {{Computational Linguistics}}: {{EMNLP}}},
+  sss = "POTAM",
+  oldnumber = {arXiv:2310.20479},
+  oldfile = "/Users/potam/Zotero/storage/P5P9J45F/Jo et al. - 2023 - Multi-User MultiWOZ Task-Oriented Dialogues among.pdf",
+  file = "2023_emnlp_multiuser_multiwoz.pdf",
+  pages = {3237--3269},
+  address = {Singapore},
+  month = oct,
+  year = 2023
+}
+
+@inproceedings{KoBaKa23,
+  author = {Kouzelis, Thodoris and Bastas, Grigoris and Katsamanis, Athanasios and Potamianos, Alexandros},
+  title = {Efficient {{Audio Captioning Transformer}} with {{Patchout}} and {{Text Guidance}}},
+  sss = "POTAM",
+  booktitle = {arXiv preprint arXiv:2304.02916},
+  eprint = {2304.02916},
+  urldate = {2024-04-11},
+  oldfile = "/Users/potam/Zotero/storage/557BRCRT/Kouzelis et al. - 2023 - Efficient Audio Captioning Transformer with Patcho.pdf",
+  file = "2023_arxiv_audio_captioning.pdf",
+  month = apr,
+  year = 2023
+}
+
+@inproceedings{MiPaPo23,
+  author = {Minaidi, Maria Nektaria and Papaioannou, Charilaos and Potamianos, Alexandros},
+  title = {Self-{{Attention Based Generative Adversarial Networks For Unsupervised Video Summarization}}},
+  booktitle = {Proc. European Signal Processing Conference {(EUSIPCO)}},
+  sss = "POTAM",
+  pages = {571--575},
+  address = {Helsinki, Finland},
+  doi = {10.23919/EUSIPCO58844.2023.10289808},
+  oldfile = "/Users/potam/Zotero/storage/K6FKTMAQ/Minaidi et al. - 2023 - Self-Attention Based Generative Adversarial Networ.pdf",
+  file = "2023_eusipco_video_summarization.pdf",
+  month = sep,
+  year = 2023
+}
+
+@inproceedings{PaBePo23,
+  author = {Papaioannou, Charilaos and Benetos, Emmanouil and Potamianos, Alexandros},
+  title = {From {{West}} to {{East}}: {{Who}} Can Understand the Music of the Others Better?},
+  booktitle = ISMIR,
+  oldnumber = {arXiv:2307.09795},
+  oldfile = "/Users/potam/Zotero/storage/UZ2TFIPK/Papaioannou et al. - 2023 - From West to East Who can understand the music of.pdf",
+  sss = "POTAM",
+  file = "2023_ismsir_music_understanding.pdf",
+  address = {Milan, Italy},
+  month = nov,
+  year = 2023
+}
+
+
+
+@inproceedings{SuJoBi23,
+  author = {Surya, Shiv and Jo, Yohan and Biswas, Arijit and Potamianos, Alexandros},
+  title = {A {{Zero-Shot Approach}} for {{Multi-User Task-Oriented Dialog Generation}}},
+  booktitle = {Proc. of the {International Natural Language Generation Conference}},
+  sss = "POTAM",
+  doi = {10.18653/v1/2023.inlg-main.14},
+  oldfile = "/Users/potam/Zotero/storage/V62CSUHT/Surya et al. - 2023 - A Zero-Shot Approach for Multi-User Task-Oriented .pdf",
+  file = "2023_amazon_shiv.pdf",
+  pages = {196--205},
+  address = {Prague, Czechia},
+  month = sep,
+  year = 2023
+}
+
+@inproceedings{TrPaPo23,
+  author = {Triantafyllopoulos, Ilias and Paraskevopoulos, Georgios and Potamianos, Alexandros},
+  title = {Depression Detection in Social Media Posts Using Affective and Social Norm Features},
+  booktitle = {arXiv preprint arXiv:2303.14279},
+  sss = "POTAM",
+  eprint = {2303.14279},
+  urldate = {2024-04-11},
+  archiveprefix = {arxiv},
+  oldfile = "/Users/potam/Zotero/storage/WHVN2NZD/Triantafyllopoulos et al. - 2023 - Depression detection in social media posts using a.pdf",
+  file = "2023_arxiv_depression_detection.pdf",
+  month = mar,
+  year = 2023
+}
+
+
+%%%%%%%%%%%%%%%%%%%%% 2024 %%%%%%%%%%%%%%%%%%
+
+
 %%%%%%%%%%%%%%%%%%%%%
 %%%% Patent 
 %%%%%%%%%%%%%%%%%%%%%
 
-
-
-%%%%%%%%%%%%%%%%%%%%% 2024 %%%%%%%%%%%%%%%%%%
 
 
