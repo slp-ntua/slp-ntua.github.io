@@ -1,0 +1,4560 @@
+/
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%% Subjects  %%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% SIGPRO = signal processing
+% FORTRA = formant tracking
+% PITDET = pitch detection
+% VOCOD = vocoding applications
+% ASR = automatic speech recognition
+% LM = language modeling
+% SPKREC = speaker recognition and spekeaker id
+% TTS = text to speech
+% ANAL = speech analysis
+% GLOT = source modelling   
+% FLOW = airflow and speech fluid dynamics  
+% MODEL = speech modeling (e.g. sinusoidal, articulatory, LPC) 
+% EAR = ear modeling, perception, psychoacoustics etc
+% ENOP = energy operator 
+% DEMOD = demodulation
+% COM = communications
+% FRAC = fractals and applications
+% TF = time frequency representations instantaneous frequency etc
+% MORPH = mathematical morphology and applications
+% ACOUST = acoustics
+% DATA = databases
+% CLD = children 
+% UNDER = understanding 
+% NLP = natural lang proc
+% DIALOG = dialog systems
+% MULTI = multimodal systems
+% UI = user interface design
+% POTAM = my paper (author or co-author)
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%% JOURNAL ABBR. %%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+@string {SP = "IEEE Transactions on Signal Processing"}
+@string {ASSP = "IEEE Transactions on  Acoustics, Speech and Signal Processing"}
+@string {SAP = "IEEE Transactions on Speech and Audio Processing"}
+@string {ASLP = "IEEE Transactions on Audio, Speech and Language Processing"}
+@string {MULTI = "IEEE Transactions on Multimedia"}
+@string {COM = "IEEE Transactions on Communications"}
+@string {SPL = "IEEE Signal Processing Letters"}
+@string {TKDE = "IEEE Transactions on Knowledge and Data Engineering"}
+@string {JASA = "Journal of the Acoustical Society of America"}
+@string {PIEEE = "Proceedings of the IEEE"} 
+@string {BSTJ = "Bell System Technical Journal"} 
+@string {SC = "Speech Communication"} 
+@string {WC = "IEEE Transactions on Wireless Communications"}
+@string {CSL = "Computer Speech and Language"} 
+@string {JSHR = "Journal of Speech and Hearing Research"} 
+@string {JPhon = "Journal of Phonetics"} 
+
+@string {ICASSP = "Proc. Internat. Conf. on Acoust., 
+		Speech, and Signal Process."}
+@string {EUSIPCO = "Proc. European Signal Process. Conf."} 
+@string {EUROSPEECH = "Proc. European Conf. on Speech 
+	       Communication and Technology"}
+@string {MMSP= "Proc. Intern. Workshop on Multimedia Signal Processing"}
+@string {INTERSPEECH = "Proc. Interspeech"}
+@string {ISMIR = "Proc. ISMIR"}
+@string {ASRU = "Proc. Automatic Speech Recogn. and Underst. Workshop"}
+@string {NAACLHLT= "Proc. NAACL-HLT"}
+@string {NAACL= "Proc. of the Annual Conf. of the North American Chapter of the Assoc. for Computational Linguistics"}
+@string {HLT= "Proc. Human Language Technology Conf."}
+@string {ICSLP = "Proc. Internat. Conf. Speech Language Processing"} 
+@string {ICIP = "Proc. Internat. Conf. on Image Processing"} 
+@string {ICMI= "Proc. Internat. Conf. on Multimodal Interfaces"}
+@string {SLT= "Proc. IEEE/ACM Workshop on Spoken Language Technology"} 
+@string {WOCCI = "Proc. Workshop on Child, Computer and Interaction"}
+@string {LREC = "Proc. Intl. Conf. on Language Resources and Evaluation"}
+@string {COLING = "Proc. Intl. Conf. on Computational Linguistics"}
+@string {SEMEVAL = "Proc. Intl. Workshop on Semantic Evaluation"}
+@string {AVEC = "Proc. Intl. Audio Visual Emotion Challenge and Workshop"}
+@string {QoMEX = "Proc. Intl. Workshop on Quality of Multimedia Experience (QoMEX)"}
+@string {CMCL= "Proc.  Workshop on Cognitive Modeling and Computational Linguistics (CMCL)"}
+@string {IWCS = "Proc. Intl Conference for Computational Semantics (IWCS)"}
+@string {WASSA = "Proc. of the 7th Workshop on Computational Approaches to Subjectivity, Sentiment and Social Media Analysis (WASSA)"}
+
+% ICSLP2000	START  
+@Book{manning,
+author = {Christopher D. Manning and Hinrich Schutze},
+title = {Foundations of Statistical Natural Language Processing},
+publisher = {The MIT Press},
+address = {Cambridge},
+year = 1999,
+chapter=12
+}
+
+@book{Jurafsky2000,
+author = {Daniel Jurafsky and James H. Martin},
+title = {Speech and Language Processing},
+publisher = {Prentice Hall},
+address = "Upper Saddle River, New Jersey",
+chapter="12",
+year=2000
+}
+		  
+@phdthesis{Collins,
+author="M. J. Collins",
+title="Head-driven Statistical Models for Natural Language Parsing",
+school="University of Pennsylvania",
+address = "Philadelphia",
+year = 1999}
+		  
+		  
+% ICSLP2000	END
+		  
+@article{Boasha92, 
+author = "B. Boashash",
+title = "Estimating and Interpreting the Instantaneous Frequency of a Signal", 
+journal = PIEEE,
+sss = "TF",
+volume = 80,
+number =  4, 
+pages =  "520--538",
+month = apr,
+year =  1992}
+
+@article{BoMaQu93,
+author = "A. C. Bovik and  P. Maragos and T. F. Quatieri ",
+title = "{AM}--{FM} Energy Detection and Separation in Noise 
+Using Multiband Energy Operators", 
+journal = SP,
+sss = "ENOP",
+volume = 41, 
+number =  12, 
+pages = "3245--3265",
+month =  dec,
+year = 1993}
+
+@inproceedings{BoMaQu92,
+author = "A. C. Bovik and  P. Maragos and T. F. Quatieri ",
+title = "Measuring Amplitude and Frequency Modulations 
+in Noise Using Multiband Energy Operators",
+booktitle = "IEEE Internat. Symp. on Time-Frequency and Time-Scale Analysis",
+sss = "ENOP",
+address =  "Victoria, BC, Canada",
+month = oct,
+year =  1992}
+
+
+@inproceedings{HaMaPo93,
+author = "H. M. Hanson and  P. Maragos and  A. Potamianos",
+title = "Finding Speech Formants and Modulations via Energy Separation: With
+Application to a Vocoder",
+booktitle = ICASSP,
+sss = "ENOP FORTRA VOCOD POTAM",
+address =  "Minneapolis, MN", 
+month = apr,
+year =  1993}
+
+@article{HaMaPo94,
+author = "H. M. Hanson and  P. Maragos and  A. Potamianos",
+title = "A System for Finding Speech Formants and Modulations
+via Energy Separation",
+journal = SAP,
+sss = "ENOP FORTRA POTAM",
+volume = 2,
+number = 3,
+pages = "436--443",
+month = jul,
+year = 1994}
+
+@inproceedings{Kaiser90a, 
+author = "J. F. Kaiser",
+title = "On a simple algorithm to calculate the `energy' of a signal",
+booktitle = ICASSP,
+sss = "ENOP",
+address = "Albuquerque, New Mexico",
+pages = "381--384", 
+month = apr,
+year = 1990}
+
+@inproceedings{Kaiser83, 
+author = "J. F. Kaiser",
+title = "Some Observations on Vocal Tract Operation from a Fluid Flow
+Point of View",
+booktitle = "Vocal Fold Physiology: Biomechanics, Acoustics, and Phonatory
+Control",
+sss = "GLOT",
+editor="I. R. Titze and R. C. Scherer", 
+address="The Denver Center for the Performing Arts",
+pages = "358--386", 
+year = 1983}
+
+@inproceedings{Kaiser90b, 
+author = "J. F. Kaiser",
+title = "On {T}eager's Energy Algorithm and Its Generalization 
+to Continuous Signals",
+booktitle = "IEEE DSP Workshop", 
+sss = "ENOP",
+address = "New Paltz, NY",
+month = sep,
+year = 1990}
+
+@inproceedings{Kaiser93, 
+author = "J. F. Kaiser",
+title = "Some Useful Properties of the {T}eager's Energy Operators",
+booktitle = ICASSP,
+sss = "ENOP",
+address =  "Minneapolis, MN", 
+pages = "III:149--152",
+month = apr,
+year =  1993}
+
+
+@inproceedings{MaQuKa90, 
+author = "P. Maragos and  T. F. Quatieri and  J. F. Kaiser",
+title = "Detecting Nonlinearities in Speech using an Energy Operator",
+booktitle = "IEEE DSP Workshop", 
+sss = "ENOP",
+address = "New Paltz, NY",
+month = sep,
+year = 1990}
+
+
+@inproceedings{MaQuKa91,
+author = "P. Maragos and  T. F. Quatieri and  J. F. Kaiser",
+title = "Speech Nonlinearities, Modulations and Energy Operators",
+booktitle = ICASSP,
+sss = "ENOP MODEL",
+address =  "Toronto, Ontario",
+pages = "421--424",
+year = 1991}
+
+@inproceedings{MaKaQu92,
+author = "P. Maragos  and J. F. Kaiser and  T. F. Quatieri",
+title="On Separating Amplitude from Frequency Modulations 
+using Energy Operators",
+booktitle = ICASSP,
+sss = "ENOP DEMOD",
+address =  "San Francisco, CA",
+month = mar,
+year = 1992}
+
+@article{MaKaQu93a,
+author = "P. Maragos  and J. F. Kaiser and  T. F. Quatieri",
+title = "On Amplitude and Frequency Demodulation Using Energy Operators",
+journal = SP,
+sss = "ENOP DEMOD",
+volume = 41, 
+number = 4,
+pages =  "1532--1550", 
+month =  apr,
+year = 1993}
+
+@article{MaKaQu93b,
+author = "P. Maragos  and J. F. Kaiser and  T. F. Quatieri",
+title="Energy Separation in Signal  Modulations with Application
+to Speech Analysis", 
+journal = SP,
+sss = "ENOP DEMOD MODEL",
+volume =  41, 
+number = 10, 
+pages = "3024--3051", 
+month = oct,
+year = 1993}
+
+@techreport{Quat92,
+author = "T. F. Quatieri and  R. B. Dunn and P. Maragos 
+and J. F. Kaiser and A. C. Bovik",
+title="Detection of Transient Signals Using the Energy Operator",
+institution = "{MIT} {L}incoln {L}abs",
+sss = "DEMOD",
+year = "in preparation"}
+
+@inproceedings{QuKaMa91, 
+author = "T. F. Quatieri and  J. F. Kaiser and P. Maragos", 
+title = "Transient Detection in {AM}--{FM} Background using an Energy Operator",
+booktitle = "IEEE Underwater Acoustic Signal Processing Workshop",
+sss = "ENOP",
+address = "Univ. of Rhode Island",
+month = oct,
+year = 1991}
+
+@inproceedings{MaQuKa94,
+author = "P. Maragos and T. F. Quatieri and J. F. Kaiser and A. Potamianos", 
+title = "Demodulation of {AM}--{FM} Resonances in Speech Using Energy Separation",
+booktitle = "presentation to the Conf. of the Acoustical Society of America",
+sss = "ASR ENOP POTAM",
+address = "Boston, MA", 
+month = jun,
+year = 1994}
+
+@article{Mandel74,
+author="L. Mandel",
+title="Interpretation of the Instantaneous Frequency", 
+journal = "American Journal of Physics",
+sss = "TF",
+volume = 42, 
+pages = "840--846", 
+month =  oct,
+year = 1974}
+
+
+@article{PoMa94,
+author = "A. Potamianos and P. Maragos",
+title = "A Comparison of the Energy Operator and the {H}ilbert Transform
+Approach to Signal and Speech Demodulation", 
+journal = "Signal Processing", 
+sss = "ENOP DEMOD POTAM",
+volume = 37, 
+pages = "95-120",
+month =  may,
+year = 1994}
+
+
+@article{Ville48, 
+author = "J. Ville",
+title = "Theory et applications de la notion de signal analytique",
+journal = "Cable et Transmission", 
+sss = "TF",
+volume = "2A", 
+pages =  "61--74", 
+year = 1948}
+
+@article{Nuttal66,
+author = "A. H. Nuttall",
+title="On the Quadrature Approximation to the {H}ilbert Transform of
+Modulated Signals",
+sss = "DEMOD",
+journal = PIEEE, 
+volume = 54,
+pages = "1458-1459",
+year = 1966}
+
+@techreport{Nuttal91,
+author = "A. H. Nuttall",
+title="Complex Envelope Properties, Interpretation, Filtering and Evaluation",
+institution = "{N}aval {U}nderwater {S}ystems {C}enter",
+sss = "DEMOD",
+number = "TR 8827",
+month = feb,
+year = 1991}
+
+
+@article{Kates91, 
+author = "J. M. Kates",
+title = "A Time-Domain Digital Cochlear Model",
+journal = SP,
+sss = "EAR",
+volume = 39,
+number = 12,
+pages = "2573-2592",
+year = 1991}
+
+@inproceedings{PoMa94b,
+author = "A. Potamianos and P. Maragos",
+title = "Applications of Speech Processing Using an {AM}--{FM} Modulation Model
+and Energy Operators",
+booktitle = EUSIPCO,
+sss = "ENOP FORTRA POTAM",
+address =  "Edinburgh, Scotland",
+pages = "III: 1669--1672",
+month = sep,
+year =  1994}
+
+@article{PoMa96,
+author = "A. Potamianos and P. Maragos",
+title = "Speech Formant Frequency and Bandwidth Tracking using Multiband
+	  Energy Demodulation",
+journal = JASA,
+sss = "ENOP FORTRA POTAM",
+pages = "3795--3806",
+volume = 99,
+number = 6,
+month = jun,
+year = 1996}
+
+%%%
+%%%% HODEO
+%%%
+
+@article{FeMc94,
+author = "L. Fertig and J. H. McClellan",
+title = "Instantaneous Frequency Estimation Using Linear Prediction;
+With Comparisons to the {DESA}s",
+journal = SPL,
+sss = "ENOP",
+year = "submitted, 1994"}
+
+@inproceedings{AtFa92,
+author = "L. Atlas and J. Fang",
+title = "Quadratic Detectors for General Nonlinear Analysis of Speech",
+booktitle = ICASSP,
+sss = "ENOP",
+address =  "San Francisco, CA",
+pages = "II: 9-12",
+month = mar,
+year = 1992}
+
+@article{MaPo95,
+author = "P. Maragos and A. Potamianos",
+title = "Higher--Order Differential Energy Operators",
+journal = SPL,
+sss = "ENOP POTAM",
+volume = 2,
+number = 8,
+month = aug,
+year = 1995}
+
+@article{KuSa93,
+author = "R. Kumaresan and A. G. Sadasiv",
+title = "An Invariance Property of the Determinant of a Matrix whose 
+Elements are a Sum of Sinusoids and its Application",
+journal = "Arrchiv fur Electronik and Ubertragungstechnik 
+(Intern. J. Electronics and Communication)",
+sss = "ENOP",
+volume = 47,
+no = 2,
+pages = "119--122",
+year = 1993}
+
+@inproceedings{KuSaRa92,
+author = "R. Kumaresan and A. G. Sadasiv and C. S. Ramalingam and J. F. Kaiser",
+title = "Instantaneous Nonlinear Operators for Tracking Multicomponent 
+Signal Parameters",
+sss = "ENOP",
+booktitle = "6th SP Workshop on Statistical Signal and Array Processing",
+address =  "Victoria, BC, Canada",
+month = oct,
+year =  1992}
+
+@article{Griffi75,
+author = "L. J. Griffiths",
+title = "Rapid Measurement of Digital Instantaneous Frequency",
+journal = ASSP,
+sss = "DEMOD",
+volume = 23,
+pages = "207--222",
+month = apr,
+year = 1993}
+
+@techreport{SaMa94,
+author = "B. Santhanam and P. Maragos",
+title="Demodulation of Two--Component {AM--FM} Signal Mixtures",
+institution = "DSP Lab, Georgia Tech",
+sss = "ENOP DEMOD",
+number = "94--13",
+month = nov,
+year = 1994}
+
+@techreport{MaSaPo94,
+author = "P. Maragos and B. Santhanam and A. Potamianos",
+title="Co--Channel Demodulation and {AM--FM} Feaure Extraction Using 
+Energy Operators and Energy Separation",
+institution = "C.R.A.S.P.",
+sss = "ENOP DEMOD POTAM",
+number = "8th monthly",
+month = may,
+year = 1995}
+
+%%%%%%% VARIOUS 
+
+@book{NaMo79,
+author = "A. H. Nayfeh and D. T. Mook",
+title = "Nonlinear Oscillations",
+sss = "SIGPRO",
+publisher = "Wiley",
+address = "New York, NY",
+year = 1979}
+
+
+%%%%
+%%%%% VARIOUS
+%%%%
+
+@inproceedings{Ma91,
+author = "P. Maragos",
+title = "Fractal Aspects of Speech Signals: Dimension and Interpolation",
+booktitle = ICASSP,
+sss = "FRAC",
+address =  "Toronto, Ontario",
+year = 1991}
+
+@inproceedings{JaQuRe95a,
+author = "C. R. Jankowski and T. F. Quatieri and D. A. Reynolds", 
+title = "Formant {AM}--{FM} for Speaker Identification",
+booktitle = "Proc. IEEE--SP Internat. Conf. on Time--Frequency and Time--Scale
+Analysis",
+sss = "ENOP SPKREC",
+address =  "Philadelphia, PA",
+month = oct,
+year = 1994}
+
+@article {QuJaRe94,
+author = "T. F. Quatieri and C. R. Jankowski and D. A. Reynolds", 
+title = "Energy Onset Times for Speaker Identification",
+journal = SPL,
+sss = "ENOP SPKREC",
+volume = 1, 
+number = 11, 
+pages = "160--162",
+month =  nov,
+year = 1994}
+
+@inproceedings{JaQuRe95b,
+author = "C. R. Jankowski and T. F. Quatieri and D. A. Reynolds", 
+title = "Measuring Fine Structure in Speech: Application to Speaker Identification",
+booktitle = ICASSP,
+sss = "ENOP SPKREC",
+address =  "Detroit, MI",
+month = may,
+year = 1995}
+
+
+@inproceedings{Friedm85,
+author = "D. H. Friedman",
+title = "Instantaneous Frequency Distribution vs. Time: 
+an Interpretation of the Phase Structure of Speech",
+booktitle = ICASSP,
+sss = "TF",
+pages = "1121--1124",
+address = "Tampa, Florida",
+month =  mar,
+year = 1985}
+
+
+@article {Cohen89,
+author = "L. Cohen",
+title = "Time--Frequency Distributions--A Review",
+journal = PIEEE,
+sss = "TF",
+volume = 77, 
+number = 7, 
+pages = "941--981",
+month =  jul,
+year = 1989}
+
+@incollection{CoLe92,
+author = "L. Cohen and C. Lee",
+title = "Instantaneous Bandwidth",
+booktitle = "Time Frequency Signal Analysis -- Methods and Applications",
+sss = "TF",
+editor = "B. Boashash",
+address = "London",
+publisher = "Longman--Chesire",
+year = 1992}
+
+@article {SoSc87,
+author = "M. M. Sondhi and J. Schroeter",
+title = "A Hybrid Time--Frequency Domain Articulatory Speech Synthesizer",
+journal = ASSP,
+sss = "GLOT MODEL",
+volume = 35, 
+number = 7, 
+pages = "955--967",
+month =  jul,
+year = 1987}
+
+@article {IsFl72,
+author = "K. Ishizaka and J. L. Flanagan",
+title = "Synthesis of Voiced Sounds from a Two--Mass Model of the Vocal Cords",
+journal = BSTJ,
+sss = "GLOT MODEL",
+volume = 51, 
+number = 6, 
+pages = "1233--1268",
+month =  jul,
+year = 1972}
+
+@article {BeZaDo56,
+author = "Jw. van den Berg and  J. T. Zantema and P. {Doornenbal Jr.}",
+title = "On the Air Resistance and the {B}ernoulli Effect of the Human Larynx",
+journal = BSTJ,
+sss = "GLOT MODEL FLOW",
+volume = 29, 
+number = 5, 
+pages = "626--631",
+month =  may,
+year = 1957}
+
+@article{AnFa82,
+author = "T. V. Ananthapadmanabha and G. Fant",
+title = "Calculation of True Glottal Flow and its Components",
+sss = "GLOT MODEL FLOW",
+journal = SC,
+volume = 1, 
+number = 3, 
+pages = "167--184",
+month =  dec,
+year = 1982}
+
+@article{KoTaHi85,
+author = "T. Koizumi and S. Taniguchi and S. Hiromitsu",
+title = "Glottal Source--Vocal Tract Interaction",
+sss = "GLOT MODEL FLOW",
+journal = JASA,
+volume = 78, 
+number = 5, 
+pages = "1541--1547",
+month =  nov,
+year = 1985}
+
+@article{McGowa88,
+author = "R. S. McGowan",
+title = "An Aeroacoustic Approach to Phonation",
+sss = "GLOT FLOW",
+journal = JASA,
+volume = 83, 
+number = 2, 
+pages = "696--704",
+month =  feb,
+year = 1988}
+
+@article{McGowa93,
+author = "R. S. McGowan",
+title = "The Quasisteady Approximation in Speech Production",
+sss = "GLOT FLOW",
+journal = JASA,
+volume = 93, 
+number = 5, 
+pages = "3011--3013",
+month =  nov,
+year = 1993}
+
+@article{Thomas86,
+author = "T. J. Thomas",
+title = "A Finite Element Model of Fluid Flow in the Vocal Tract",
+sss = "GLOT FLOW",
+journal = "Computer Speech and Language",
+volume = 1, 
+pages = "131--151",
+year = 1986}
+
+@inproceedings{HeHo91,
+author = "G. C. Hegerl and H. Hoge",
+title = "Numerical Simulation of the Glottal Flow by a Model based on the 
+Compressible {N}avier-{S}tokes Equations",
+booktitle = ICASSP,
+sss = "FLOW GLOT",
+address =  "Toronto, Ontario", 
+month = may,
+year =  1991}
+
+@article{Chowni73,
+author = "J. M. Chowning",
+title = "The Synthesis of Complex Audio Spectra by Means of 
+Frequency Modulation",
+sss = "MODEL TTS",
+journal = "Journal of the Audio Engineering Society",
+volume = 21, 
+number = 7, 
+month =  jul,
+year = 1973}
+
+@article{QuMc92,
+author = "T. F. Quatieri and R. J. McAulay",
+title = "Shape Invariant Time--Scale and Pitch Modification of Speech",
+sss = "MODEL",
+journal = ASSP,
+volume = 40, 
+number = 3, 
+pages = "497--510",
+month =  mar,
+year = 1992}
+
+@article{McQu86,
+author = "R. J. McAulay and T. F. Quatieri",
+title = "Speech Analysis/Synthesis Based on a Sinusoidal Representation",
+sss = "MODEL ANAL TTS",
+journal = ASSP,
+volume = 34, 
+number = 4, 
+pages = "744--754",
+month =  aug,
+year = 1986}
+
+
+
+@article{ChWo94,
+author = "D. G. Childers and C-F. Wong",
+title = "Measuring and Modeling Vocal Source--Tract Interaction",
+journal = "IEEE Transactions on Biomedical Engineering", 
+sss = "FLOW MODEL",
+volume = 41, 
+number = 7,
+pages = "663--671",
+month = jul,
+year = 1994}
+
+@article{Teager80,
+author = "H. M. Teager",
+title = "Some Observations on Oral Air Flow During Phonation",
+journal = ASSP,
+sss = "ENOP FLOW",
+volume = 28, 
+pages = "599--601",
+month =  oct,
+year = 1980}
+
+@incollection{HeStMe91,
+author = "H. Herzel and I. Steinecke and W. Mende and K. Wermke",
+title = "Chaos and Bifurcations During Voiced Speech",
+booktitle = "Complexity, Chaos and Biological Evolution",
+sss = "MODEL",
+editor = "E. Mosekilde and L. Mosekilde",
+address = "New York, NY",
+publisher = "Plenum Press",
+pages = "41--50",
+year = 1991}
+
+@incollection{TeTe85,
+author = "H. M. Teager and  S. M. Teager",
+title = "A Phenomenological Model for Vowel Production in the Vocal Tract",
+booktitle = "Speech Sciences: Recent Advances",
+sss = "MODEL ENOP",
+editor = "R. G. Daniloff",
+address = "San Diego, CA",
+publisher = "College--Hill Press",
+pages = "73--109",
+year = 1985}
+
+@incollection{TeTe90,
+author = "H. M. Teager and  S. M. Teager",
+title = "Evidence of Nonlinear Sound Production Mechanisms in the Vocal Tract",
+booktitle = "Speech Production and Speech Modeling",
+sss = "MODEL ENOP",
+editor = "W. J. Hardcastle and A. Marchal",
+address = "Boston, MA",
+publisher = "Kluwer Academic Publishers",
+pages = "241--261",
+year = 1990}
+
+@incollection{Chowni89,
+author = "J. M. Chowning",
+title = "Frequency Modulation Synthesis of the Singing Voice",
+booktitle = "Current Directions in Computer Music Research",
+sss = "MODEL",
+editor = "M. V. Mathews and J. R. Pierce",
+address = "Cambridge, MA",
+publisher = "MIT Press",
+pages = "57--63",
+year = 1989}
+
+@inproceedings{Klatt82,
+author = "D. H. Klatt",
+title = "Prediction of Perceived Phonetic Distance from Critical--Band 
+Spectra: A First Step",
+booktitle = ICASSP,
+sss = "SIGPRO",
+address =  "Paris, France",
+pages = "1278--1282",
+year =  1982}
+
+
+@inproceedings{KnKl95,
+author = "H. P. Knagenhjelm and W. B. Kleijn",
+title = "Spectral Dynamics is more Important than Spectral Distortion",
+booktitle = ICASSP,
+sss = "SIGPRO",
+pages = "732--736",
+address =  "Detroit, MI",
+month = may,
+year =  1995}
+
+
+@inproceedings{Holmes76,
+author = "J. N. Holmes",
+title = "Formant Excitation Before and After Glottal Closure",
+booktitle = ICASSP,
+sss = "ANAL",
+address =  "", 
+month = apr,
+year =  1976}
+
+
+@book{Tritto88,
+author = "D. J. Tritton",
+title = "Physical Fluid Dynamics",
+sss = "FLOW",
+publisher = "Oxford University Press", 
+address = "New York, NY", 
+year = 1988}
+
+
+@article{Pol46,
+author = "{B. van der Pol}",
+title = "The Fundamental Principles of Frequency Modulation",
+journal = "Journal of the IEE (London)",
+sss = "SIGPRO",
+volume = 93, 
+pages = "153--158",
+year = 1946}
+
+
+@article{ZaDr91,
+author = "A. Zayezdny and I. Druckmann",
+title = "A new method of signal description and its applications to 
+signal processing",
+journal = "Signal Processing", 
+sss = "SIGPRO",
+volume = 22, 
+pages = "153--178",
+month =  feb,
+year = 1991}
+
+@inproceedings{AbAn95,
+author = "M. Abe and S. Ando",
+title = "Nonlinear Time--Frequency Domain Operators for Decomposing Sounds
+into Loudness, Pitch and Timbre",
+booktitle = ICASSP,
+sss = "MODEL",
+pages="1368--1372",
+address =  "Detroit, MI",
+month = may,
+year =  1995}
+
+@inproceedings{Cohen92,
+author = "L. Cohen",
+title = "What is a Multicomponent signal?",
+booktitle = ICASSP,
+sss = "MODEL",
+pages="V:113--116",
+year =  1992}
+
+
+%%%%
+%%%% FORMANT TRACKING
+%%%%
+
+@inproceedings{PoMa95a,
+author = "A. Potamianos and P. Maragos",
+title = "Speech Formant Frequency and Bandwidth Tracking using Multiband
+	  Energy Demodulation",
+booktitle = ICASSP,
+sss = "ENOP FORTRA POTAM",
+address =  "Detroit, MI",
+month = may,
+year = 1995}
+
+
+@inproceedings{LuDo95,
+author = "S. Lu and P. C. Doerschuk",
+title = "Modeling and Processing Speech with Sums of {AM}--{FM} Formant Models",
+booktitle = ICASSP,
+sss = "FORTRA",
+pages="764--768",
+address =  "Detroit, MI",
+month = may,
+year =  1995}
+
+@article{McCand74,
+author = "S. S. McCandless",
+title = "An Algorithm for Automatic Formant Extraction Using Linear Prediction
+Spectra", 
+journal = ASSP,
+sss = "FORTRA",
+volume = 22, 
+number = 2, 
+pages = "135--141", 
+month =  apr,
+year = 1974}
+
+@article{DuJa88,
+author = "G. Duncan and M. A. Jack",
+title = "Formant Estimation Algorithm based on Pole Focusing 
+offering improved Noise Tolerance and Feature Resolution", 
+journal = "IEE Proceedings",
+sss = "FORTRA",
+volume = "135, Pt. F", 
+number = 1, 
+pages = "18--32", 
+month =  feb,
+year = 1988}
+
+@article{Kopec86,
+author = "G. Kopec",
+title = "Formant Tracking Using Hidden {M}arkov Models and Vector Quantization",
+journal = ASSP,
+sss = "FORTRA",
+volume = 34,
+number = 4, 
+pages = "709--7297", 
+month =  aug,
+year = 1986}
+
+@article{ToMiNa91,
+author = "T. Toyoshima and N. Miki and N. Nagai",
+title = "Adaptive Formant Estimation with Compensation 
+for Gross Spectral Shape",
+journal = "Electronics and Communications in Japan",
+sss = "FORTRA",
+volume = "74--3",
+number = 10, 
+pages = "58--67", 
+month =  jun,
+year = 1991}
+
+@article{PiChLa89,
+author = "N. B. Pinto and D. G. Childers and A. L. Lalwani",
+title = "Formant Speech Synthesis: Improving Production Quality",
+journal = ASSP,
+sss = "FORTRA",
+volume = 37,
+number = 12, 
+pages = "1870--1887", 
+month =  dec,
+year = 1989}
+
+@inproceedings{LaBe94,
+author = "Y. Laprie and M. Berger",
+title = "A New Paradigm for Reliable Automatic Formant Tracking",
+booktitle = ICASSP,
+sss = "FORTRA",
+pages="II:201--205",
+address =  "Adelaide, Australia", 
+month = apr,
+year =  1994}
+
+@inproceedings{NiCo94,
+author = "M. Niranjan and I. Cox",
+title = "Recursive Tracking of Formants in Speech Signals",
+booktitle = ICASSP,
+sss = "FORTRA",
+pages="II:205--208",
+address =  "Adelaide, Australia", 
+month = apr,
+year =  1994}
+
+@inproceedings{FoMaSi93,
+author = "J. Foote and D. Mashao and H. Silverman",
+title = "Stop Classification Using {DESA}--1 High--Resolution Formant Tracking",
+booktitle = ICASSP,
+sss = "FORTRA",
+address =  "Minneapolis, MN", 
+month = apr,
+year =  1993}
+
+
+
+
+%%%%
+%%%% MORPHOLOGY
+%%%%
+
+@book{Serra82,
+author="J. Serra",
+title="Image Analysis and Mathematical Morphology",
+sss = "MORPH",
+year=1982,
+publisher="Academic Press",
+address="New York"}
+
+
+@article{MaSc90,
+author="Petros Maragos and Ronald W. Schafer",
+title="Morphological Systems for Multidimensional Signal Processing",
+journal= PIEEE,
+sss = "MORPH SIGPRO",
+year=1990,
+volume=78,
+number=4,
+pages="690--710"
+}
+
+
+%%%%%%%
+%%%%%%% GENERAL
+%%%%%%%
+
+@book{JaNo84,
+author = "N. S. Jayant and P. Noll",
+title = "Digital Coding of Waveforms: Principles and Applications to
+Speech and Video",
+publisher = "Prentice--Hall",
+year = 1984,
+address = "Englewood Cliffs, NJ"}
+
+@article{WoNe86,
+author  = "J. W. Woods and S. D. O'Neil",
+title   = "Subband coding of images",
+journal = ASSP,
+year    = 1986,
+volume  = 34,
+pages   = "1278--1288",
+month   = oct }
+
+@book{RabJua93,
+author = "L. R. Rabiner and B-H. Juang",
+title = "Fundamentals of Speech Recognition",
+sss = "SIGPRO",
+publisher = "Prentice--Hall",
+address = "Englewood Cliffs, NJ",
+year = 1993}
+
+@book{RaJu93,
+author = "L. R. Rabiner and B-H. Juang",
+title = "Fundamentals of Speech Recognition",
+sss = "SIGPRO",
+publisher = "Prentice--Hall",
+address = "Englewood Cliffs, NJ",
+year = 1993}
+
+@book{RabSch78,
+author = "L. R. Rabiner and R. W. Schafer",
+title = "Digital Processing of Speech Signals",
+sss = "SIGPRO",
+publisher = "Prentice--Hall",
+address = "Englewood Cliffs, NJ",
+year = 1978}
+
+@book{RaSc78,
+author = "L. R. Rabiner and R. W. Schafer",
+title = "Digital Processing of Speech Signals",
+sss = "SIGPRO",
+publisher = "Prentice--Hall",
+address = "Englewood Cliffs, NJ",
+year = 1978}
+
+@book{OppSch89,
+author = "A. V. Oppenheim and R. W. Schafer",
+title = "Discrete-Time  Signal Processing", 
+sss = "SIGPRO",
+publisher = "Prentice--Hall",
+address = "Englewood Cliffs, NJ", 
+year = 1989}
+
+@book{OpSc89,
+author = "A. V. Oppenheim and R. W. Schafer",
+title = "Discrete-Time  Signal Processing", 
+sss = "SIGPRO",
+publisher = "Prentice--Hall",
+address = "Englewood Cliffs, NJ", 
+year = 1989}
+
+@book{Flanag72,
+author="J. L. Flanagan",
+title="Speech Analysis Synthesis and Perception",
+sss = "SIGPRO",
+publisher="Springer-Verlag",
+edition = "2nd",
+address="Berlin",
+year=1972}
+
+@book{Papoul84,
+author = "A. Papoulis",
+title = "Probability, Random Variables and Stochastic Processes",
+sss = "DEMOD",
+publisher = "McGraw-Hill", 
+address = "New York", 
+year = 1984}
+
+@book{Papoul62,
+author = "A. Papoulis",
+title = "The Fourier Transform and Its Applications",
+sss = "SIGPRO",
+publisher = "McGraw-Hill", 
+address = "New York, NY", 
+year = 1962}
+
+@book{Schwar80,
+author = "M. Schwartz",
+title = "Information Transmission, Modulation and Noise",
+sss = "SIGPRO",
+publisher = "McGraw-Hill", 
+address = "New York, NY", 
+year = 1980}
+
+@book{Pierce81,
+author = "A. D. Pierce",
+title = "Acoustics: An Introduction to its Physical 
+Principles and Applications", 
+sss = "ACOUST",
+publisher = "McGraw-Hill", 
+year = 1981}
+
+
+@article{Gabor46,
+author="D. Gabor",
+title="Theory of Communication",
+journal= "Journal of the IEE (London)",
+sss = "SIGPRO",
+volume=93,
+pages="429--457",
+year=1946}
+
+
+%%%%%
+%%%%% CODING and VOCODING 
+%%%%%
+
+@article{Malah79,
+author="D. Malah",
+title="Time--Domain Algorithms for Harmonic Bandwidth Reduction and
+Time Scaling of Speech Signals",
+journal= ASSP,
+sss = "VOCOD SIGPRO",
+year=1979,
+volume=27,
+number=2, 
+month=apr,
+pages="121--133"}
+
+@incollection{CaTrWe91,
+author = "J. P. Campbell and T. E. Tremain and V. C. Welch",
+title = "The {D}ept. of {D}efense 4.8 kbps Standard 
+(Proposed Federal Standard 1016)",
+booktitle = "Advances in Speech Coding",
+sss = "TF VOCOD",
+editor = "B. Atal and V. Cuperman and A. Gersho",
+address = "Boston, MA",
+publisher = "Kluwer Academic Publishers",
+pages = "121--133",
+year = 1991}
+
+@book{Papami87,
+author = "P. E. Papamichalis",
+title = "Practical Approaches to Speech Coding",
+sss = "VOCOD",
+publisher = "Prentice--Hall", 
+address = "", 
+year = 1987}
+
+@inproceedings {McBa93,
+author = "A. V. McCree and T. P. Barnwell",
+title = "Implementation and evaluation of a 2400 bps mixed
+excitation {LPC} vocoder",
+booktitle = ICASSP,
+sss = "VOCOD MODEL",
+pages="II:159--162",
+address ="Minneapolis, MN",
+month = apr,
+year =  1993}
+
+@inproceedings {KrAt90,
+author = "P. Kroon and B. S. Atal",
+title = "Pitch Predictors with High Temporal Resolution",
+booktitle = ICASSP,
+sss = "VOCOD MODEL",
+pages="661--664",
+address = "Albuquerque, New Mexico",
+month = apr,
+year =  1990}
+
+@article{SiAt89,
+author="S. Singhal and B. S. Atal",
+title="Amplitude Optimization and Pitch Prediction in Multipulse Coders",
+journal= ASSP,
+sss = "VOCOD SIGPRO",
+year=1989,
+volume=37,
+number=3, 
+month=mar,
+pages="317--327"}
+
+@inproceedings {Johnst88,
+author = "J. D. Johnston",
+title = "Estimation of Perceptual Entropy Using Noise Masking Criteria",
+booktitle = ICASSP,
+sss = "VOCOD MODEL",
+pages="2524--2528",
+address =  "",
+month = "",
+year =  1988}
+
+
+@article{FlScAt79,
+author="J. L. Flanagan and M. R. Schroeder and B. S. Atal and 
+R. E. Crochiere and N. S. Jayant and J. M. Tribolet",
+title="Speech Coding",
+journal= COM,
+sss = "VOCOD SIGPRO",
+year=1979,
+volume=27,
+number=4, 
+month=apr,
+pages="710--737" }
+
+@article{Atal82,
+author="B. S. Atal",
+title="Predictive Coding of Speech at Low Bit Rates",
+journal= COM,
+sss = "VOCOD SIGPRO",
+year=1982,
+volume=30,
+number=4, 
+month=apr,
+pages="600--614" }
+
+@incollection{McQu92,
+author = "R. J. McAulay and T. F. Quatieri",
+title = "Low--Rate Speech Coding Based on the Sinusoidal Model",
+booktitle = "Advances in Speech Signal Processing",
+sss = "TF VOCOD",
+editor = "S. Furui and M. M. Sondhi",
+address = "New York, NY",
+publisher = "Marcel Dekker, Inc.",
+pages = "165--208",
+year = 1992}
+
+@incollection{JoBr92,
+author = "J. D. Johnston and K. Brandenburg",
+title = "Wideband Coding---Perceptual Considerations for Speech and Music",
+booktitle = "Advances in Speech Signal Processing",
+sss = "TF VOCOD",
+editor = "S. Furui and M. M. Sondhi",
+address = "New York, NY",
+publisher = "Marcel Dekker, Inc.",
+pages = "109--139",
+year = 1992}
+
+@article{GrLi88,
+author="D. W. Griffin and J. S. Lim",
+title="The Multi--Band Excitation Vocoder",
+journal= ASSP,
+sss = "VOCOD SIGPRO",
+year=1988,
+volume=36,
+number=8, 
+month=aug,
+pages="1223--1235" }
+
+@inproceedings{TrGaTr84,
+author = "I. M. Trancoso and  R. Garcia--Gomez  and J. N. Tribolet",
+title = "A Study on Short--Time Phase and Multipulse {LPC}",
+booktitle = ICASSP,
+sss = "VOCOD MODEL",
+pages="10.3.1--10.3.4",
+address =  "",
+month = "",
+year =  1984}
+
+@inproceedings{KlHa95,
+author = "W. B. Kleijn and J. Haagen",
+title = "A Speech Coder Based on Decomposition of Characteristic Waveforms",
+booktitle = ICASSP,
+sss = "VOCOD MODEL",
+pages="508--512",
+address =  "Detroit, MI",
+month = may,
+year =  1995}
+
+@article{KrDeSl86,
+author="P. Kroon and E. F. Deprettere and R. J. Sluyter",
+title="Regular-Pulse Excitation---A Novel Approach to Effective and Efficient
+Multipulse Coding of Speech",
+journal= ASSP,
+sss = "VOCOD SIGPRO",
+year=1986,
+volume=34,
+number=5, 
+month=oct,
+pages="1054--1063"
+}
+
+@article{FlCh80,
+author="J. L. Flanagan and S. W. Christensen",
+title="Computer studies on parametric coding of speech spectra",
+journal= JASA,
+sss = "VOCOD SIGPRO",
+year=1980,
+volume=68,
+month=aug,
+pages="420--430"
+}
+
+@article{Un78,
+author="C. K. Un",
+title="A Low--Rate Digital Formant Vocoder",
+journal= COM,
+sss = "VOCOD SIGPRO",
+year=1978,
+volume=26,
+number = 3,
+month=mar,
+pages="344--355"
+}
+
+@article{Flanag80,
+author="J. L. Flanagan",
+title="Parametric Coding of Speech Spectra",
+journal= JASA,
+sss = "VOCOD SIGPRO",
+year=1980,
+volume=68,
+month=aug,
+pages="412--419"
+}
+
+@article{GriLim88,
+author="D. W. Griffin and J. S. Lim",
+title="Multiband Excitation Vocoder",
+journal= ASSP,
+sss = "VOCOD SIGPRO",
+year=1988,
+volume=36,
+no = 8,
+month=aug,
+pages="1223--1235"
+}
+
+@inproceedings{ScAt85,
+author = "M. R. Schroeder and B. S. Atal",
+title = "Code--Excited Linear Prediction ({CELP}): High--Quality Speech
+at Very Low Bit Rates",
+booktitle = ICASSP,
+sss = "VOCOD MODEL",
+pages="937--940",
+address = "Tampa, Florida",
+month = mar,
+year =  1985}
+
+@inproceedings{AtRe82,
+author = "B. S. Atal and J. R. Remde",
+title = "A New Model of {LPC} Excitation for Producing Natural--Sounding 
+Speech at Low Bit Rates",
+booktitle = ICASSP,
+sss = "VOCOD MODEL",
+pages="614--617",
+address = "Paris, France",
+month = may,
+year =  1982}
+
+@article{MaRoGi85,
+author = "J. Makhoul and S. Roucos and H. Gish",
+title = "Vector Quantization in Speech Coding",
+sss = "VOCOD",
+journal = PIEEE,
+volume = 73, 
+number = 11, 
+pages = "1551--1588",
+month =  nov,
+year = 1985}
+
+
+
+%%%%%%%
+%%%%%%% PITCH
+%%%%%%%
+
+@article{MeYaCh91,
+author="Y. Medan and E. Yair and D. Chazan",
+title="Super Resolution Pitch Determination of Speech Signals",
+journal= ASSP,
+sss = "PITDET MODEL",
+volume = 39, 
+number = 1, 
+month = jan,
+pages="40--48",
+year=1991}
+
+@article{WiCaPa76,
+author="J. D. Wise and J. R. Caprio and T. W. Parks",
+title="Maximum Likelihood Pitch Estimation",
+journal= ASSP,
+sss = "PITDET MODEL",
+volume = 24, 
+number = 5, 
+month = oct,
+pages="418--423",
+year=1976}
+
+@article{Markel72,
+author="J. D. Markel",
+title="The {SIFT} Algorithm for Fundamental Frequency Estimation",
+journal= "IEEE Transactions on Audio and Electroacoustics",
+sss = "PITDET MODEL",
+volume = 20, 
+number = 5, 
+month = dec,
+pages="367--377",
+year=1972}
+
+@article{GoRa69,
+author="B. Gold and L. Rabiner", 
+title="Parallel Processing Techniques for Estimating Pitch Periods of
+Speech in the Time Domain",
+journal= JASA,
+sss = "PITDET MODEL",
+volume = 46, 
+number = 2, 
+pages="442--448",
+year=1969}
+
+@article{Noll66,
+author="A. M. Noll",
+title="Cepstrum Pitch Determination",
+journal= JASA,
+sss = "PITDET MODEL",
+volume = 41, 
+number = 2, 
+pages="293--310",
+year=1966}
+
+
+@article{RoShCo74,
+author="M. J. Ross and F. L. Shaffer and A. Cohen and R. Freudberg 
+and H. J. Manley",
+title="Average Magnitude Difference Function Pitch Extractor",
+journal= ASSP,
+sss = "PITDET MODEL",
+volume = 22, 
+number = 5, 
+month=oct,
+pages="353--362",
+year=1974}
+
+@article{ImMa92,
+author="L. M. van Immerseel and J-P. Martens",
+title="Pitch and Voiced/Unvoiced Determination with an Auditory Model",
+journal= JASA,
+sss = "PITDET MODEL",
+volume = 91, 
+number = 6, 
+month=jun,
+pages="3511--3526",
+year=1992 }
+
+@book{Hess83,
+author = "W. Hess",
+title = "Pitch Determination of Speech Signals",
+sss = "PITDET",
+publisher = "Springer--Verlag", 
+address = "New York, NY", 
+year = 1983}
+
+@inproceedings{RaMa93,
+author = "M. A. Ramahlo and R. J. Mammone",
+title = "New Speech Enhancement Techniques Using the Pitch Mode Modulation Model",
+booktitle = "Proc. 36th Symp. on Circuits and Systems",
+sss = "PITDET MODEL",
+address =  "Detroit, MI",
+month = aug,
+year =  1993}
+
+
+@inproceedings{McEach92,
+author = "R. McEachern",
+title = "How the Ear Really Works",
+booktitle = "Proc. IEEE Internat. Symp. on Time-Frequency and Time-Scale Analysis",
+sss = "PITDET MODEL",
+address =  "Victoria, BC, Canada",
+pages="437--440",
+month = oct,
+year =  1992}
+
+
+@article{McEach94,
+author="R. H. McEachern",
+title="Hearing it Like it is: Audio Signal Processing the Way the Ear does it",
+journal= "DSP Applications",
+sss = "PITDET MODEL",
+month=feb,
+pages="35--47",
+year=1994 }
+
+@phdthesis{George91,
+author="E. Bryan George",
+title="An Analysis--by--Synthesis Approach to Sinusoidal Modeling Applied 
+to Speech and Music Signal Processing",
+school="Georgia Institute of Technology",
+sss = "TTS",
+address = "Atlanta, GA",
+month = nov,
+year = 1991}
+
+
+@inproceedings {McQu90,
+author = "R. J. McAulay and T. F. Quatieri",
+title="Pitch Estimation and Voicing Detection Based 
+on a Sinusoidal Speech Model",
+booktitle = ICASSP,
+pages="249--252",
+address = "Albuquerque, New Mexico",
+month = apr,
+year =  1990}
+
+@inproceedings {Ohmura94,
+author = "H. Ohmura",
+title="Fine Pitch Contour Extraction by Voice Fundamental Wave Filtering
+Method",
+booktitle = ICASSP,
+pages="II:189--192",
+address = "Adelaide, Australia",
+month = apr,
+year =  1994}
+
+
+
+
+%%%%
+%%%% TTSESIS
+%%%%
+
+@article {Klatt87,
+author = "D. H. Klatt",
+title = "Review of Text--to--Speech Conversion for English",
+journal = JASA,
+sss = "TTS",
+volume = 82, 
+number = 3, 
+pages = "737--793",
+month =  sep,
+year = 1987}
+
+
+@article {Klatt80,
+author = "D. H. Klatt",
+title = "Software for a Cascade/Parallel Formant Synthesizer",
+journal = JASA,
+sss = "TTS",
+volume = 67, 
+number = 3, 
+pages = "971--995",
+month =  mar,
+year = 1980}
+
+
+@article {KlKl90,
+author = "D. H. Klatt and L. C. Klatt",
+title = "Analysis, Synthesis and Perception of voice quality variations among
+female and male talkers",
+journal = JASA,
+sss = "TTS",
+volume = 87, 
+number = 2, 
+pages = "820--857",
+month =  feb,
+year = 1990}
+
+@article{Holmes83,
+author = "J. N. Holmes",
+title = "Formant Synthesizers: Cascade or Parallel?",
+journal = SC,
+sss = "TTS ANAL",
+volume = 2, 
+number = 4, 
+pages = "251--273",
+month =  dec,
+year = 1983}
+
+
+%%%%% ROBUST ASR etc.
+
+@inproceedings{RoPo97b,
+author = "R. C. Rose and A. Potamianos",   
+title = "Improving Robustness in {HMM} Based Speech Recognition Through Simultaneous Frequency Warping and Spectral Shaping",
+booktitle = "{ESCA}--{NATO} Workshop on Robust Speech Recognition",
+sss = "ASR POTAM",
+address = "Pont-a-Mousson, France",
+month = apr,
+year = 1997}
+
+@inproceedings{PoRo97,
+author = "A. Potamianos and R. C. Rose",
+title = "On Combining Frequency Warping and Spectral Shaping in {HMM}-based 
+Speech Recognition",
+booktitle = ICASSP,
+sss = "ASR POTAM",
+address =  "Munich, Germany", 
+month = apr, 
+year = 1997}
+
+@inproceedings{PoRo95,
+author = "A. Potamianos and R. C. Rose",
+title = "A Feature-Space Transformation for Telephone Based Speech Recognition",
+booktitle = EUROSPEECH,
+sss = "ASR POTAM",
+address =  "Madrid, Spain", 
+month = sep,
+year =  1995}
+
+@inproceedings{LiRo96,
+author = "Li Lee and R. C. Rose",
+title = "Speaker Normalization Using Efficient Frequency Warping Procedures",
+booktitle = ICASSP,
+sss = "ASR",
+address =  "Atlanta, GA", 
+pages = "353--356",
+month = may,
+year =  1996}
+
+
+@phdthesis{Lee96,
+author="Li Lee",
+title="A Frequency Warping Approach to Speaker Normalization",
+school="Massachusetts Institute of Technology",
+sss = "ASR",
+address = "Cambridge, MA",
+month = jun,
+year = 1996}
+
+@techreport{CoMuFa90,
+author = "R. Cole and Y. Muthusamy and M. Fanty",
+title="The ISOLET Spoken Letter Database",
+institution = "{O}regon {G}raduate {I}nstitute of {S}cience and {T}echnology",
+sss = "DATA",
+number = "CSE 90-004",
+month = mar,
+year = 1990}
+
+
+@article{DaMe80, 
+author = "S. Davis and P. Mermelstein",
+title = "Comparison of Parametric Representations for 
+Monosyllabic Word Recognition in Continuously Spoken Sentences",
+journal = ASSP,
+sss = "ASR",
+volume = 28,
+no = 4,
+pages =  "357--366",
+year =  1992}
+
+@book{Young95, 
+author = "S. {Young et al}",
+title = "The {HTK} Book",
+sss = "ASR",
+publisher = "Entropics",
+address = "Cambridge Research Lab",
+year = 1995}.
+
+@inproceedings{MiFu96,
+author = "Y. Minami and S. Furui",
+title = "Adaptation Method Based on {HMM} Composition and {EM} Algorithm",
+booktitle = ICASSP,
+sss = "ASR",
+address =  "Atlanta, GA", 
+pages = "327--331",
+month = may,
+year = 1996}
+
+@inproceedings{SaLe95,
+author = "A. Sankar and C.-H. Lee",
+title = "Robust Speech Recognition Based on Stochastic Matching",
+booktitle = ICASSP,
+sss = "ASR",
+address =  "Detroit, MI",
+pages = "121--124",
+month = may,
+year = 1995}
+
+@article{LeWo95, 
+author = "C. J. Leggetter and P. C. Woodland",
+title = "Maximum Likelihood Linear Regression for Speaker Adaptation
+of Continuous Density Hidden {M}arkov Models",
+journal = CSL,
+sss = "ASR",
+volume = 9,
+pages =  "171--185",
+year =  1995}
+
+
+@inproceedings{IsToMa96,
+author = "J. Ishii and M. Tonomura and S. Matsunaga",
+title = "Speaker Adaptation using Tree Structured Shared-State {HMM}s",
+booktitle = ICSLP,
+sss = "ASR",
+address =  "Philadelphia",
+month = oct,
+year = 1996}
+
+
+
+%%%%%%%%%%%% CHILDREN
+
+@article{Kent76,
+author = "R. D. Kent",
+title = "Anatomical and Neuromuscular Maturation of the Speech Mechanism: Evidence from Acoustic Studies", 
+journal = JSHR,
+sss = "CLD",
+volume = 19, 
+pages = "421--447",
+year = 1976}
+
+@article{EgHi69,
+author = "S. Eguchi and I. J. Hirsh",
+title = "Development of Speech Sounds in Children",
+journal = "Acta Oto-Laryngologica",
+sss = "CLD",
+volume = "Supplementum 257", 
+pages = "1--51",
+year = 1969}
+
+@article{KeFo80,
+author = "R. D. Kent and L. L. Forner",
+title = "Speech Segment Durations in Sentence Recitations by Children and Adults",
+journal = JPhon,
+sss = "CLD",
+volume = 8,
+pages = "157--168",
+year = 1980}
+
+
+@inproceedings{MaWhBe96,
+author = "P. Martland and S. P. Whiteside and S. W. Beet and L. Baghai-Ravary",
+title = "Estimating Child and Adolescent Formant Frequency Values from Adult Data",
+booktitle = ICSLP,
+sss = "CLD",
+address =  "Philadelphia, PA",
+pages = "626--630",
+month = oct,
+year = 1996}
+
+
+@inproceedings{BuFa96,
+author = "D. C. Burnett and M. Fanty",
+title = "Rapid Unsupervised Adaptation to Children's Speech on a Connected-Digit Task",
+booktitle = ICSLP,
+sss = "CLD",
+address =  "Philadelphia, PA",
+month = oct,
+year = 1996}
+
+
+@inproceedings{RuBrSk96,
+author = "M. Russell and B. Brown and A. Skilling and R. Series and J. Wallace and B. Bonham and P. Barker",
+title = "Applications of Automatic Speech Recognition to Speech and Language Development in Young Children",
+booktitle = ICSLP,
+sss = "CLD",
+address =  "Philadelphia, PA",
+month = oct,
+year = 1996}
+
+
+@techreport{Fant75,
+author = "G. Fant",
+title="Non-Uniform Vowel Normalization",
+sss = "CLD",
+number = "STL-QPSR 2-3/1975",
+pages = "1--19",
+year = 1975}
+
+@phdthesis{Goldst80,
+author="U. G. Goldstein",
+title="An Articulatory Model for the Vocal Tracts of Growing Children",
+school="Massachusetts Institute of Technology",
+sss = "CLD",
+address = "Cambridge, MA",
+month = jun,
+year = 1980}
+
+@techreport{JaWi95,
+author = "C. N. Jacobsen and J. G. Wilpon",
+title="A Study of Automatic Speech Recognition for Children and the Elderly",
+institution = "AT\&T Bell Labs",
+sss = "CLD",
+number = "BL011521-960103-01TM",
+month = aug,
+year = 1995}
+
+@inproceedings{WiJa96,
+author = "J. G. Wilpon and C. N. Jacobsen",
+title="A Study of Automatic Speech Recognition for Children and the Elderly",
+booktitle = ICASSP,
+sss = "CLD",
+address =  "Atlanta, GA",
+pages = "349--352",
+month = may,
+year = 1996}
+
+
+@article{MaKa92,
+author = "J. J. Masterson and A. G. Kamhi",
+title = "Linguistic Trade-Offs in School-Age Children with and without Language Disorders",
+journal = JSHR,
+sss = "CLD",
+volume = 35,
+pages = "1064--1075",
+month = oct,
+year = 1992}
+
+
+@article{StFr93,
+author = "E. F. Strommen and F. S. Frome",
+title = "Talking Back to Big Bird: Preschool Users and a Simple Speech Recognition System",
+journal = "Educational Technology Research and Development",
+sss = "CLD",
+volume = 41,
+pages = "5--16",
+year = 1993}
+
+
+@article{MoHaRo95,
+author = "J. Mostow and A. G. Hauptmann and S. F. Roth",
+title = "Demonstration of a Reading Coach that Listens",
+journal = "Proceedings of the ACM Symposium on User Interface Software and Technology",
+sss = "CLD",
+pages = "77--78",
+year = 1995}
+
+@article{WaReKe89,
+author = "C. S. Watson and D. J. Reed and D. Kewley-Port and D. Maki",
+title = "The {I}ndiana Speech Training Aid ({ISTRA I}): Comparisons
+Between Human and Computer-Based Evalutation of Speech Quality",
+journal = JSHR,
+sss = "CLD",
+volume = 32,
+pages = "245--251",
+month = jun,
+year = 1989}
+
+
+@article{KeWaEl91,
+author = "D. Kewley-Port and C. S. Watson and M. Elbert and D. Maki and D. J. Reed",
+title = "The {I}ndiana Speech Training Aid ({ISTRA II}): Training Curriculum and
+Selected case studies",
+journal = "Clinical Linguistics and Phonetics",
+sss = "CLD",
+volume = 5,
+pages = "13--38",
+year = 1991}
+
+
+@techreport{SmCySp95,
+author = "D. C. Smith and A. Cypher and J. Spohrer",
+title="{KidSim}: Programming Agents without a Programming Language",
+institution = "Apple Computer",
+sss = "CLD",
+year = 1995}
+
+
+@article{Statho95,
+author = "E. T. Stathopoulos",
+title = "Variability Revisited: an Acoustic, Aerodynamic and Respiratory Kinematic Comparison of Children and Adults During Speech",
+journal = JPhon,
+sss = "CLD",
+volume = 23,
+pages = "67--80",
+year = 1995}
+
+@article{KaBeJe96,
+author = "W. F. Katz and C. M. Beach and K. Jenouri and S. Verma",
+title = "Duration and Fundamental Frequency Correlates of Phrase Boundaries in Productions by Children and Adults",
+journal = JASA,
+sss = "CLD",
+volume = 99,
+no = 5,
+pages = "3179--3191",
+year = 1996}
+
+@article{KaKrTa91,
+author = "W. F. Katz and C. Kripke and P. Tallal",
+title = "Anticipatory Coarticulation in the Speech of Adults and Young Children: Acoustic, Perceptual and Video Data",
+journal = JSHR,
+sss = "CLD",
+volume = 34,
+pages = "1222--1232",
+month = dec,
+year = 1991}
+
+@article{Nittro95,
+author = "S. Nittrouer",
+title = "Children Learn Separate Aspects of Speech Production at Different Rates: Evidence from Spectral Moments",
+journal = JASA,
+sss = "CLD",
+volume = 97,
+no = 1,
+pages = "520--530",
+month = jan,
+year = 1995}
+
+
+@article{LeSi65,
+author = "H. Levin and I. Silverman",
+title = "Hesitation Phenomena in Children's Speech",
+journal = "Language and Speech",
+sss = "CLD",
+volume = 8,
+pages = "67--85",
+year = 1965}
+
+
+%%%%%%%%%% MY PUBL
+
+@inproceedings{PoRiNa99,
+author = "A. Potamianos and G. Riccardi and S. Narayanan",
+title = "Categorical Understanding using Statistical N-gram Models",
+booktitle = EUROSPEECH,
+sss = "DIALOG UNDER CLD POTAM",
+address =  "Budapest, Hungary", 
+pages = "",
+month = sep,
+year =  1999}
+
+@inproceedings{NaPoWa99,
+author = "S. Narayanan and A. Potamianos and Haohong Wang",
+title = "Multimodal Systems for Children: Building A Prototype",
+booktitle = EUROSPEECH,
+sss = "MULTI DIALOG CLD POTAM",
+address =  "Budapest, Hungary", 
+pages = "",
+month = sep,
+year =  1999}
+
+@inproceedings{PoPo99,
+author = "G. Potamianos and A. Potamianos",
+title = "Speaker Adaptation for Audio-Visual Speech Recognition",
+booktitle = EUROSPEECH,
+sss = "ASR MULTI POTAM",
+address =  "Budapest, Hungary", 
+pages = "",
+month = sep,
+year =  1999}
+
+
+@article{LePoNa99,
+author = "S. Lee and A. Potamianos and S. Narayanan",
+title = "Acoustics of Children's Speech: Developmental Changes of 
+Temporal and Spectral Parameters",
+journal = JASA,
+sss = "CLD ANAL POTAM",
+pages = "1455--1468",
+month = mar,
+year =  1999}
+
+@article{MaPo99,
+author = "P.Maragos and A. Potamianos",
+title = "Fractal Dimensions of Speech Sounds: Computation and Application to Automatic
+Speech Recognition",
+journal = JASA,
+sss = "FRAC ASR POTAM",
+pages = "1925--1932",
+month = mar,
+year =  1999}
+
+@inproceedings{RiPoNa98,
+author = "G. Riccardi and A. Potamianos and S. Narayanan",
+title = "Language Model Adaptation for Spoken Dialog Systems",
+booktitle = ICSLP,
+sss = "CLD ASR POTAM",
+address =  "Australia", 
+pages = "",
+month = oct,
+year =  1998}
+
+@inproceedings{PoNa98,
+author = "A. Potamianos and S. Narayanan",
+title = "Spoken Dialog Systems for Children",
+booktitle = ICASSP,
+sss = "CLD ASR POTAM",
+address =  "Seattle,Washington", 
+pages = "197--201",
+month = may,
+year =  1998}
+
+@inproceedings{LePoNa97,
+author = "S. Lee and A. Potamianos and S. Narayanan",
+title = "Analysis of Children's Speech: Duration, Pitch and Formants",
+booktitle = EUROSPEECH,
+sss = "CLD ASR POTAM",
+address =  "Rhodes, Greece", 
+pages = "473--476",
+month = sep,
+year =  1997}
+
+@inproceedings{PoNaLe97,
+author = "A. Potamianos and S. Narayanan and S. Lee",
+title = "Automatic Speech Recognition for Children",
+booktitle = EUROSPEECH,
+sss = "CLD ASR POTAM",
+address =  "Rhodes, Greece", 
+pages = "2371--2374",
+month = sep,
+year =  1997}
+
+@inproceedings{ZeNaPo97,
+author = "I. Zeljkovi\'c and S. Narayanan and  A. Potamianos",
+title = "Unsupervised {HMM} Adaptation Based on Speech-Silence Discrimination",
+booktitle = EUROSPEECH,
+sss = "ASR POTAM",
+address =  "Rhodes, Greece", 
+pages = "2055--2058",
+month = sep,
+year =  1997}
+
+@inproceedings{MaPo97,
+author = "P. Maragos and A. Potamianos",
+title = "On Using Fractal Features of Speech Sounds in Automatic Speech Recognition",
+booktitle = EUROSPEECH,
+sss = "ASR ANAL POTAM",
+address =  "Rhodes, Greece", 
+pages = "2531--2534",
+month = sep,
+year =  1997}
+
+@inproceedings{PoMa97,
+author = "A. Potamianos and P. Maragos",
+title = "Speech Analysis and Synthesis Using an {AM}--{FM} Modulation Model",
+booktitle = EUROSPEECH,
+sss = "ANAL TTS ENOP POTAM",
+address =  "Rhodes, Greece", 
+pages = "1355--1358",
+month = sep,
+year =  1997}
+
+@inproceedings{DiPo91,
+author = "J. Diamesis and A. Potamianos",
+title = "Tridiagonal State-Space Realization of a Class of 2-{D} Transfer Functions",
+booktitle = "Proc. of the 25th Conf. on Information Sciences and Systems",
+sss = "SIGPRO POTAM",
+address = "Baltimore, MD", 
+pages = "249--253",
+month = mar,
+year =  1991}
+
+@inproceedings{MaPoSa95,
+author = "P. Maragos and A. Potamianos and B. Santhanam",
+title = "Instantaneous Energy Operators: Applications to Speech Processing and Communications",
+booktitle = "IEEE Workshop on Nonlinear Signal and Image Processing",
+sss = "ENOP POTAM",
+address = "Thessaloniki, Greece", 
+month = jun,
+year =  1995}
+
+
+%%%%%% My patents 
+
+@inproceedings{RoPo98,
+title = "Time-varying Feature Space Preprocessing Procedure for 
+Telephone-Based Speech Recognition",
+author = "A. Potamianos and R. C. Rose",
+booktitle = "US patent no. 5,765,124, awarded to Lucent Technologies",
+sss = "PATENT POTAM",
+month = jun,
+year =  1998}
+
+@inproceedings{NaPoZe00,
+author = "S. Narayanan and  A. Potamianos and I. Zeljkovi\'c",
+title = "Unsupervised {HMM} Adaptation Based on Speech-Silence Discrimination",
+booktitle = "US patent no. 6,076,057, awarded to AT\&T",
+sss = "PATENT POTAM",
+month =  jun, 
+year = 2000}
+
+@inproceedings{PoRo99,
+author = "A. Potamianos and R. C. Rose",
+title = "On Combining Frequency Warping and Spectral Shaping in {HMM}-based Speech Recognition",
+booktitle = "US patent no. 5,930,753, awarded to AT\&T",
+sss = "PATENT POTAM",
+month =  jul, 
+year = 1999}
+
+@inproceedings{WeRePo04,
+author = "V. Weerackody and W. Reichl and A. Potamianos", 
+title = "Soft feature decoding in a distributed automatic speech recognition system for use over wireless channels", 
+booktitle = "U.S. Patent No. 6,760,699, awarded to Lucent Technologies", 
+sss = "PATENT POTAM",
+month = jul,
+year=2004}
+
+@inproceedings{KaNaPo19,
+  title={Deep actionable behavioral profiling and shaping},
+  author={Katsamanis, Athanasios and Narayanan, Shrikanth and Potamianos, Alexandros},
+  booktitle={US Patent App. 16/441,521},
+  sss = "PATENT POTAM",
+  month=dec,
+  year=2019}
+
+@inproceedings{GePaGi20,
+  title={Deep hierarchical fusion for machine intelligence applications},
+  author={Georgiou, Efthymis and Paraskevopoulos, Georgios and Gibson, James and Potamianos, Alexandros and Narayanan, Shrikanth},
+  booktitle={US Patent App. 16/852,872},
+  sss = "PATENT POTAM",
+  month=oct,
+  year=2020}
+
+@inproceedings{PaChGi20,
+  title={Speech data augmentation},
+  author={Paraskevopoulos, Georgios and Chatziagapi, Evangelia and Giannakopoulos, Theodoros and Potamianos, Alexandros and Narayanan, Shrikanth},
+  booktitle={US Patent App. 16/852,793},
+  sss = "PATENT POTAM",
+  month=oct,
+  year=2020}
+
+
+
+%%%%%%%% OTHER
+
+
+@phdthesis{Potami95,
+author="A. Potamianos",
+title="Speech processing applications using an {AM--FM} modulation model",
+school="Harvard University",
+sss = "MODEL ANAL VOCOD DEMOD ENOP POTAM",
+address = "Cambridge, MA",
+month = apr,
+year = 1995}
+
+@phdthesis{Stylia96,
+author = "Y. Stylianou",
+title = "Harmonic plus Noise Models for Speech, combined with
+Statistical Methods, for Speech and Speaker Modification",
+sss = "MODEL TTS PITDET TTS",
+school = "Ecole Nationale Sup\`erieure des T\'el\'ecommunications",
+month = jan,
+year = 1996
+}
+
+@article{Stylia96b,
+author = "Y. Stylianou",
+title = "A Pitch and Maximum Voiced Frequency Estimation Technique 
+adapted to Harmonic Models of Speech.",
+journal = {IEEE Nordic Signal Processing Symposium.},
+year = 1996,
+address = {Helsinki, Finland},
+month = sep
+}
+
+
+@article {MaJu96,
+author = "M. Rahim and B.-H. Juang",
+title = "Signal bias removal by maximum likelihood estimation 
+for robust telephone speech recognition",
+journal = SAP,
+sss = "REC",
+volume = "IV", 
+pages = "19--30",
+year = 1996}
+
+@article {QuHaOl97,
+author = "T. F. Quatieri and T. E. Hanna and G. C. O'Leary",
+title = "{AM-FM} Separations Using Auditory-Motivated Filters",
+journal = SAP,
+sss = "DEMOD",
+volume = 5, 
+pages = "465--480",
+year = 1997}
+
+@article{GoRiWr98,
+author = "A. L. Gorin and G. Riccardi and J. H. Wright",
+title = "How May {I} Help You?", 
+journal = "to appear in Speech Communication",
+sss = "ASR",
+year =  1998}
+
+
+@book{DudHar73,
+author = "Duda and Hart",
+title = "Pattern Classification and Scene Analysis",
+sss = "SIGPRO",
+publisher = "John Wiley \& Sons",
+year = 1973}
+
+@book{Lim90,
+author = "J.S. Lim",
+title = "Two-Dimensional Signal and Image Processing",
+sss = "SIGPRO",
+publisher = "Prentice-Hall",
+year = 1990}
+
+@book{KlePal95,
+author = "Klein and Paliwal", 
+title = "Speech Coding and Synthesis",
+sss = "SIGPRO",
+publisher = "Elsevier",
+year = 1995}
+
+@book{Kreysi78,
+author = "E. Kreysig",
+title = "Introduction to Functional Analysis with Applications",
+sss = "MATH",
+publisher = "John Wiley \& Sons",
+year = 1978}
+
+@book{Drake88,
+author = "A.W. Drake",
+title = "Fundamentals of Applied Probability Theory",
+sss = "MATH",
+publisher = "McGraw-Hill",
+year = 1988}
+
+@phdthesis{Macon96,
+author="M.W. Macon",
+title="Speech Synthesis Based on the Sinusoidal Model",
+school="Georgia Institute of Technology",
+sss = "TTS",
+address = "Atlanta, GA",
+month = oct,
+year = 1996}
+
+@book{DePrHa93,
+author = "J.R Deller and J.G. Proakis and J.H.L. Hansen",
+title = "Discrete-Time Processing of Speech Signals",
+sss = "SPEECH",
+publisher = "Macmillan Publishing Company",
+year = 1993}
+
+@article{Young96,
+author = "S. Young",
+title = "A Review of Large-Vocabulary Continuous-Speech Recognition",
+journal = "IEEE Signal Processing Magazine",
+sss = "ASR",
+pages = "45--57",
+month = sep,
+year =  1996}
+
+@inproceedings{ToOs98,
+author = "H. Tolba and D. O'Shaughnessy",
+title = "Automatic Speech Recognition Based on Cepstral Coefficients and a MEL-Based Discrete Energy Operator",
+booktitle = ICASSP,
+sss = "ASR",
+address =  "Seattle,Washington", 
+pages = "973--976",
+month = may,
+year =  1998}
+
+
+@inproceedings{Paliwa98,
+author = "K. K. Paliwal",
+title = "Spectral Subband Centroid Features for Speech Recognition",
+booktitle = ICASSP,
+sss = "ASR",
+address =  "Seattle,Washington", 
+pages = "617--620",
+month = may,
+year =  1998}
+
+@article{PoMa99,
+author = "A. Potamianos and P. Maragos",
+title = "Speech Analysis and Synthesis Using an {AM}--{FM} Modulation Model",
+journal = SC,
+sss = "ANAL TTS ENOP POTAM",
+pages = "195-209",
+volume = 28,
+month = jul,
+year =  1999}
+
+
+@article{PiWaJu96,
+author = "J. W. Pitton and K. Wang and B. H. Juang.",
+title = "Time-frequency analysis and auditory modeling for automatic recognition of speech",
+journal = PIEEE,
+sss = "ASR TF",
+pages = "1199-1214",
+volume = 84,
+number = 9,
+month = sep,
+year =  1996}
+
+
+@inproceedings{ZhHaKa98,
+author = "G. Zhou and J.H.L. Hansen and J. F. Kaiser",
+title = "Linear and Nonlinear Speech Feature Analysis for Stress Classification",
+booktitle = ICSLP,
+sss = "ASR",
+address =  "Sydney, Australia", 
+pages = "840--843",
+month = dec,
+year =  1998}
+
+@inproceedings{OkBrPo98,
+author = "S. Okawa and E. Brocchieri and A. Potamianos",
+title = "Multi--Band Speech Recognition in Noisy Environments",
+booktitle = ICASSP,
+sss = "ASR POTAM",
+address =  "Seattle, Washington",
+month = may,
+year =  1998}
+
+%%%%%%%%%%%%%% DIALOG
+
+@inproceedings{PiLeEc97,
+author = "R. Pieraccini and E. Levin and  W. Eckert",
+title = "{AMICA}: the {AT\&T} Mixed Initiative Conversational Architecture",
+booktitle = EUROSPEECH,
+sss = "DIALOG",
+address =  "Rhodos, Greece",
+month = sep,
+year =  1997}
+
+@inproceedings{Sutton98,
+author = "S. {Sutton et al}",
+title = "Universal Speech Tools: The {CLSU} Toolkit",
+booktitle = ICSLP,
+sss = "DIALOG",
+address =  "Sydney, Australia",
+month = dec,
+year =  1998}
+
+
+@inproceedings{Seneff98,
+author = "S. {Seneff et al}",
+title = "Galaxy-{II}: A Reference Architecture for Conversational System Development",
+booktitle = ICSLP,
+sss = "DIALOG",
+address =  "Sydney, Australia",
+month = dec,
+year =  1998}
+
+@inproceedings{BeDy98,
+author = "N.O. Bernsen and L. Dybkjoer",
+title = "Is Speech the Right Thing for your Application?",
+booktitle = ICSLP,
+sss = "DIALOG",
+address =  "Sydney, Australia",
+month = dec,
+year =  1998}
+
+@inproceedings{Lamel98,
+author = "L. Lamel",
+title = "Spoken Language Dialog System Development and Evaluation at {LIMSI}",
+booktitle = "Proc Internat. Symposium on Spoken Dialogue",
+sss = "DIALOG",
+address =  "Sydney, Australia",
+month = nov,
+year =  1998}
+
+@inproceedings{Wang98,
+author = "K. Wang",
+title = "An Event Driven Model for Dialogue Systems",
+booktitle = ICSLP,
+sss = "DIALOG",
+address =  "Sydney, Australia",
+month = dec,
+year =  1998}
+
+@inproceedings{DeMori97, 
+author = "R. {De Mori}",
+title = "Problems and Methods for Solution",
+booktitle = "Spoken Dialogues with Computers",
+sss = "DIALOG",
+editor="R. {De Mori}", 
+address="Academic Press",
+pages = "1-22", 
+year = 1997}
+
+@inproceedings{AnFiLa97, 
+author = "G. Antoniol and R. Fiutem and G. Lazzari and R. {De Mori}",
+title = "System Architecture and Applications",
+booktitle = "Spoken Dialogues with Computers",
+sss = "DIALOG",
+editor="R. {De Mori}", 
+address="Academic Press",
+pages = "583-621", 
+year = 1997}
+
+@book{SmHi94,
+author = "R. W. Smith and D. R. Hipp",
+title = "Spoken Natural Language Dialog Systems",
+publisher = "Oxford University Press",
+address = "New York, NY",
+year = 1994}
+
+
+
+%%%%%%% EVALUTATION: MADCOW, PARADISE etc
+
+@inproceedings{MADCOW93,
+author = "L. {Hirschman et al}",
+title = "Multi-site data collection and evaluation in 
+spoken language understanding",
+booktitle = "Proc. of the Human Language Technology Workshop", 
+sss = "DIALOG",
+month = mar,
+year =  1993}
+
+@article{WaLiKa98,
+author = "M.A. Walker and D.J. Litman and C.A. Kamm and A. Abella",
+title = "Evaluating Spoken Dialogue Agents with Paradise: Two Case Studies", 
+journal = "Computer Speech and Language",
+sss = "DIALOG",
+vol = 12, 
+no = 4,
+pages = "317-347",
+year =  1998}
+
+%%%%%%%%%%%  SAPI??? /JSAPI / TAPI (no good books == only web pages ...)
+%%%%%%%%%%%  UNISYS
+
+@book{UNISYS99,
+author = "{Unisys Corporation}",
+title = "Unisys Natural Language Speech Assistant",
+sss = "DIALOG UI",
+publisher = "",
+address = "",
+year = 1999}
+
+%%% GUI_BOOK (mutlimodal?)
+
+@book{Eberts94,
+author = "R.E. Eberts",
+title = "User Interface Design",
+sss = "UI",
+publisher = "Prentice--Hall",
+address = "Englewood Cliffs, NJ",
+year = 1994}
+
+@inproceedings{SuIsOk98,
+author = "N. Suzuki and K. Ishii and M. Okada",
+title = "Organizing Self-motivated Dialogue with Autonomous Creatures",
+booktitle = ICSLP,
+sss = "DIALOG",
+address =  "Sydney, Australia",
+month = dec,
+year =  1998}
+
+
+%%%%%%%%%%%%%%% Bell Labs  in DIALOG
+
+@inproceedings{PaKuLe99b,
+author = "A. Pargellis and H.-K.J. Kuo and C.-H. Lee",
+title = "Automatic Dialogue Generator Creates User Defined Applications",
+booktitle = EUROSPEECH,
+sss = "DIALOG",
+address =  "Budapest, Hungary",
+month = sep,
+year =  1999}
+
+@inproceedings{PaKuLe99,
+author = "A. Pargellis and H.-K.J. Kuo and C.-H. Lee",
+title = "Automatic Application Generator Matches 
+User Expectations to System Capabilities",
+booktitle = "Proc. ESCA Workshop Interact. Dialog. Multi-Modal Syst.",
+sss = "DIALOG",
+address =  "Kloster Irsee, Germany",
+month = jun,
+year =  1999}
+
+@inproceedings{Potami99,
+author = "A. {Potamianos et al}",
+title = "Design Principles and Tools for Multimodal Dialog Systems",
+booktitle = "Proc. ESCA Workshop Interact. Dialog. Multi-Modal Syst.",
+sss = "DIALOG POTAM",
+address =  "Kloster Irsee, Germany",
+month = jun,
+year =  1999}
+
+@inproceedings{PoMa99b,
+author = "A. Potamianos and P. Maragos",
+title = "Time-Frequency Distributions for Automatic Speech Recognition",
+booktitle = "Proc. Workshop on Automatic Speech Recognition and Understanding",
+sss = "ASR POTAM",
+address =  "Keystone, Colorado",
+month = dec,
+year =  1999}
+
+
+@inproceedings{KuPaLe99,
+author = "H.-K.J. Kuo and A. Pargellis and C.-H. Lee",
+title = "Information and Services Manager Customizes 
+Dialogue-Based Applications",
+booktitle = "Proc. ESCA Workshop Interact. Dialog. Multi-Modal Syst.",
+sss = "DIALOG",
+address =  "Kloster Irsee, Germany",
+month = jun,
+year =  1999}
+
+@inproceedings{PaZhSa98,
+author = "A. Pargellis and Q. Zhou and A. Saad and C.-H. Lee",
+title = "A Language for Creating Speech Applications",
+booktitle = ICSLP,
+sss = "DIALOG",
+address =  "Sydney, Australia",
+month = dec,
+year =  1998}
+
+@inproceedings{ZhLeCh97,
+author = "Q. Zhou and C.-H. Lee and W. Chou and A. Pargellis",
+title = "Speech Technology Integration and Research Platform: A System Study",
+booktitle = EUROSPEECH,
+sss = "DIALOG",
+address =  "Rhodes, Greece",
+month = sep,
+year =  1997}
+
+@inproceedings{DiNePe98,
+author = "V. Digalakis and L. Neumeyer and M. Perakakis",
+title = "Quantization of Cepstral Parameters for Speech Recognition Over the 
+World Wide Web",
+booktitle = ICASSP,
+sss = "ASR",
+address =  "Seattle, Washington",
+month = may,
+year =  1998}
+
+@inproceedings{RamGop98,
+author = "G.~N. Ramaswamy and P.~S. Gopalakrishnan",
+title = "Compression of Acoustic Features 
+for Speech Recognition in Network Environments",
+booktitle = ICASSP,
+sss = "ASR",
+address =  "Seattle, Washington",
+month = may,
+year =  1998}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+@article{PoWeRe00,
+author = "V. Weerackody and W. Reichl and A. Potamianos",
+title = "Soft-Feature Decoding for Distributed Speech Recognition over Wireless Channels",
+journal = "Bell Labs Technical Report",
+sss = "ASR",
+month = may,
+year =  2000}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+@book{Pearl88,
+author = "J. Pearl",
+title = "Probabilistic Reasoning in Intelligent Systems",
+sss = "UNDER",
+publisher = "Morgan Kaufmann",
+address = "San Francisco, CA",
+year = 1988}
+
+
+@inproceedings{PoKu00,
+author = "A. Potamianos and H-K.J. Kuo",
+title = "Speech Understanding Using Finite State Transducers",
+booktitle = ICSLP,
+sss = "UNDER PARSING POTAM",
+address = "Beijing, China",
+month = oct,
+year = 2000}
+
+@inproceedings{PaPo00,
+author = "A. Pargellis and A. Potamianos",
+title = "Cross-Domain Classification Using Generalized Domain Acts",
+booktitle = ICSLP,
+sss = "UNDER POTAM",
+address = "Beijing, China",
+month = oct,
+year = 2000}
+
+@inproceedings{PoAmKu00,
+author = "A. Potamianos and E. Ammicht and H-K.J. Kuo",
+title = "Dialogue Management in the {B}ell {L}abs Communicator System",
+booktitle = ICSLP,
+sss = "UNDER DIALOG POTAM",
+address = "Beijing, China",
+month = oct,
+year = 2000}
+
+@book{MaSc99,
+author = {C. D. Manning and H. Schutze},
+title = {Foundations of Statistical Natural Language Processing},
+publisher = {The MIT Press},
+address = {Cambridge},
+year = 1999,
+chapter=12
+}
+
+@inproceedings{Chu00,
+author =       {Chu-Carroll, Jennifer},
+title =        {{MIMIC}: An Adaptive Mixed Initiative Spoken Dialogue System 
+for Information Queries},
+booktitle =    "Proceedings of the 6th ACL Conference on Applied Natural
+Language Processing",
+address = "Seattle, Washington",
+month = may,
+year =  2000}
+
+
+
+@inproceedings{RuXu99,
+author = "A. Rudnicky and W. Xu",
+title = "An Agenda-based Dialog Management Architecture for Spoken 
+Language Systems",
+booktitle = "Proc. Workshop on Automatic Speech Recognition and Understanding",
+sss = "DIALOG",
+address =  "Keystone, Colorado",
+month = Dec,
+year =  1999}
+
+@inproceedings{Levin99,
+author = "E. Levin and R. Pieraccini and W. Eckert 
+and G. Di Farbbrizio and S. Narayanan",
+title = "An Agenda-based Dialog Management Architecture for Spoken 
+Language Systems",
+booktitle = "Proc. Workshop on Automatic Speech Recognition and Understanding",
+sss = "DIALOG",
+address =  "Keystone, Colorado",
+month = Dec,
+year =  1999}
+
+@inproceedings{WaPe99,
+author = "W. Ward and B. Pellom",
+title = "The CU Communicator System",
+booktitle = "Proc. Workshop on Automatic Speech Recognition and Understanding",
+sss = "DIALOG",
+address =  "Keystone, Colorado",
+month = Dec,
+year =  1999}
+
+@inproceedings{Chu99,
+author = "J. Chu-Carroll",
+title = "Form-Based Reasoning for Mixed-Initiative Dialogue Management in
+Information-Query Systems",
+booktitle = EUROSPEECH,
+sss = "DIALOG",
+address =  "Budapest, Hungary", 
+pages = "1519--1522",
+month = sep,
+year =  1999}
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+@inproceedings{SePeHa01,
+author = "R.~San-Segundo and B.~Pellom and K.~Hacioglu and W.~Ward and J.M.~Pardo",
+title = "Confidence Measures for Dialogue Systems",
+booktitle = ICASSP,
+sss = "DIALOG UNDER",
+address =  "Salt Lake City", 
+pages = "",
+month = may,
+year =  2001}
+
+@book{Shortl76,
+author = "E.H.~Shortliffe",
+title = "Computer-based medical consultation: {MYCIN}",
+sss = "AI",
+publisher = "Elsevier",
+address = "New York, NY",
+year = 1976}
+
+@inproceedings{Hecker86,
+author = "D.~Heckerman",
+title = "Probabilistic interpretations for {MYCIN}'s certainty factors",
+booktitle = "Uncertainty in artificial intelligence",
+sss = "AI",
+editor="L.N.~Kanal and J.F.~Lemmer", 
+address="Amsterdam: North Holland",
+pages = "11-22", 
+year = 1986}
+
+@book{HoMo85,
+author = "J.R.~Hobbs and R.C.~Moore",
+title = "Formal Theories of the Commonsense World",
+sss = "AI",
+publisher = "Ablex",
+address = "Norwood, NJ",
+year = 1985}
+
+@book{RuNo95,
+author = "S.~Russell and P.~Norvig",
+title = "Artificial Intelligence: A Modern Approach",
+sss = "AI",
+publisher = "Prentice Hall",
+address = "Upper Saddle River, NJ",
+year = 1995}
+
+
+@inproceedings{KoKa00,
+author = "K.~Komatani and T.~Kawahara",
+title = "Generating Effective Confirmation and Guidance 
+Using Two-Level Confidence Measures for Dialogue Systems",
+booktitle = ICSLP,
+sss = "UNDER",
+address = "Beijing, China",
+month = oct,
+year =  2000}
+
+@inproceedings{ReWePo00,
+author = "W. Reichl and V. Weerackody and A. Potamianos",
+title = "A Codec for Speech Recognition in a Wireless System",
+booktitle = "Proc. EUROCOMM",
+sss = "ASR POTAM",
+address = "Munich, Germany",
+month = may,
+year = 2000}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% potam 2001 PUBLICATIONS %%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+
+@article{PoMa01,
+author = "A. Potamianos and P. Maragos",
+title = "Time-frequency distributions for automatic speech recognition",
+journal = SAP,
+sss = "ASR DEMOD ENOP POTAM",
+volume = 9, 
+number = 2, 
+pages = "196--200",
+month =  mar,
+year = 2001}
+
+@inproceedings{PoWe01,
+author = "A. Potamianos and V. Weerackody",
+title = "Soft-Feature Decoding for Speech Recognition over Wireless Channels",
+booktitle = ICASSP,
+sss = "ASR POTAM",
+address = "Salt Lake City, Utah",
+month = may,
+year =  2001}
+
+@inproceedings{AmPoFo01,
+author = "E. Ammicht and A. Potamianos and E. Fosler-Lussier",
+title = "Ambiguity Representation and Resolution in Spoken Dialogue Systems",
+booktitle = EUROSPEECH,
+sss = "DIALOG POTAM",
+address =  "Aalborg, Denmark", 
+month = oct,
+year =  2001}
+
+@inproceedings{PaFoPo01,
+author = "A. Pargellis and E. Fosler-Lussier and A. Potamianos and Chin-Hui Lee",
+title = "Metrics for Measuring Domain-Independence of Semantic Classes",
+booktitle = EUROSPEECH,
+sss = "DIALOG POTAM",
+address =  "Aalborg, Denmark", 
+month = oct,
+year =  2001}
+
+@inproceedings{GaFoPo01,
+author = "M. Galley and  E. Fosler-Lussier and A. Potamianos",
+title = "Hybrid Natural Language Generation for Spoken Dialogue Systems",
+booktitle = EUROSPEECH,
+sss = "DIALOG POTAM",
+address =  "Aalborg, Denmark", 
+month = oct,
+year =  2001}
+
+@inproceedings{Walker01,
+author = "M. {Walker et al}",
+title = "{DARPA} {C}ommunicator dialog travel planning systems: the {J}une 2000 Evaluation", 
+booktitle = EUROSPEECH,
+sss = "DIALOG POTAM",
+address =  "Aalborg, Denmark", 
+month = oct,
+year =  2001}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% potam 2002 PUBLICATIONS %%%%%%%%%%%%%%%%%%%%%%%%%
+
+@article{NaPo01,
+author = "S. Narayanan and A. Potamianos",
+title = "Creating Conversational Interfaces for Children", 
+journal = SAP,
+sss = "ASR CLD POTAM",
+volume = 10, 
+number = 2, 
+pages = "65--78",
+month =  feb,
+year = 2002}
+
+@article{WeRePo02,
+author = "V. Weerackody and W. Reichl and A. Potamianos", 
+title = "An error-protected speech recognition system for wireless communications",
+journal = WC,
+sss = "ASR POTAM",
+volume = 1, 
+number = 2, 
+pages = "282--291",
+month =  apr,
+year = 2002}
+
+@article{DiPiMa02,
+author = "D. Dimitriadis and V. Pitsikalis and  P. Maragos and A. Potamianos",
+title = "Modulation and Chaotic Features for Speech Recognition",
+journal = "invited paper to the Journal of Control and Intelligent Systems, Special Issue on Nonlinear Speech Processing",
+sss = "ASR ENOP POTAM",
+volume = "30", 
+number = "1", 
+pages = "19--26",
+month = jan,
+year = 2002}
+
+@inproceedings{Potami02,
+author = "A. Potamianos", 
+title = "Novel Features for Robust Speech Recognition",
+booktitle = "invited presentation to the Conf. of the Acoustical Society of America",
+sss = "ASR POTAM",
+address = "Cancun, Mexico", 
+month = dec,
+year = 2002}
+
+@inproceedings{Walker02a,
+author = "M. {Walker et al}", 
+title = "{DARPA} {C}ommunicator: Cross-System results for the 2001 Evaluation", 
+booktitle = ICSLP,
+sss = "DIALOG POTAM",
+address = "Colorado",
+month = sep,
+year = 2002}
+
+@inproceedings{Walker02b,
+author = "M. {Walker et al}", 
+title =  "{DARPA} {C}ommunicator Evaluation: Progress from 2000 to 20001", 
+booktitle =  ICSLP,
+sss = "DIALOG POTAM",
+address = "Colorado",
+month = sep,
+year = 2002}
+
+@inproceedings{LeAmFo02,
+author = "S. Lee and  E. Ammicht and E. Fosler-Lussier and J. Kuo and A. Potamianos", 
+title = "Spoken Dialogue Evaluation for the {B}ell {L}abs {C}ommunicator System", 
+booktitle = HLT,
+sss = "DIALOG POTAM",
+address ="San Diego, California",
+month = mar,
+year = 2002}
+
+@inproceedings{MaPo02,
+author = "M. Tsangaris and A. Potamianos", 
+title = "{AGORA}: A {GUI} approach to Multimodal User Interfaces", 
+booktitle = HLT,
+sss = "DIALOG MULTI POTAM",
+address ="San Diego, California",
+month = mar,
+year = 2002}
+
+@inproceedings{ArFoKu02,
+author = "R. Argiles-Solsona and  E. Fosler-Lussier and  J. Kuo and  A. Potamianos and I. Zitouni", 
+title = "Adaptive Language Models for Spoken Dialogue Systems",
+booktitle = ICASSP,
+sss = "ASR LM POTAM",
+address = "Orlando, Florida",
+month = may,
+year = 2002}
+
+@inproceedings{DiMaPo02,
+author = "D. Dimitriadis and P. Maragos and A. Potamianos", 
+title = "Modulation Features for Speech Recognition",
+booktitle = ICASSP,
+sss = "ASR ENOP POTAM",
+address = "Orlando, Florida",
+month = may,
+year = 2002}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% potam 2003 PUBLICATIONS %%%%%%%%%%%%%%%%%%%%%%%%%
+
+@inproceedings{PoAmFo03,
+author = "A. Potamianos and E. Ammicht and E. Fosler-Lussier",   
+title = "Modality Tracking in the Multimodal {B}ell {L}abs {C}ommunicator",
+booktitle = ASRU,
+sss = "DIALOG MULTI POTAM",
+address = "St. Thomas, U.S. Virgin Islands",
+month = dec,
+year = 2003}
+
+@article{PoNa03,
+author = "A. Potamianos and S. Narayanan", 
+title = "Robust recognition of children's speech", 
+journal = SAP,
+sss = "ASR CLD POTAM",
+volume = 11, 
+number = 6, 
+pages = "603--616",
+month =  nov,
+year = 2003}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% potam 2004 PUBLICATIONS %%%%%%%%%%%%%%%%%%%%%%%%%
+
+@article{PoNaRi04,
+author = "A. Potamianos and S. Narayanan and G. Riccardi", 
+title = "Adaptive Categorical Understanding for Spoken Dialogue Systems",
+journal = SAP,
+sss = "UNDER CLD POTAM",
+volume = "13", 
+number = "", 
+pages = "321-329",
+month = may,
+year = 2005}
+
+@article{PaFoLe04,
+author="A. Pargellis and E. Fosler-Lussier and C-H Lee and A. Potamianos and A. Tsai",
+title = "Auto-Induced Semantic Classes",
+journal = SC,
+sss = "UNDER POTAM",
+volume = "43",
+number = "3",
+pages = "183--203",
+month = aug,
+year = 2004}
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%  potam 2005 publications %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+@article{DiMaPo05j,
+author = "D.~Dimitriadis and P.~Maragos and A.~Potamianos", 
+title = "Robust {AM-FM} Features for Speech Recognition",
+journal = SPL,
+sss = "ASR POTAM",
+volume = "12", 
+number = "9", 
+pages = "621--624",
+month = sep,
+year = 2005}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+@inproceedings{DiMaPo05,
+author = "D.~Dimitriadis and P.~Maragos and A.~Potamianos", 
+title = "Auditory Teager Energy Cepstrum Coefficients for Robust Speech Recognition",
+booktitle = EUROSPEECH,
+sss = "ASR POTAM",
+address = "Lisbon, Portugal",
+month = sep,
+year = 2005}
+
+@inproceedings{YiLeLe05,
+author = "S.~Yildirim and C.M.~Lee and S.~Lee and A.~Potamianos and S.~Narayanan", 
+title = "Detecting Politeness and Frustration State of a Child in a Conversational Computer Game",
+booktitle = EUROSPEECH,
+sss = "ASR POTAM",
+address = "Lisbon, Portugal",
+month = sep,
+year = 2005}
+
+
+@inproceedings{KaPoKl05,
+author = "P. Karageorgakis and A. Potamianos and I. Klasinas",
+title = "Towards incorporating language morphology into statistical machine translation systems",
+booktitle = ASRU,
+sss = "MT POTAM",
+address = "Cancun, Mexico",
+month = dec,
+year = 2005}
+
+@inproceedings{PaIoPo05,
+author = "A.~Pangos and E.~Iosif and A.~Potamianos and E.~Fosler-Lussier",
+title = "Combining Statistical Similarity Measures for Automatic Induction of Semantic Classes",
+booktitle = ASRU,
+sss = "NLP POTAM",
+address = "Cancun, Mexico",
+month = dec,
+year = 2005}
+
+@inproceedings{PeToPo05,
+author = "M.~Perakakis and M.~Toutoudakis and A.~Potamianos",
+title = "Modality Selection for Multimodal Dialogue Systems",
+booktitle = ICMI,
+sss = "DIALOG POTAM",
+address = "Trento, Italy",
+month = oct,
+year = 2005}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%  potam 2006 publications %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+@inproceedings{MoSiPo06,
+author = "K.~Mokios and N.~Sidiropoulos and A.~Potamianos",
+title = "Blind Speech Separation Algorithm Using {PARAFAC} and Integer Least Squares",
+booktitle = ICASSP,
+sss = "POTAM",
+address = "Toulouse, France",
+month = may,
+year = 2006}
+
+@inproceedings{PoSaDa06,
+author = "A.~Potamianos and E.~Sanchez-Soto and K.~Daoudi",
+title = "Stream Weight Computation for Multi-Stream Classifiers",
+booktitle = ICASSP,
+sss = "POTAM",
+address = "Toulouse, France",
+month = may,
+year = 2006}
+
+@inproceedings{Potami06,
+author = "A.~{Potamianos et al}",
+title = "Towards speaker and enviromental robustness in {ASR}: the {HIWIRE} project",
+booktitle = "ITRW Workshop on Speech Recognition and Intrinsic Variation",
+sss = "POTAM",
+address = "Toulouse, France",
+month = may,
+year = 2006}
+
+@inproceedings{ToPePo06,
+author = "M.~Toutoudakis and M.~Perakakis and A.~Potamianos",
+title = "Mode Selection in Multimodal Dialogue Systems",
+booktitle = "invited paper to ICYC",
+sss = "POTAM",
+address = "Agia Napa, Cyprus",
+month = jul,
+year = 2006}
+
+@inproceedings{PeToPo06,
+author = "M.~Perakakis and M.~Toutoudakis and A.~Potamianos",
+title = "Blending Speech and Visual Input in Multimodal Dialogue Systems",
+booktitle = SLT,
+sss = "POTAM",
+address = "Aruba",
+month = dec,
+year = 2006}
+
+@inproceedings{IoTePa06,
+author = "E.~Iosif and  A.~Tegos and  A.~Pangos and E.~Fosler-Lussier and A.~Potamianos",
+title = "Unsupervised Combination of Metrics for Semantic Class Induction",
+booktitle = SLT,
+sss = "POTAM",
+address = "Aruba",
+month = dec,
+year = 2006}
+
+%%%%%%%%%%%%%%%% PUBLICATIONS 2007 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+@article{AmFoPo07,
+author = "E.~Ammicht and E.~Fosler-Lussier and A.~Potamianos", 
+title = "Information Seeking Spoken Dialogue Systems -- {P}art {I}: Semantics and Pragmatics",
+journal = MULTI,
+sss = "POTAM",
+month = apr,
+year = 2007}
+
+@article{PoFoAm07,
+author = "A.~Potamianos and E.~Fosler-Lussier and E.~Ammicht and M.~Perakakis",
+title = "Information Seeking Spoken Dialogue Systems -- {P}art {II}: Multimodal Dialogue",
+journal = MULTI,
+sss = "POTAM",
+month = apr,
+year = 2007}
+
+
+%%%%%%%%%%%%%%%%%%%%%
+
+@inproceedings{SaPoDa07,
+author = "E.~Sanchez-Soto and A.~Potamianos and K.~Daoudi",
+title = "Unsupervised Stream Weight Computation Using Anti-Models",
+booktitle = ICASSP,
+sss = "POTAM",
+address = "Hawaii, USA",
+month = apr,
+year = 2007}
+
+@inproceedings{IoPo07,
+author = "E.~Iosif and A.~Potamianos",
+title = "A Soft-Clustering Algorithm for Automatic Induction of Semantic Classes",
+booktitle = INTERSPEECH,
+sss = "POTAM",
+address = "Antwerp, Belgium",
+month = aug,
+year = 2007}
+
+@inproceedings{ddim07,
+author = "D.~Dimitriadis and J.C.~Segura and L.~Garcia and A.~Potamianos and P.~Maragos and V.~Pitsikalis",
+title = "Advanced Front-end for Robust Speech Recognition in Extremely Adverse Environments",
+booktitle = INTERSPEECH,
+sss = "POTAM",
+address = "Antwerp, Belgium",
+month = aug,
+year = 2007}
+
+@inproceedings{pened07,
+author = "A.~Katsamanis and P.~Tsiakoulis and P.~Maragos and A.~Potamianos",
+title = "Investigations in Articulatory Synthesis",
+booktitle = "Proc. Intenat. Conf. on Phonetics",
+sss = "POTAM",
+address = "Saarbrucken, Germany",
+month = aug,
+year = 2007}
+
+@inproceedings{PoNa07,
+author = "A. Potamianos and S. Narayanan",
+title = "A Review of the Acoustic and Linguistic Properties of Children's Speech",
+booktitle = MMSP,
+sss = "POTAM",
+address = "Chania, Greece",
+month = oct,
+year = 2007}
+
+@inproceedings{Sanni07,
+author = "{S.~Siltanen et al}",
+title = "Multimodal User Interface for Augmented Assembly", 
+booktitle = MMSP,
+sss = "POTAM",
+address = "Chania, Greece",
+month = oct,
+year = 2007}
+
+@inproceedings{Khalid07,
+author = "E.~Sanchez-Soto and K.~Daoudi and A.~Potamianos",
+title = "Unsupervised Stream Weight Computation in a Segmentation Task: Application to Audio-Visual Speech Recognition", 
+booktitle = "Proc. Intern. Conf. on Signal Proc. and Communications",
+sss = "POTAM",
+address = "Dubai, UAE",
+month = nov,
+year = 2007}
+
+@inproceedings{PePo07,
+author = "M.~Perakakis and A.~Potamianos",
+title = "The effect of input mode on inactivity and interaction times of multimodal systems",
+booktitle = ICMI,
+sss = "POTAM",
+address = "Nagoya, Japan",
+month = nov,
+year = 2007}
+
+@inproceedings{IoPo07b,
+author = "E.~Iosif and A.~Potamianos",
+title = "Unsupervised Semantic Similarity Computation using Web Search Engines",
+booktitle = "Proc. Intern. Conf. on Web Intelligence",
+sss = "POTAM",
+address = "Silicon Valley, USA",
+month = nov,
+year = 2007}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%% 2008  %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+@article{PePo08,
+author = "M.~Perakakis and A.~Potamianos",
+title = "A Study in Efficiency and Modality Usage in Multimodal Form Filling Systems",
+journal = ASLP, 
+sss = "POTAM",
+volume = 16,
+number = 6, 
+pages = "1194--1206",
+month = aug,
+year = 2008}
+
+%%%%%%%%%%%
+
+@inproceedings{FaPoNa08,
+author = "V.~Farantouri and A.~Potamianos and S.~Narayanan", 
+title  = "Linguistic Analysis of Spontaneous Children Speech", 
+booktitle= WOCCI,
+sss = "POTAM",
+address = "Chania, Greece", 
+month = oct,
+year =  2008}
+
+@inproceedings{PePo08b,
+author = "M.~Perakakis and A.~Potamianos", 
+title = "Multimodal System Evaluation using Modality Efficiency and Synergy Metrics", 
+booktitle = ICMI,
+sss = "POTAM",
+address = "Chania, Greece", 
+month = oct,
+year =  2008}
+
+@inproceedings{EvRaPo08,
+author = "G.~Evangelopoulos and K.~Rapantzikos and A.~Potamianos and P.~Maragos and A.~Zlatintsi and Y. Avrithis", 
+title = "Movie Summarization Based On Audio-Visual Saliency Detection", 
+booktitle = ICIP,
+sss = "POTAM",
+address = "San Diego, California", 
+month = oct,
+year =  2008}
+
+@inproceedings{TeKaPo08,
+author = "A.~Tegos and V.~Karkaletsis and A.~Potamianos", 
+title = "Learning of Semantic Relations Between Ontology Concepts Using Statistical Techniques", 
+booktitle = "Proc. High Level Information Extraction Workshop", 
+sss = "POTAM",
+address = "Antwerp, Belgium", 
+month = sep,
+year = 2008}
+
+@inproceedings{MaPo08,
+author = "M.~Maragakis and A.~Potamianos", 
+title = "Region-Based Vocal Tract Length Normalization for {ASR}", 
+booktitle = INTERSPEECH , 
+sss = "POTAM",
+address = "Brisbane, Australia", 
+month = sep,
+year = 2008}
+
+@inproceedings{MoPoSi08,
+author = "K.~Mokios and A.~Potamianos and N.~Sidiropoulos", 
+title = "On the Effectiveness of {PARAFAC}-Based Estimation in Blind Speech Separation",
+booktitle = ICASSP,
+sss = "POTAM",
+address = "Las Vegas, Nevada", 
+month = apr, 
+year = 2008} 
+
+%%%%%%%%%%%%%%%%%%%%%%%%% 2009  %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+@article{DiPoMa09,
+author = "D.~Dimitriadis and A.~Potamianos and P.~Maragos",
+title = "A Comparison of the Squared Energy and {T}eager-{K}aiser Operators for Short-Time Energy Estimation in Noise",
+journal = SP,
+sss = "POTAM",
+volume = 57,
+number = 7,
+pages = "2569--2581",
+month = jul,
+year = 2009}
+
+@article{SoPoDa09,
+author = "E.~Sanchez-Soto and A.~Potamianos and K.~Daoudi", 
+title = "Unsupervised stream weight computation in classification and recognition tasks",
+journal = ASLP,
+sss = "POTAM",
+volume = 17,
+number = 3,
+pages = "436--445",
+month = mar,
+year = 2009}
+
+%%%%%%%%%%%
+
+@inproceedings{DiLeFo09,
+author = "S.~Dimopoulos and C.H.~Lee and E.~Fosler-Lussier and A.~Potamianos",
+title = "Transition features for {CRF}-based recognition and boundary detection", 
+booktitle = ASRU,
+sss = "POTAM",
+address ="Merano, Italy", 
+month = dec, 
+year = 2009}
+
+@inproceedings{TsPoDi09,
+author = "P.~Tsiakoulis and A.~Potamianos and D.~Dimitriadis",
+title = "Short-time instantaneous frequency and bandwidth features for speech recognition",
+booktitle = ASRU,
+sss = "POTAM",
+address ="Merano, Italy", 
+month = dec, 
+year = 2009}
+
+@inproceedings{KaPo09,
+author = "T.~Kannetis and A.~Potamianos", 
+title = "Towards Adapting Fantasy, Curiosity and Challenge in Multimodal Dialogue Systems for Preschoolers",
+booktitle = ICMI,
+sss = "POTAM",
+address = "Boston, MA", 
+month = nov, 
+year = 2009}
+
+@inproceedings{KaPoYa09,
+author =  "T.~Kannetis and A.~Potamianos and G.N.~Yannakakis", 
+title = "Fantasy, Curiosity and Challenge as Adaptation Indicators in Multimodal Dialog Systems for Preschoolers",
+booktitle = WOCCI,
+sss = "POTAM",
+address = "Boston, MA", 
+month = nov, 
+year = 2009}
+
+@inproceedings{GeGiNa09,
+author = "M.~Gerosa and D.~Giuliani and S.~Narayanan and A.~Potamianos", 
+title = "A Review of {ASR} Technologies for Children's Speech",
+booktitle = WOCCI,
+sss = "POTAM",
+address = "Boston, MA", 
+month = nov, 
+year = 2009}
+
+@inproceedings{TsPo09,
+author = "P.~Tsiakoulis and A.~Potamianos", 
+title = "Statistical Analysis of Amplitude Modulation in Speech Signals using an {AM-FM} Model",
+booktitle = ICASSP,
+sss = "POTAM",
+address = "Taipei, Taiwan", 
+month = apr, 
+year = 2009}
+
+@inproceedings{EvZlSk09,
+author = "G.~Evangelopoulos and A.~Zlatintsi and G.~Skoumas and K.~Rapantzikos and A.~Potamianos and P.~Maragos and Y.~Avrithis", 
+title = "Video Event Detection and Summarization Using Audio, Visual and Text Saliency",
+booktitle = ICASSP,
+sss = "POTAM",
+address = "Taipei, Taiwan", 
+month = apr, 
+year = 2009}
+
+@inproceedings{DiPoFo09,
+author = "S.~Dimopoulos and A.~Potamianos and  E.~Fosler-Lussier and C.-H.~Lee", 
+title = "Multiple Time Resolution Analysis of Speech Signals Using {MCE} Training with Application to Speech Recognition",
+booktitle = ICASSP,
+sss = "POTAM",
+address = "Taipei, Taiwan", 
+month = apr, 
+year = 2009}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%% 2010  %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+@article{IoPo10,
+author = "E.~Iosif and A.~Potamianos",
+title = "Unsupervised Semantic Similarity Computation between Terms Using Web Documents",
+journal = TKDE, 
+sss = "POTAM",
+volume = 22,
+number = 11,
+pages = "1637--1647",
+month = nov,
+year = 2010}
+
+@article{NiMoSi10,
+author = "D.~Nion and K.N.~Mokios and N.D.~Sidiropoulos and A.~Potamianos",
+title = "Batch and Adaptive PARAFAC-Based Blind Separation of Convolutive Speech Mixtures",
+journal = ASLP, 
+sss = "POTAM",
+volume = 18,
+number = 6,
+pages = "1193--1207",
+month = aug,
+year = 2010}
+
+@article{TsPoDi10,
+author = "P.~Tsiakoulis and A.~Potamianos and D.~Dimitriadis",
+title = "Spectral Moment Features Augmented by Low Order Cepstral Coefficients for Robust {ASR}",
+journal = SPL, 
+sss = "POTAM",
+file="2010_tsiakoulis_potamianos_dimitriadis.pdf",
+volume = 17,
+number = 6,
+pages = "551--554",
+month = jun,
+year = 2010}
+
+%%%%%%%%%%% CONFERENCE
+
+@inproceedings{TsPo10,
+author = "P.~Tsiakoulis and A.~Potamianos", 
+title = "On the Effect of Fundamental Frequency on Amplitude and Frequency Modulation Patterns in Speech Resonances", 
+booktitle = INTERSPEECH,
+sss = "POTAM",
+file="2010_INTERSPEECH_AM_FM_analysis.pdf",
+address = "Makuhari, Japan", 
+month = sep,
+year = 2010} 
+
+@inproceedings{PoBaLa10,
+author = "M. Poesio and M. Baroni and O. Lanz and A. Lenci and A. Potamianos and H. Schutze and S. Schulte im Walde and and L. Surian",
+title = " BabyExp: Constructing a huge multimodal resource to acquire commonsense knowledge like children do",
+sss = "POTAM",
+file="2010_LREC_babyexp.pdf",
+booktitle = LREC,
+address = "Malta",
+month = may,
+year = 2010 
+}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% 2011 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+@article{YiNaPo11,
+author = "S.~Yildirim and S.~Narayanan and A.~Potamianos",
+title = "Detecting emotional state of a child in a conversational computer game",
+journal = CSL, 
+sss = "POTAM",
+file="2011_yildirim_narayanan_potamianos_draft.pdf",
+volume = 25,
+number = 1,
+pages = "29--44",
+month = jan,
+year = 2011}
+
+@article{DiMaPo11,
+author = "D.~Dimitriadis and P.~Maragos and A.~Potamianos",
+title = "On the Effects of Filterbank Design and Energy Computation on Robust Speech Recognition",
+journal = ASLP, 
+sss = "POTAM",
+file="2011_dimitriadis_maragos_potamianos_draft.pdf",
+volume = 26,
+month = mar,
+year = 2011}
+
+%%%% to be resubmitted - rejected ...
+% @article{TsPo11, author = "P.~Tsiakoulis and A.~Potamianos", title = "Analysis of {E}nglish Vowels and Diphthongs using an {AM-FM} model: Estimation of Amplitude and Frequency Modulations in Speech Resonances", journal = JASA, sss = "POTAM", volume ="submitted", month = jul, year = 2010} 
+
+#### CONFERENCES 
+
+@inproceedings{MaPoIo11,
+author = "Nikolaos Malandrakis and Alexandros Potamianos and Elias Iosif and Shrikanth Narayanan", 
+title = "EmotiWord: Affective Lexicon Creation with Application to Interaction and Multimedia Data",
+booktitle = "Proc. MUSCLE International Workshop on Computational Intelligence for Multimedia Understanding", 
+address = "Pisa, Italy", 
+sss = "POTAM",
+file="2011_MUSCLE_emotiword.pdf",
+month = dec, 
+year = 2011
+}
+
+@inproceedings{MaPoIo11b,
+author = "Nikolaos Malandrakis and Alexandros Potamianos and Elias Iosif and Shrikanth Narayanan", 
+title = " Kernel models for affective lexicon creation", 
+booktitle = INTERSPEECH, 
+address = "Florence, Italy", 
+sss = "POTAM",
+file="2011_INTERSPEECH_text_affect.pdf",
+month = aug,
+year = 2011
+}
+
+@inproceedings{MaPoEv11,
+author = "Nikolaos Malandrakis and Alexandros Potamianos and George Evangelopoulos and Athanasia Zlatintsi", 
+title = "A supervised approach to movie emotion tracking",
+booktitle = ICASSP,
+address = "Prague, Czech Republic", 
+sss = "POTAM",
+file="2011_ICASSP_movie_emotion.pdf",
+month = apr,
+year = 2011 
+}
+
+%%%%%%%%%%%%%%%%%%%%% 2012 %%%%%%%%%%%%%%%%%
+
+@inproceedings{PePo12,
+author = "Manolis Perakakis and Alexandros Potamianos",
+title = "Affective evaluation of a mobile multimodal dialogue system using brain signals", 
+booktitle = SLT,
+address = "Miami, Florida", 
+sss = "POTAM",
+file="2012_SLT_dialogue_eeg.pdf",
+month = dec, 
+year = 2012
+}
+
+@inproceedings{ZlMaPo12,
+author = "Athanasia Zlatintsi and Petros Maragos and Alexandros Potamianos and George Evangelopoulos", 
+title = "A Saliency-based Approach to Audio Event Detection and Summarization", 
+booktitle = EUSIPCO,
+osdress = "Bucharest, Romania",
+sss = "POTAM",
+file="2012_EUSIPCO_moviesum_audio.pdf",
+month = aug,
+year = 2012
+}
+
+@inproceedings{RiCiPo12,
+author = "Giuseppe Riccardi and Philipp Cimiano and Alexandros Potamianos and Christina Unger",
+title = {Up from limited dialog systems!},
+booktitle = "Proc. NAACL-HLT Workshop on future directions and needs in the SDS community (position paper)", 
+address = "Montreal, Canada", 
+sss = "POTAM",
+file="2012_NAACL_dialogue_position_paper.pdf",
+month = jun,
+year = 2012
+}
+
+@inproceedings{MaIoPo12,
+author = "Nikolaos Malandrakis and Elias Iosif and Alexandros Potamianos", 
+title = {DeepPurple: Estimating Sentence Semantic Similarity using N-gram Regression Models and Web Snippets}, 
+booktitle = "*SEM 2012: The 1st Joint Conference on Lexical and Computational Semantics", 
+address = "Montreal, Canada", 
+sss = "POTAM",
+file="2012_SEMEVAL_sentence_similarity.pdf",
+month = jun,
+year = 2012
+}
+
+@inproceedings{IoPo12,
+author = "Elias Iosif and Alexandros Potamianos", 
+title = "SemSim: Resources for Normalized Semantic Similarity Computation Using Lexical Networks", 
+booktitle = LREC,
+address = "Istanbul, Turkey", 
+sss = "POTAM",
+file="2012_LREC_net_Iosif.pdf",
+month = may,
+year = 2012
+}
+
+@inproceedings{IoGiFo12,
+author = "Elias Iosif and Maria Giannoudaki and Eric Fosler-Lussier and Alexandros Potamianos", 
+title = "Associative and Semantic Features Extracted From Web-Harvested Corpora",
+booktitle= LREC,
+address = "Istanbul, Turkey", 
+sss = "POTAM",
+file="2012_LREC_assoc_vs_semantics.pdf",
+month = may,
+year = 2012
+}
+
+
+%%%%%%%%%%%%%%%%%%%%% 2013 %%%%%%%%%%%%%%%%%%
+
+%%%%%%%%%%%%%%%%%%%%%
+%%%% Journal
+%%%%%%%%%%%%%%%%%%%%%
+
+@article{IoPo13,
+author = "Iosif,Elias and Potamianos,Alexandros",
+title = "Similarity computation using semantic networks created from web-harvested data",
+journal = "Natural Language Engineering",
+volume = "FirstView",
+issn = "1469-8110",
+pages = "1--31",
+sss = "POTAM",
+file="2013_NLE_senetwork_DSM_draft.pdf",
+doi = "10.1017/S1351324913000144",
+URL = "http://journals.cambridge.org/article_S1351324913000144",
+month = jul,
+year = 2013
+}
+
+@article{MaPoIo13,
+author = {Malandrakis, Nikolaos and Potamianos, Alexandros and Iosif, Elias and Narayanan, Shrikanth S.},
+title = {Distributional Semantic Models for Affective Text Analysis},
+journal = {IEEE Transactions on Audio, Speech and Language Processing},
+volume = {21},
+number = {11},
+sss = "POTAM",
+file="2013_TASLP_affect_text.pdf",
+pages = {2379--2392},
+url = {ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=6578101&isnumber=6631496},
+doi = {10.1109/TASL.2013.2277931},
+month = nov,
+year = 2013
+}
+
+@article{MoIoDe13,
+author = {Theodosis Moschopoulos and Elias Iosif and Leeda Demetropoulou and Alexandros Potamianos and Shrikanth Narayanan},
+title = {Toward the Automatic Extraction of Policy Networks Using Web Links and Documents},
+journal ={IEEE Transactions on Knowledge and Data Engineering},
+volume = {25},
+number = {10},
+issn = {1041-4347},
+sss = "POTAM",
+file="2013_TKDE_polinet_draft.pdf",
+pages = {2404-2417},
+doi = {http://doi.ieeecomputersociety.org/10.1109/TKDE.2012.159},
+publisher = {IEEE Computer Society},
+address = {Los Alamitos, CA, USA},
+month = oct,
+year = 2013
+}
+
+@article{EvZlPo13,
+author={Evangelopoulos, G. and Zlatintsi, A. and Potamianos, A. and Maragos, P. and Rapantzikos, K. and Skoumas, G. and Avrithis, Y.},
+journal={IEEE Transactions on Multimedia},
+title={Multimodal Saliency and Fusion for Movie Summarization Based on Aural, Visual, and Textual Attention},
+volume={15},
+number={7},
+pages={1553-1568},
+doi={10.1109/TMM.2013.2267205},
+sss = "POTAM",
+file="2013_TMM_moviesum_draft.pdf",
+ISSN={1520-9210},
+month = nov,
+year=2013
+}
+
+
+%%%%%%%%%%%%%%%%%%%%%
+%%%% Conferences
+%%%%%%%%%%%%%%%%%%%%%
+
+@inproceedings{TsChKa13,
+title = "Multi-band long-term signal variability features for robust voice activity detection",
+author = "Andreas Tsiartas and  Theodora Chaspari and  Athanasios Katsamanis and  Prasanta Ghosh and  Ming Li and  Maarten Van Segbroeck and  Alexandros Potamianos and Shrikanth Narayanan",
+booktitle = INTERSPEECH,
+sss = "POTAM",
+file="2013_INTERSPEECH_MultiResolutionLTSVAD.pdf",
+address = "Lyon, France", 
+month = aug,
+year = 2013
+}
+
+@inproceedings{KoPePo13,
+title = "Affective Evaluation of Multimodal Dialogue Games for Preschoolers Using Physiological Signals",
+author = "Vassiliki Kouloumenta and Manolis Perakakis and Alexandros Potamianos", 
+booktitle = INTERSPEECH,
+sss = "POTAM",
+file="2013_INTERSPEECH_children_eeg.pdf",
+address = "Lyon, France", 
+month = aug,
+year = 2013
+}
+
+@inproceedings{KlPoIo13,
+title = "Web Data Harvesting for Speech Understanding Grammar Induction",
+author = "Ioannis Klasinas and  Alexandros Potamianos and  Elias Iosif and  Spiros Georgiladakis and  Gianluca Mameli",
+booktitle = INTERSPEECH,
+sss = "POTAM",
+file="2013_INTERSPEECH_grammar_harvest.pdf",
+address = "Lyon, France", 
+month = aug,
+year = 2013
+}
+
+@inproceedings{MaSuPo13,
+title = "Affective Classification of Generic Audio Clips using Regression Models",
+author = "Nikolaos Malandrakis and Shiva Sundaram and Alexandros Potamianos",
+booktitle = INTERSPEECH,
+sss = "POTAM",
+file="2013_INTERSPEECH_audio_emotion.pdf",
+address = "Lyon, France", 
+month = aug,
+year = 2013
+}
+
+@inproceedings{PePo13,
+title={An affective evaluation tool using brain signals},
+author={Perakakis, Manolis and Potamianos, Alexandros},
+booktitle={Proc. Intl. Conf. on Intelligent User Interfaces (companion volume)},
+pages={105--106},
+sss = "POTAM",
+file="2013_IUI_perakakis_eeg.pdf",
+address = "Santa Monica, CA", 
+month = mar,
+year=2013,
+organization={ACM}
+}
+
+
+@inproceedings{MaPoNa13,
+title = "Continuous Models of Affect from Text using n-grams",
+author = "Nikolaos Malandrakis and Alexandros Potamianos and Shrikanth Narayanan",
+booktitle = ICASSP,
+sss = "POTAM",
+file="2013_ICASSP_affect_text.pdf",
+address = "Vancouver, Canada", 
+month = may,
+year = 2013
+}
+
+@inproceedings{TsPoDi13,
+title = "Instantaneous Frequency and Bandwidth Estimation Using Filterbank Arrays", 
+author = "Pirros Tsiakoulis and Alexandros Potamianos and Dimitris Dimitriadis",
+booktitle = ICASSP,
+sss = "POTAM",
+file="2013_ICASSP_ifreq_estimation.pdf",
+address = "Vancouver, Canada", 
+month = may,
+year = 2013
+}
+
+
+@inproceedings{MaIoPr13,
+author = {Malandrakis, Nikolaos and Elias, Iosif and Prokopi, Vassiliki and Potamianos, Alexandros and Narayanan, Shrikanth S.},
+title = {DeepPurple: Lexical, String and Affective Feature Fusion for Sentence-Level Semantic Similarity Estimation},
+booktitle = {Proc. 2nd Joint Conference on Lexical and Computational Semantics (*SEM), Volume 1: Proceedings of the Main Conference and the Shared Task: Semantic Textual Similarity},
+sss = "POTAM",
+file="2013_SEMEVAL_semantic_similarity.pdf",
+pages = {103--108},
+publisher = {Association for Computational Linguistics},
+location = {Atlanta, GA},
+url = {www.aclweb.org/anthology/S13-1014},
+month = jun,
+year = 2013
+}
+
+@inproceedings{MaKaPo13,
+author = {Malandrakis, Nikolaos and Kazemzadeh, Abe and Potamianos, Alexandros and Narayanan, Shrikanth S.},
+title = {SAIL: A hybrid approach to sentiment analysis},
+booktitle = {Proc. 2nd Joint Conference on Lexical and Computational Semantics (*SEM), Volume 2: Proceedings of the Seventh International Workshop on Semantic Evaluation (SemEval 2013)},
+sss = "POTAM",
+file="2013_SEMEVAL_twitter.pdf",
+pages = {438--442},
+publisher = {Association for Computational Linguistics},
+url = {www.aclweb.org/anthology/S13-2072},
+month = jun,
+year = 2013
+}
+
+@inproceedings{IoPoGi13,
+title={Semantic similarity computation for abstract and concrete nouns using network-based distributional semantic models},
+author={Iosif, Elias and Potamianos, Alexandros and Giannoudaki, Maria and Zervanou, Kalliopi},
+sss = "POTAM",
+file="2013_IWCS_abstract_concrete.pdf",
+booktitle={Proc. 10th International Conference on Computational Semantics (IWCS)},
+pages={328--334},
+address = "Potsdam, Germany",
+month = mar, 
+year=2013
+}
+
+@inproceedings{EvKoPo13,
+author = "Giwrgos Evgeneiadis and Vassiliki Kouloumenta and Alexandros Potamianos", 
+title = "Analyzing Exploration and Exploitation Patterns in Multimodal Dialogue Games for Preschoolers",
+sss = "POTAM",
+file="2013_FDG_games_eve.pdf",
+booktitle="Proc. Games for Learning Workshop - Foundations of Digital Games Conference",
+address = "Chania, Greece",
+month = may, 
+year=2013
+}
+
+
+
+%%%%%%%%%%%%%%%%%%%%% 2014 %%%%%%%%%%%%%%%%%%
+
+%%%%%%%%%%%%%%%%%%%%%
+%%%% Journal
+%%%%%%%%%%%%%%%%%%%%%
+
+
+@article{LePoNa14,
+author = "Sungbok Lee and Alexandros Potamianos and Shrikanth Narayanan",
+title = "Developmental acoustic study of American English diphthongs",
+journal = JASA,
+sss = "CLD ANAL POTAM",
+pages = {1880--1894},
+volume = "136",
+number = "4", 
+month = oct,
+year = 2014
+}
+%   url = "http://scitation.aip.org/content/asa/journal/jasa/136/4/10.1121/1.4894799",
+%   doi = "http://dx.doi.org/10.1121/1.4894799" 
+
+
+
+%%%%%%%%%%%%%%%%%%%%%
+%%%% Conferences
+%%%%%%%%%%%%%%%%%%%%%
+
+@inproceedings{MaPoHs14,
+title={Affective language model adaptation via corpus selection},
+author={Malandrakis, Nikolaos and Potamianos, Alexandros and Hsu, Kean J and Babeva, Kalina N and Feng, Michelle C and Davison, Gerald C and N
+arayanan, Shrikanth},
+booktitle=ICASSP,
+sss = "POTAM",
+file="2014_ICASSP_emotion_adaptation.pdf",
+address = {Florence, Italy},
+month = may,
+year=2014
+}
+
+@inproceedings{PaKlPo14,
+title = {Spoken Dialogue Grammar Induction from Crowdsourced Data},
+author = {Elisavet Palogiannidi and  Ioannis Klasinas and Alexandros Potamianos and Elias Iosif},
+booktitle=ICASSP,
+sss = "POTAM",
+file = "2014_ICASSP_crowdsourcing.pdf",
+address = {Florence, Italy},
+month = may,
+year = 2014
+}
+
+@inproceedings{ZeIoPo14,
+author    = {Kalliopi Zervanou and Elias Iosif and Alexandros Potamianos},
+title     = {Word Semantic Similarity for Morphologically Rich Languages},
+booktitle = LREC,
+sss = "POTAM",
+file="2014_LREC_semsim_morphology.pdf",
+address = {Reykjavik, Iceland},
+month = may, 
+pages = {1642-1648},
+year = 2014
+}
+
+
+@inproceedings{AtIoPo14,
+author = "Georgia Athanasopoulou and Elias Iosif and Alexandros Potamianos",
+title = "Low-Dimensional Manifold Distributional Semantic Models",
+booktitle = COLING,
+sss = "POTAM",
+file = "2014_COLING_manifold_DSM.pdf",
+address = {Dublin, Ireland},
+month = aug,
+year = 2014
+}
+
+@inproceedings{MaFaVa14,
+author = {Nikolaos Malandrakis and  Michael Falcone and  Colin Vaz and  Jesse James Bisogni and  Alexandros Potamianos and  Shrikanth Narayanan}
+,
+title = {SAIL: Sentiment Analysis using Semantic Similarity and Contrast Features},
+booktitle = SEMEVAL,
+sss = "POTAM",
+file = "2014_SEMEVAL_twitter_sentiment_analysis.pdf",
+address = {Dublin, Ireland},
+month = aug,
+year = 2014
+}
+
+@inproceedings{KlIoLo14,
+author    = {Klasinas, Ioannis  and  Iosif, Elias  and  Louka, Katerina  and  Potamianos, Alexandros},
+title     = {SemEval-2014 Task 2: Grammar Induction for Spoken Dialogue Systems},
+booktitle = SEMEVAL,
+sss = "POTAM",
+file="2014_SEMEVAL_task2_overview.pdf",
+address = {Dublin, Ireland},
+pages = {9--16},
+month = aug,
+year = 2014
+}
+
+
+@inproceedings{ChAtIo14,
+author    = {Chorianopoulou, Arodami  and  Athanasopoulou, Georgia  and  Iosif, Elias  and  Klasinas, Ioannis  and  Potamianos, Alexandros},
+title     = {tucSage: Grammar Rule Induction for Spoken Dialogue Systems via Probabilistic Candidate Selection},
+booktitle = SEMEVAL,
+sss = "POTAM",
+file="2014_SEMEVAL_tucSage_grammar_induction.pdf",
+address = {Dublin, Ireland},
+month = aug,
+pages = {668--672},
+year = 2014
+}
+
+
+@inproceedings{BoLePo14,
+author = {Daniel Bone and  Chi-Chun Lee and Alexandros Potamianos and Shrikanth Narayanan},
+title = {An Investigation of Vocal Arousal Dynamics in Child-Psychologist Interactions using Synchrony Measures and a Conversation-based Model},
+booktitle = INTERSPEECH,
+sss = "POTAM",
+file="2014_INTERSPEECH_VocalArousal.pdf",
+address = {Singapore},
+month = sep,
+year = 2014
+}
+
+@inproceedings{GeUnIo14,
+author = { Spiros Georgiladakis and  Christina Unger and  Elias Iosif and  Sebastian Walter and  Philipp Cimiano and  Euripides Petrakis and Alexandros Potamianos},
+title = {Fusion of knowledge-based and data-driven approaches to grammar induction},
+booktitle = INTERSPEECH,
+file="2014_INTERSPEECH_grammar_fusion.pdf",
+sss = "POTAM",
+address = {Singapore},
+month = sep,
+year = 2014
+}
+
+@inproceedings{SeTrVa14,
+author = {Maarten Van Segbroeck and  Ruchir Travadi and  Colin Vaz and  Jangwon Kim and  Matthew Black and  Alexandros Potamianos and Shrikanth Narayanan},
+title = {Classification of Cognitive Load from Speech using an i-vector Framework},
+booktitle = INTERSPEECH,
+file="2014_INTERSPEECH_Challenge_FinalSubmission.pdf",
+sss = "POTAM",
+address = {Singapore},
+month = sep,
+year = 2014
+}
+
+@inproceedings{ShPoLe14,
+author = {Prashanth Gurunath Shivakumar and Alexandros Potamianos and Sungbok Lee and Shrikanth Narayanan},
+title = {Improving Speech Recognition for Children using Acoustic Adaptation and Pronunciation Modeling},
+booktitle = WOCCI,
+file="2014_WOCCI_children_ASR.pdf",
+sss = "POTAM",
+address = {Singapore},
+month = sep,
+year = 2014
+}
+
+
+@inproceedings{GuGuMa14,
+author = { Rahul Gupta and Tanaya Guha  and Nikolaos Malandrakis  and Maarten Van Segbroeck  and Bo Xiao and Matthew P. Black and Alexandros Potamianos and Shrikanth S. Narayanan },
+title = {Multimodal prediction of affective dimensions and depression in human-computer interactions},
+booktitle = AVEC,
+sss = "POTAM",
+file = "2014_AVEC_sail_usc.pdf",
+address = {Orlando, Florida},
+month = nov,
+year = 2014
+}
+
+@inproceedings{Potami14,
+author = {Alexandros Potamianos},
+title = {Cognitive Multimodal Processing: from Signal to Behavior},
+booktitle = {Proc. Workshop on Roadmapping the Future of Multimodal Interaction Research},
+sss = "POTAM",
+file = "2014_ICMI_SSP_WORKSHOP_cognitive_multimodal_processing.pdf",
+address = {Istanbul, Turkey},
+month = nov,
+year = 2014
+}
+
+@inproceedings{AtKlGe14,
+author = "Georgia Athanasopoulou and  Ioannis Klasinas and Spiros Georgiladakis and Elias Iosif and Alexandros Potamianos",
+title = {Using Lexical, Syntactic and Semantic Features for Non-Terminal Grammar Rule Induction in Spoken Dialogue Systems},
+booktitle = SLT,
+sss = "POTAM",
+address = "Lake Tahoe, Nevada",
+month = dec,
+year = 2014
+}
+
+
+%%%%%%%%%%%%%%%%%%%%% 2015 %%%%%%%%%%%%%%%%%%
+
+%%%%%%%%%%%%%%%%%%%%%
+%%%% Journal
+%%%%%%%%%%%%%%%%%%%%%
+
+@article{ViEsAn15,
+author="A. Vinciarelli and A. Esposito and E. Andre and F. Bonin and M. Chetouani and J. Cohn and M. Cristani and F. Fuhrmann and E. Gilmartin and Z. Hammal and D. Heylen and R. Kaiser and M. Koutsombogera and A. Potamianos and S. Renals and G. Riccardi and A. Salah",
+title={Open Challenges in Modelling, Analysis and Synthesis of Human Behaviour in Human-Human and Human-Machine Interactions},
+journal="Cognitive Computation",
+file = "2015_behavioral_roadmap_journal.pdf",
+sss = "POTAM",
+publisher="Springer US",
+pages={397--413},
+volume=7,
+number=4,
+month = apr,
+year=2015
+}
+
+%%%%%%%%%%%%%%%%%%%%%
+%%%% Conferences
+%%%%%%%%%%%%%%%%%%%%%
+
+@inproceedings{KoZlIo15,
+author = "P. Koutras and  A. Zlatintsi and  E.Iosif and  A. Katsamanis and  P. Maragos and A. Potamianos",
+title = {Predicting Audio-Visual Salient Events Based on Visual, Audio and Text Modalities for Movie Summarization},
+file = "2015_KZIKMP_MovieSum2_ICIP-2015.pdf",
+sss = "POTAM",
+booktitle = ICIP,
+address = {Quebec City, Canada},
+month = sep, 
+year = 2015
+}
+
+@inproceedings{ZlKoEf15,
+author = "A. Zlatintsi and  P. Koutras and  N. Efthymiou and  P. Maragos and  A. Potamianos and K. Pastra",
+title = {Quality Evaluation of Computational Models for Movie Summarization},
+file = "2015_ZlatintsiEtAl_MovieSumEval-QoMEX2015.pdf",
+sss = "POTAM",
+booktitle = QoMEX,
+address = {Costa Navarino, Messinia, Greece}, 
+month = may, 
+year = 2015
+}
+
+@inproceedings{ZlIoMa15,
+author = "A. Zlatintsi and  E.Iosif and  P. Maragos and A. Potamianos",
+title = {Audio Salient Event Detection and Summarization using Audio and Text Modalities},
+file = "2015_ZlatintsiEtAl_AudioTextSum-EUSIPCO-2015.pdf",
+sss = "POTAM",
+booktitle = EUSIPCO,
+address = {Nice, France}, 
+month = may, 
+year = 2015
+}
+
+@inproceedings{GeIoPo2015,
+author={Georgiladakis, Spiros and Iosif, Elias and Potamianos, Alexandros},
+title={Fusion of Compositional Network-based and Lexical Function Distributional Semantic Models},
+booktitle = CMCL,
+sss = "POTAM",
+file = "2015_06_CMCL_georgiladakis.pdf",
+pages={39--47},
+address = {Denver, Colorado}, 
+month = jun, 
+year=2015
+}
+
+@inproceedings{IoPo2015,
+author={Iosif, Elias and Potamianos, Alexandros},
+title={Feeling is Understanding: From Affective to Semantic Spaces},
+booktitle=IWCS,
+sss = "POTAM",
+file = "2015_semaffIWCS15CameraReady.pdf", 
+pages={162--173},
+address = {London, UK},
+month = apr,
+year=2015
+}
+
+
+@inproceedings{PaIoKo15,
+author={Palogiannidi, Elisavet and Iosif, Elias and Koutsakis, Polychronis and Potamianos, Alexandros},
+title={Valence, Arousal and Dominance Estimation for English, German, Greek, Portuguese and Spanish Lexica Using Semantic Models},
+sss = "POTAM",
+file = "2015_Interspeech_affect_multilingual.pdf",
+booktitle=INTERSPEECH,
+address = {Dresden, Germany},
+month = sep,
+year=2015
+}
+
+%%%%%%%%%%%%%%%%%%%%% 2016 %%%%%%%%%%%%%%%%%%
+
+%%%%%%%%%%%%%%%%%%%%%
+%%%% Conferences
+%%%%%%%%%%%%%%%%%%%%%
+
+@inproceedings{IoGePo16,
+  title={Cognitively motivated distributional representations of meaning},
+  author={Iosif, Elias and Georgiladakis, Spiros and Potamianos, Alexandros},
+  booktitle=LREC,
+  file="2016_LREC_cognitivedsm.pdf",
+  sss = "POTAM",
+  address = "Portoroz, Slovenia",
+  month = may,
+  year=2016
+}
+
+@inproceedings{LoChPa16,
+  title={The SpeDial datasets: datasets for spoken dialogue system analytics},
+  author={Lopes, Jose and Chorianopoulou, Arodami and Palogiannidi, Elisavet and Moniz, Helena and Abad, Alberto and Louka, Katerina and Iosif, Elias and Potamianos, Alexandros},
+  booktitle=LREC,
+  file="2016_LREC_spedial_database.pdf",
+  sss = "POTAM",
+  address = "Portoroz, Slovenia",
+  month = may,
+  year=2016
+}
+
+@inproceedings{IoPo16,
+  title={Crossmodal Network-Based Distributional Semantic Models},
+  author={Iosif, Elias and Potamianos, Alexandros},
+  booktitle=LREC,
+  file="2016_LREC_crossmodaldsm.pdf",
+  sss = "POTAM",
+  address = "Portoroz, Slovenia",
+  month = may,
+  year=2016
+}
+
+@inproceedings{PaKoIo16,
+  title={Affective lexicon creation for the Greek language},
+  author={Palogiannidi, Elisavet and Koutsakis, Polychronis and Iosif, Elias and Potamianos, Alexandros},
+  booktitle=LREC,
+  file="2016_LREC_greek_affective_lexicon.pdf",
+  sss = "POTAM",
+  address = "Portoroz, Slovenia",
+  month = may,
+  year=2016
+}
+
+
+@inproceedings{PaIoKo16,
+  author={Palogiannidi, Elisavet and Iosif, Elias and Koutsakis, Polychronis and Potamianos, Alexandros},
+  title={A semantic-affective compositional approach for the affective labelling of adjective-noun and noun-noun pairs},
+  booktitle = WASSA,
+  sss = "POTAM",
+  file="2016_WASSA_affective_compositionality.pdf",
+  address = {San Diego, CA},
+  month = jun,
+  year=2016
+}
+
+@inproceedings{PaKoCh16,
+  author={Palogiannidi, Elisavet and Kolovou, Athanasia and Christopoulou, Fenia and Kokkinos, Filippos and Iosif, Elias and Malandrakis, Nikolaos and Papageorgiou, Harris and Narayanan, Shrikanth and Potamianos, Alexandros},
+  title={Tweester at SemEval-2016 Task 4: Sentiment analysis in Twitter using semantic-affective model adaptation},
+  sss = "POTAM",
+  file="2016_SEMEVAL_tweester.pdf",
+  booktitle=SEMEVAL,
+  address = {San Diego, CA},
+  month = jun,
+  year=2016
+}
+
+
+@inproceedings{ChKoPo16,
+  author={Chorianopoulou, Arodami and Koutsakis, Polychronis and Potamianos, Alexandros},
+  title={Speech emotion recognition using affective saliency},
+  sss = "POTAM",
+  file = "2016_INTERSPEECH_affective_saliency.pdf",
+  booktitle=INTERSPEECH,
+  address = {San Francisco, CA},
+  month = sep,
+  year=2016
+}
+
+
+@inproceedings{GeAtMe16,
+  author={Georgiladakis, Spiros and Athanasopoulou, Georgia and Meena, Raveesh and Lopes, Jose and Chorianopoulou, Arodami and Palogiannidi, Elisavet and Iosif, Elias and Skantze, Gabriel and Potamianos, Alexandros},
+  title={Root Cause Analysis of Miscommunication Hotspots in Spoken Dialogue Systems},
+  sss = "POTAM",
+  file = "2016_INTERSPEECH_root_cause.pdf",
+  booktitle=INTERSPEECH,
+  address = {San Francisco, CA},
+  month = sep,
+  year=2016
+}
+
+
+@inproceedings{KaIoPo16,
+  author={Karamanolakis, Giannis and Iosif, Elias and Zlatintsi, Athanasia and Pikrakis, Aggelos and Potamianos, Alexandros},
+  title={Audio-based Distributional Representations of Meaning Using a Fusion of Feature Encodings},
+  sss = "POTAM",
+  file = "2016_INTERSPEECH_audiodsm.pdf",
+  booktitle=INTERSPEECH,
+  address = {San Francisco, CA},
+  month = sep,
+  year=2016
+}
+
+
+@article{KaPo16,
+  author={Karamanolakis, Giannis and Iosif, Elias and Zlatintsi, Athanasia and Pikrakis, Aggelos and Potamianos, Alexandros},
+  title={Audio-based Distributional Semantic Models for Music Auto-tagging and Similarity Measurement},
+  sss = "POTAM",
+  file="2016_ARXIV_autotagging.pdf",
+  journal={arXiv preprint arXiv:1612.08391},
+  month = dec,
+  year=2016
+}
+
+@article{KoPo16,
+  author={Kokkinos, Filippos and Potamianos, Alexandros},
+  title={Structural Attention Neural Networks for improved sentiment analysis},
+  sss = "POTAM",
+  file="2016_ARXIV_structural_attention.pdf",
+  journal={arXiv preprint arXiv:1701.01811},
+  month = dec,
+  year=2016
+}
+
+%%%%%%%%%%%%%%%%%%%%% 2017 %%%%%%%%%%%%%%%%%%
+
+%%%%%%%%%%%%%%%%%%%%%
+%%%% Conferences
+%%%%%%%%%%%%%%%%%%%%%
+
+@inproceedings{ChTzIo17,
+  title={Engagement detection for children with Autism Spectrum Disorder},
+  author={Chorianopoulou, Arodami and Tzinis, Efthymios and Iosif, Elias and Papoulidi, Asimenia and Papailiou, Christina and Potamianos, Alexandros},
+  booktitle=ICASSP,
+  sss = "POTAM",
+  file = "AS5316676994744321503770865862_content_1.pdf",
+  pages={5055--5059}, 
+  address = "New Orleans, LA",
+  month = mar,
+  year=2017
+}
+
+@inproceedings{KoKoFe17,
+      title="Tweester at {SemEval-2017} {T}ask 4: Fusion of Semantic-Affective and pairwise classification models for sentiment analysis in Twitter",
+        author={Kolovou, Athanasia and Kokkinos, Filippos and Fergadis, Aris and Papalampidi, Pinelopi and Iosif, Elias and Malandrakis, Nikolaos and Palogiannidi, Elisavet and Papageorgiou, Haris and Narayanan, Shrikanth and Potamianos, Alexandros},
+  sss = "POTAM",
+  file = "2017_semeval_task4_emotion.pdf",
+  booktitle=SEMEVAL,
+  pages={675--682},
+  address = {Vancouver, Canada},
+  month = aug,
+  year=2017
+}
+
+@inproceedings{PaIoPo17,
+   title={Dialogue Act Semantic Representation and Classification Using Recurrent Neural Networks},
+   author={Papalampidi, Pinelopi and Iosif, Elias and Potamianos, Alexandros},
+   booktitle={Proc. Workshop on the Semantics and Pragmatics of Dialogue},
+   sss = "POTAM",
+   file ="2017_SEMDIAL_semantic_acts.pdf",
+   pages={77--86},
+   address ={Saabrucken, Germany},
+   month = aug,
+   year=2017
+}
+
+@inproceedings{TzPo17,
+    title={Segment-based speech emotion recognition using recurrent neural networks},
+    author={Tzinis, Efthymios and Potamianos, Alexandras},
+    booktitle={Proc. of Intl. Conf. on Affective Computing and Intelligent Interaction},
+    sss = "POTAM",
+    file = "2017_ACII_tzinis_potam_bare.pdf",
+    address = {San Antonio, Texas},
+    pages={190--195},
+    month = oct,
+    year=2017
+}
+
+@inproceedings{KoIoPo17,
+      title={Lexical and affective models in early acquisition of semantics},
+      author={Kolovou, Athanasia and Iosif, Elias and Potamianos, Alexandros},
+      sss = "POTAM",
+      file = "2017_WOCCI_lexical_acquisition.pdf",
+      booktitle={Proc. Workshop on Child Computer Interaction},
+      address = {Glasgow, Scotland},
+      month = nov, 
+      year=2017
+}
+
+@inproceedings{FeBaPa17,
+     title="Hierarchical bidirectional attention-based {RNN} in {BioCreative} {VI} precision medicine track, document triage task",
+     author={Fergadis, Aris and Baziotis, Christos and Pappas, Dimitris and Papageorgiou, Haris and Potamianos, Alexandros},
+     booktitle={Proc. BioCreative Challenge Evaluation Workshop},
+     sss = "POTAM",
+     file = "2017_BIOCREATIVE_aris.pdf",
+     address = "Bethesda, Maryland",
+     month = oct,
+     year=2017
+}
+
+
+%%%%%%%%%%%%%%%%%%%%%
+%%%% Journal 
+%%%%%%%%%%%%%%%%%%%%%
+
+@article{ZlKoEv17,
+      title="{COGNIMUSE}: a multimodal video database annotated with saliency, events, semantics and emotion with application to summarization",
+        author={Zlatintsi, Athanasia and Koutras, Petros and Evangelopoulos, Georgios and Malandrakis, Nikolaos and Efthymiou, Niki and Pastra, Katerina and Potamianos, Alexandros and Maragos, Petros},
+  sss = "POTAM",
+  file = "2017_COGNIMUSE_database.pdf",
+  journal={EURASIP Journal on Image and Video Processing},
+  volume={2017},
+  number={1},
+  pages={54},
+  publisher={Nature Publishing Group},
+  month = jan,
+  year=2017
+}
+
+
+%%%%%%%%%%%%%%%%%%%%% 2018 %%%%%%%%%%%%%%%%%%
+
+%%%%%%%%%%%%%%%%%%%%%
+%%%% Conferences
+%%%%%%%%%%%%%%%%%%%%%
+
+
+@inproceedings{ChBrIo18,
+      title={Mixture of Topic-Based Distributional Semantic and Affective Models},
+      author={Christopoulou, Fenia and Briakou, Eleftheria and Iosif, Elias and Potamianos, Alexandros},
+      booktitle={Proc. IEEE Intl. Conf. on Semantic Computing}, 
+      sss = "POTAM",
+      file = "2018_ICSC_topicDSMs.pdf",
+      pages={203--210},
+      address = {Laguna Hills, CA},
+      month = jan,
+      year=2018
+}
+
+@inproceedings{BaAtPa18,
+     title="{NTUA-SLP} at {SemEval-2018} {T}ask 2: Predicting Emojis using {RNN}s with Context-aware Attention",
+     author={Baziotis, Christos and Athanasiou, Nikos and Paraskevopoulos, Georgios and Ellinas, Nikolaos and Kolovou, Athanasia and Potamianos, Alexandros},
+     sss = "POTAM",
+     file = "2018_semeval_task2_emojis.pdf",
+     booktitle = SEMEVAL, 
+     pages = {438-–444},
+     address = {New Orleans, Louisiana}, 
+     month = jun,
+     year=2018
+}
+
+@inproceedings{BaAtCh18,
+    title="{NTUA-SLP} at {SemEval-2018} {T}ask 1: Predicting Affective Content in Tweets with Deep Attentive RNNs and Transfer Learning",
+    author={Baziotis, Christos and Athanasiou, Nikos and Chronopoulou, Alexandra and Kolovou, Athanasia and Paraskevopoulos, Georgios and Ellinas, Nikolaos and Narayanan, Shrikanth and Potamianos, Alexandros},
+    sss = "POTAM",
+    file = "2018_semeval_task1_affect.pdf",
+    booktitle = SEMEVAL, 
+    pages = {245-–255},
+    address = {New Orleans, Louisiana}, 
+    month = jun,
+    year=2018
+}
+
+@inproceedings{BaAtPa18b,
+   title="{NTUA-SLP} at {SemEval}-2018 {T}ask 3: Tracking Ironic Tweets using Ensembles of Word and Character Level Attentive {RNNs}",
+   author={Baziotis, Christos and Athanasiou, Nikos and Papalampidi, Pinelopi and Kolovou, Athanasia and Paraskevopoulos, Georgios and Ellinas, Nikolaos and Potamianos, Alexandros},
+   sss = "POTAM",
+   file = "2018_semeval_task3_irony.pdf",
+   booktitle = SEMEVAL, 
+   pages = {613--621},
+   address = {New Orleans, Louisiana}, 
+   month = jun,
+   year=2018
+}
+
+@inproceedings{TzPaBa18,
+  title={Integrating Recurrence Dynamics for Speech Emotion Recognition},
+  author={Tzinis, Efthymios and Paraskevopoulos, Georgios and Baziotis, Christos and Potamianos, Alexandros},
+  booktitle = INTERSPEECH,
+  sss = "POTAM",
+  file = "2018_INTERSPEECH_nonlinear_emotion.pdf",
+  pages={927--931},
+  address = {Hyderabad, India},
+  month = sep, 
+  year=2018
+}
+
+@inproceedings{AtIoPo18,
+  title={Neural Activation Semantic Models: Computational lexical semantic models of localized neural activations},
+  author={Athanasiou, Nikos and Iosif, Elias and Potamianos, Alexandros},
+  booktitle=COLING,
+  sss = "POTAM",
+  file = "2018_COLING_neural_embeddings.pdf",
+  pages={2867--2878},
+  address = {Santa Fe, New Mexico}, 
+  month = aug,
+  year=2018
+}
+
+
+@inproceedings{ChMaBa18,
+  title="{NTUA-SLP} at {IEST} 2018: Ensemble of neural transfer methods for implicit emotion classification",
+  author={Chronopoulou, Alexandra and Margatina, Aikaterini and Baziotis, Christos and Potamianos, Alexandros},
+  booktitle = {Proc. Workshop on Computational Approaches to Subjectivity, Sentiment and Social Media Analysis},
+  sss = "POTAM",
+  file = "2018_WASSA_emotion.pdf",
+  address = {Brussels, Belgium},
+  month = jul,
+  year=2018
+}
+
+%%%%%%%%%%%%%%%%%%%%%
+%%%% Journal 
+%%%%%%%%%%%%%%%%%%%%%
+
+@article{IoKlAt18,
+      title={Speech understanding for spoken dialogue systems: From corpus harvesting to grammar rule induction},
+      author={Iosif, Elias and Klasinas, Ioannis and Athanasopoulou, Georgia and Palogiannidi, Elisavet and Georgiladakis, Spiros and Louka, Katerina and Potamianos, Alexandros},
+      journal= CSL,
+      sss = "POTAM",
+      file = "2018_spedial_grammar_induction.pdf",
+      volume={47},
+      pages={272--297},
+      publisher={Academic Press},
+      month = jan,
+      year=2018
+}
+
+
+@article{FeBaPa18,
+      title="Hierarchical bi-directional attention-based {RNN}s for supporting document classification on protein--protein interactions affected by genetic mutations",
+      author={Fergadis, Aris and Baziotis, Christos and Pappas, Dimitris and Papageorgiou, Haris and Potamianos, Alexandros},
+      sss = "POTAM",
+      file = "2018_document_classification_fergadis_database.pdf", 
+      journal={Database},
+      volume={2018-1},
+      publisher={Oxford University Press},
+      pages = "1--10",
+      month = jan, 
+      year=2018
+}
+
+@article{PaTzVl18,
+  title="Pattern Search {MDS}",
+  author={Paraskevopoulos, Georgios and Tzinis, Efthymios and Vlatakis-Gkaragkounis, Emmanuel-Vasileios and Potamianos, Alexandros},
+  journal={arXiv preprint arXiv:1806.00416},
+  sss = "POTAM",
+  file = "2018_arxiv_preprint_MDS.pdf",
+  month = mar, 
+  year=2018
+}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% a
+
+%%%%%%%%%%%%%%%%%%%%%
+%%%% Conferences
+%%%%%%%%%%%%%%%%%%%%%
+
+@inproceedings{ChBaPo19,
+  title={An embarrassingly simple approach for transfer learning from pretrained language models},
+  author={Chronopoulou, Alexandra and Baziotis, Christos and Potamianos, Alexandros},
+  booktitle={Proc. Conf. of the North American Chapter of the Association for Computational Linguistics: Human Language Technologies, Vol.~1 (Long and Short Papers)},
+  sss = "POTAM",
+  file = "2019_NAACL_simple_transfer_learning.pdf",
+  pages={2089--2095},
+  address = {Minneapolis, MN},
+  month = jun,
+  year=2019
+}
+
+@inproceedings{BrAtPo19,
+  title={Cross-Topic Distributional Semantic Representations Via Unsupervised Mappings},
+  author={Briakou, Eleftheria and Athanasiou, Nikos and Potamianos, Alexandros},
+  booktitle={Proc. Conf. of the North American Chapter of the Association for Computational Linguistics: Human Language Technologies, Vol.~1 (Long and Short Papers)},
+  sss = "POTAM",
+  file = "2019_NAACL_Cross_Topic_DSM.pdf",
+  pages={1052--1061},
+  address = {Minneapolis, MN},
+  month = jun,
+  year=2019
+}
+
+@inproceedings{BaAnKo19,
+  author={Baziotis, Christos and Androutsopoulos, Ion and Konstas, Ioannis and Potamianos, Alexandros},
+  title={SEQ\^{} 3: Differentiable Sequence-to-Sequence-to-Sequence Autoencoder for Unsupervised Abstractive Sentence Compression},
+  booktitle={Proc. Conf. of the North American Chapter of the Association for Computational Linguistics: Human Language Technologies, Vol.~1 (Long and Short Papers)},
+  pages={673--681},
+  sss = "POTAM",
+  file = "2019_NAACL_seq3.pdf",
+  address = {Minneapolis, MN},
+  month = jun,
+  year=2019
+}
+
+%  journal={arXiv preprint arXiv:1904.03651},
+
+
+@inproceedings{MaBaPo19,
+  title={Attention-based Conditioning Methods for External Knowledge Integration},
+  author={Margatina, Katerina and Baziotis, Christos and Potamianos, Alexandros},
+  booktitle={Proc. of the 57th Annual Meeting of the Association for Computational Linguistics},
+  pages={3944--3951},
+  sss = "POTAM",
+  file = "2019_ACL_Attention_Based_Conditioning.pdf",
+  address = {Florence, Italy},
+  month = jul,
+  year=2019
+}
+
+%  journal={arXiv preprint arXiv:1906.03674},
+
+
+@inproceedings{PaTzEl19,
+  author={Paraskevopoulos, Georgios and Tzinis, Efthymios and Ellinas, Nikolaos and Giannakopoulos, Theodoros and Potamianos, Alexandros},
+  title={Unsupervised low-rank representations for speech emotion recognition},
+  booktitle=INTERSPEECH,
+  sss = "POTAM",
+  file = "2019_INTERSPEECH_low_rank_MDS.pdf",
+  pages={939--943},
+  address = {Graz, Austria},
+  month = sep,
+  year=2019
+}
+
+@inproceedings{ChPaSg19,
+  title={Data Augmentation using GANs for Speech Emotion Recognition},
+  author={Chatziagapi, Aggelina and Paraskevopoulos, Georgios and Sgouropoulos, Dimitris and Pantazopoulos, Georgios and Nikandrou, Malvina and Giannakopoulos, Theodoros and Katsamanis, Athanasios and Potamianos, Alexandros and Narayanan, Shrikanth},
+  booktitle=INTERSPEECH,
+  sss = "POTAM",
+  file = "2019_INTERSPEECH_data_augmentation.pdf",
+  pages={171--175},
+  address = {Graz, Austria},
+  month = sep,
+  year=2019
+}
+
+@inproceedings{GePaPo19,
+  title={Deep Hierarchical Fusion with application in Sentiment Analysis},
+  author={Georgiou, Efthymios and Papaioannou, Charilaos and Potamianos, Alexandros},
+  booktitle=INTERSPEECH,
+  sss = "POTAM",
+  file = "2019_INTERSPEECH_deep_fusion.pdf",
+  pages={1646--1650},
+  address = {Graz, Austria},
+  month = sep,
+  year=2019
+}
+
+@inproceedings{GiDiPa19,
+  title={Using Oliver {API} for emotion-aware movie content characterization},
+  author={Giannakopoulos, Theodoros and Dimopoulos, Spiros and Pantazopoulos, Georgios and Chatziagapi, Aggelina and Sgouropoulos, Dimitris and Katsamanis, Athanasios and Potamianos, Alexandros and Narayanan, Shrikanth},
+  booktitle={2019 International Conference on Content-Based Multimedia Indexing (CBMI)},
+  sss = "POTAM",
+  file = "2019_CBMI_oliverAPI.pdf",
+  pages={1--4},
+  address = "Dublin, Ireland",
+  month = sep,
+  year=2019
+}
+
+
+
+%%%%%%%%%%%%%%%%%%%%% 2020 %%%%%%%%%%%%%%%%%%
+
+%%%%%%%%%%%%%%%%%%%%%
+%%%% Conferences
+%%%%%%%%%%%%%%%%%%%%%
+
+@inproceedings{XePaPo20,
+  title={Affective conditioning on hierarchical attention networks applied to depression detection from transcribed clinical interviews},
+  author={Xezonaki, Danai and Paraskevopoulos, Georgios and Potamianos, Alexandros},
+  booktitle=INTERSPEECH,
+  sss = "POTAM",
+  pages={4556--4560},
+  address={Shanghai, China},
+  month=sep,
+  year=2020
+}
+
+%%%%%%%%%%%%%%%%%%%%% 2021 %%%%%%%%%%%%%%%%%%
+
+%%%%%%%%%%%%%%%%%%%%%
+%%%% Conferences
+%%%%%%%%%%%%%%%%%%%%%
+
+@inproceedings{ChGePo21,
+      title={End-to-end Generative Zero-shot Learning via Few-shot Learning},
+      author={Georgios Chochlakis and Efthymios Georgiou and Alexandros Potamianos},
+      booktitle={arXiv preprint 2102.04379},
+      sss = "POTAM",
+      file = "2102.04379.pdf",
+      month=jan, 
+      year=2021
+}
+
+@inproceedings{KaPaPo21,
+  title={Udalm: Unsupervised domain adaptation through language modeling},
+  author={Karouzos, Constantinos and Paraskevopoulos, Georgios and Potamianos, Alexandros},
+  booktitle = NAACL,
+  sss = "POTAM",
+  file = "2104.07078.pdf",
+  pages={2579--2590},
+  month=jun, 
+  year=2021
+}
+
+@inproceedings{GePaPo21,
+  title={M3: MultiModal Masking applied to sentiment analysis},
+  author={Georgiou, Efthymios and Paraskevopoulos, Georgios and Potamianos, Alexandros},
+  booktitle = INTERSPEECH,
+  sss = "POTAM",
+  file = "georgiou21_interspeech.pdf",
+  pages = {2876--2880},
+  address = {Brno, Czech Republic},
+  month = sep,
+  year=2021
+}
+
+@inproceedings{ZaPaKa21,
+  title={EmpBot: A T5-based Empathetic Chatbot focusing on Sentiments},
+  author={Zaranis, Emmanouil and Paraskevopoulos, Georgios and Katsamanis, Athanasios and Potamianos, Alexandros},
+  sss = "POTAM",
+  file = "2111.00310.pdf",
+  booktitle={arXiv preprint arXiv:2111.00310},
+  month = oct, 
+  year=2021
+}
+
+
+%%%%%%%%%%%%%%%%%%%%% 2022 %%%%%%%%%%%%%%%%%%
+
+%%%%%%%%%%%%%%%%%%%%%
+%%%% Conferences
+%%%%%%%%%%%%%%%%%%%%%
+
+@inproceedings{PaGePo22,
+  author={Paraskevopoulos, Georgios and Georgiou, Efthymios and Potamianos, Alexandros},
+  title={MMLatch: Bottom-up Top-down Fusion for Multimodal Sentiment Analysis},
+  sss = "POTAM",
+  file = "2201.09828.pdf",
+  booktitle = ICASSP,
+  address = {Singapore},
+  month = may,
+  year=2022
+}
+
+@inproceedings{AnGePo22,
+  author = {Antoniou, Nikolaos and Georgiou, Efthymios and Potamianos, Alexandros},
+  title = {Alternating {{Objectives Generates Stronger PGD-Based Adversarial Attacks}}},
+  sss = "POTAM",
+  booktitle= {arxiv preprint arXiv:2212.07992},
+  eprint = {2212.07992},
+  primaryclass = {cs},
+  urldate = {2024-04-11},
+  archiveprefix = {arxiv},
+  file = "Antoniou et al. - 2022 - Alternating Objectives Generates Stronger PGD-Base.pdf",
+  month = dec,
+  year = 2022
+}
+
+@inproceedings{PaVaGi22,
+  author = {Papaioannou, Charilaos and Valiantzas, Ioannis and Giannakopoulos, Theodoros and {Kaliakatsos-Papakostas}, Maximos and Potamianos, Alexandros},
+  title = {A {{Dataset}} for {{Greek Traditional}} and {{Folk Music}}: {{Lyra}}},
+  sss = "POTAM",
+  booktitle=ISMIR,
+  address = {Bengaluru, India},
+  file = "Papaioannou et al. - 2022 - A Dataset for Greek Traditional and Folk Music Ly.pdf",
+  month = dec, 
+  year=2022
+}
+
+
+@inproceedings{SaPaPo22,
+  author = {Sartzetaki, Christina and Paraskevopoulos, Georgios and Potamianos, Alexandros},
+  title = {Extending {{Compositional Attention Networks}} for {{Social Reasoning}} in {{Videos}}},
+  booktitle =INTERSPEECH,
+  sss = "POTAM",
+  primaryclass = {cs},
+  pages = {1116--1120},
+  doi = {10.21437/Interspeech.2022-10858},
+  file = "Sartzetaki et al. - 2022 - Extending Compositional Attention Networks for Soc.pdf",
+  address = {Incheon, Korea},
+  month = sep,
+  year = 2022
+}
+
+@inproceedings{KaGePo22,
+  author = {Kapelonis, Eleftherios and Georgiou, Efthymios and Potamianos, Alexandros},
+  title = {A {{Multi-Task BERT Model}} for {{Schema-Guided Dialogue State Tracking}}},
+  booktitle =INTERSPEECH,
+  sss = "POTAM",
+  primaryclass = {cs},
+  pages = {2733--2737},
+  doi = "10.21437/Interspeech.2022-10852",
+  file = "Kapelonis et al. - 2022 - A Multi-Task BERT Model for Schema-Guided Dialogue.pdf",
+  address = {Incheon, Korea},
+  month = sep,
+  year = 2022
+}
+
+
+
+%%%%%%%%%%%%%%%%%%%%% 2023 %%%%%%%%%%%%%%%%%%
+
+%%%%%%%%%%%%%%%%%%%%%
+%%%% Conferences
+%%%%%%%%%%%%%%%%%%%%%
+
+%%%%%%%%%%%%%%%%%%%%%
+%%%% Journal  
+%%%%%%%%%%%%%%%%%%%%%
+
+%%%%%%%%%%%%%%%%%%%%%
+%%%% Patent 
+%%%%%%%%%%%%%%%%%%%%%
+
+
+
+%%%%%%%%%%%%%%%%%%%%% 2024 %%%%%%%%%%%%%%%%%%
+
+
